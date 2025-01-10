@@ -1,0 +1,16 @@
+F:\git\github\WPF-Admin-XPrism\WPF-Admin.XPrism.Core\WPF-Admin-XPrim\WPFAdmin.DialogModules\bin\Debug\net8.0-windows\WPFAdmin.DialogModules.deps.json
+F:\git\github\WPF-Admin-XPrism\WPF-Admin.XPrism.Core\WPF-Admin-XPrim\WPFAdmin.DialogModules\bin\Debug\net8.0-windows\WPFAdmin.DialogModules.dll
+F:\git\github\WPF-Admin-XPrism\WPF-Admin.XPrism.Core\WPF-Admin-XPrim\WPFAdmin.DialogModules\bin\Debug\net8.0-windows\WPFAdmin.DialogModules.pdb
+F:\git\github\WPF-Admin-XPrism\WPF-Admin.XPrism.Core\WPF-Admin-XPrim\WPFAdmin.DialogModules\obj\Debug\net8.0-windows\WPFAdmin.DialogModules.csproj.AssemblyReference.cache
+F:\git\github\WPF-Admin-XPrism\WPF-Admin.XPrism.Core\WPF-Admin-XPrim\WPFAdmin.DialogModules\obj\Debug\net8.0-windows\WPFAdmin.DialogModules.GeneratedMSBuildEditorConfig.editorconfig
+F:\git\github\WPF-Admin-XPrism\WPF-Admin.XPrism.Core\WPF-Admin-XPrim\WPFAdmin.DialogModules\obj\Debug\net8.0-windows\WPFAdmin.DialogModules.AssemblyInfoInputs.cache
+F:\git\github\WPF-Admin-XPrism\WPF-Admin.XPrism.Core\WPF-Admin-XPrim\WPFAdmin.DialogModules\obj\Debug\net8.0-windows\WPFAdmin.DialogModules.AssemblyInfo.cs
+F:\git\github\WPF-Admin-XPrism\WPF-Admin.XPrism.Core\WPF-Admin-XPrim\WPFAdmin.DialogModules\obj\Debug\net8.0-windows\WPFAdmin.DialogModules.csproj.CoreCompileInputs.cache
+F:\git\github\WPF-Admin-XPrism\WPF-Admin.XPrism.Core\WPF-Admin-XPrim\WPFAdmin.DialogModules\obj\Debug\net8.0-windows\WPFAdmin.DialogModules.sourcelink.json
+F:\git\github\WPF-Admin-XPrism\WPF-Admin.XPrism.Core\WPF-Admin-XPrim\WPFAdmin.DialogModules\obj\Debug\net8.0-windows\WPFAdmin.DialogModules.dll
+F:\git\github\WPF-Admin-XPrism\WPF-Admin.XPrism.Core\WPF-Admin-XPrim\WPFAdmin.DialogModules\obj\Debug\net8.0-windows\refint\WPFAdmin.DialogModules.dll
+F:\git\github\WPF-Admin-XPrism\WPF-Admin.XPrism.Core\WPF-Admin-XPrim\WPFAdmin.DialogModules\obj\Debug\net8.0-windows\WPFAdmin.DialogModules.pdb
+F:\git\github\WPF-Admin-XPrism\WPF-Admin.XPrism.Core\WPF-Admin-XPrim\WPFAdmin.DialogModules\obj\Debug\net8.0-windows\ref\WPFAdmin.DialogModules.dll
+F:\git\github\WPF-Admin-XPrism\WPF-Admin.XPrism.Core\WPF-Admin-XPrim\WPFAdmin.DialogModules\bin\Debug\net8.0-windows\WPF.Admin.Models.dll
+F:\git\github\WPF-Admin-XPrism\WPF-Admin.XPrism.Core\WPF-Admin-XPrim\WPFAdmin.DialogModules\bin\Debug\net8.0-windows\WPF.Admin.Models.pdb
+F:\git\github\WPF-Admin-XPrism\WPF-Admin.XPrism.Core\WPF-Admin-XPrim\WPFAdmin.DialogModules\obj\Debug\net8.0-windows\WPFAdmin.03C18C36.Up2Date

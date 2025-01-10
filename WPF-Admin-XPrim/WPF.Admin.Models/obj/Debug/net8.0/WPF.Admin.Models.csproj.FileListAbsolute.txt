@@ -1,0 +1,13 @@
+F:\git\github\WPF-Admin-XPrism\WPF-Admin.XPrism.Core\WPF-Admin-XPrim\WPF.Admin.Models\obj\Debug\net8.0\WPF.Admin.Models.csproj.AssemblyReference.cache
+F:\git\github\WPF-Admin-XPrism\WPF-Admin.XPrism.Core\WPF-Admin-XPrim\WPF.Admin.Models\obj\Debug\net8.0\WPF.Admin.Models.GeneratedMSBuildEditorConfig.editorconfig
+F:\git\github\WPF-Admin-XPrism\WPF-Admin.XPrism.Core\WPF-Admin-XPrim\WPF.Admin.Models\obj\Debug\net8.0\WPF.Admin.Models.AssemblyInfoInputs.cache
+F:\git\github\WPF-Admin-XPrism\WPF-Admin.XPrism.Core\WPF-Admin-XPrim\WPF.Admin.Models\obj\Debug\net8.0\WPF.Admin.Models.AssemblyInfo.cs
+F:\git\github\WPF-Admin-XPrism\WPF-Admin.XPrism.Core\WPF-Admin-XPrim\WPF.Admin.Models\obj\Debug\net8.0\WPF.Admin.Models.csproj.CoreCompileInputs.cache
+F:\git\github\WPF-Admin-XPrism\WPF-Admin.XPrism.Core\WPF-Admin-XPrim\WPF.Admin.Models\obj\Debug\net8.0\WPF.Admin.Models.sourcelink.json
+F:\git\github\WPF-Admin-XPrism\WPF-Admin.XPrism.Core\WPF-Admin-XPrim\WPF.Admin.Models\bin\Debug\net8.0\WPF.Admin.Models.deps.json
+F:\git\github\WPF-Admin-XPrism\WPF-Admin.XPrism.Core\WPF-Admin-XPrim\WPF.Admin.Models\bin\Debug\net8.0\WPF.Admin.Models.dll
+F:\git\github\WPF-Admin-XPrism\WPF-Admin.XPrism.Core\WPF-Admin-XPrim\WPF.Admin.Models\bin\Debug\net8.0\WPF.Admin.Models.pdb
+F:\git\github\WPF-Admin-XPrism\WPF-Admin.XPrism.Core\WPF-Admin-XPrim\WPF.Admin.Models\obj\Debug\net8.0\WPF.Admin.Models.dll
+F:\git\github\WPF-Admin-XPrism\WPF-Admin.XPrism.Core\WPF-Admin-XPrim\WPF.Admin.Models\obj\Debug\net8.0\refint\WPF.Admin.Models.dll
+F:\git\github\WPF-Admin-XPrism\WPF-Admin.XPrism.Core\WPF-Admin-XPrim\WPF.Admin.Models\obj\Debug\net8.0\WPF.Admin.Models.pdb
+F:\git\github\WPF-Admin-XPrism\WPF-Admin.XPrism.Core\WPF-Admin-XPrim\WPF.Admin.Models\obj\Debug\net8.0\ref\WPF.Admin.Models.dll
