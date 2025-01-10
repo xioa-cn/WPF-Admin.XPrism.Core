@@ -11,7 +11,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Models\" />
+    <Reference Include="PresentationFramework">
+      <HintPath>C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\8.0.11\PresentationFramework.dll</HintPath>
+    </Reference>
   </ItemGroup>
 
 </Project>

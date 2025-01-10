@@ -1,0 +1,249 @@
+{
+  "Routers": [
+    {
+      "content": "数据管理",
+      "icon": "IconPaths.DataList",
+      "children": [
+        {
+          "content": "数据查询",
+          "page": "DataSearchView"
+        },
+        {
+          "content": "数据列表",
+          "page": "DataSkipView"
+        },
+        {
+          "content": "Excel导入",
+          "page": "ExcelPage"
+        }
+      ]
+    },
+    {
+      "content": "数据分析",
+      "icon": "IconPaths.Charts",
+      "children": [
+        {
+          "content": "数据可视化",
+          "page": "DataVisualization"
+        },
+        {
+          "content": "图表分析",
+          "isPersistence": false,
+          "page": "ChartsTest"
+        },
+        {
+          "content": "焊接可视化",
+          "page": "WeldingPage"
+        },
+        {
+          "content": "可视化图形",
+          "children": [
+            {
+              "content": "蚂蚁线",
+              "page": "AntDiagramView"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "content": "无线滚动",
+      "icon": "IconPaths.InfiniteScroll",
+      "children": [
+        {
+          "content": "无线滚动条",
+          "page": "InfiniteScrollingView",
+          "isPersistence": false
+        }
+      ]
+    },
+    {
+      "content": "甘特图",
+      "icon": "IconPaths.GanttChart",
+      "children": [
+        {
+          "content": "甘特图",
+          "page": "GanttChartPage"
+        }
+      ]
+    },
+    {
+      "content": "组件",
+      "icon": "IconPaths.CustomComponent",
+      "children": [
+        {
+          "content": "登录组件",
+          "page": "UseQQComboBox"
+        },
+        {
+          "content": "图形Border",
+          "page": "ShapeBorder.ShapeBorderPage"
+        },
+        {
+          "content": "百分比宽高",
+          "page": "PercentSizePage"
+        },
+        {
+          "content": "图片拖入",
+          "page": "DragPicturePage"
+        },
+        {
+          "content": "数据验证",
+          "page": "DataValidatorPage"
+        },
+        {
+          "content": "列表排序",
+          "page": "DragList.DragListPage"
+        },
+        {
+          "content": "虚拟化列",
+          "page": "VirtualizingListPage"
+        }
+      ]
+    },
+    {
+      "content": "基础服务",
+      "icon": "IconPaths.RefreshToken",
+      "children": [
+        {
+          "content": "Token刷新",
+          "page": "RefreshTokenPage"
+        },
+        {
+          "content": "路由事件",
+          "page": "RouterEventPage"
+        },
+        {
+          "content": "绑定优化",
+          "page": "BindingPage.BindingPage"
+        }
+      ]
+    },
+    {
+      "content": "系统工具",
+      "icon": "IconPaths.CodeEdit",
+      "children": [
+        {
+          "content": "对话框",
+          "page": "DialogPage"
+        },
+        {
+          "content": "代码编辑器",
+          "page": "WriteMLPage"
+        },
+        {
+          "content": "自定义按钮",
+          "page": "VsuaButtonPage"
+        },
+        {
+          "content": "Icon",
+          "page": "IconPage"
+        },
+        {
+          "content": "二维码生成",
+          "icon": "IconPaths.QrCode",
+          "page": "QrCodeView"
+        },
+        {
+          "content": "网页浏览器",
+          "icon": "IconPaths.WebView",
+          "page": "BaiDuMap.BaiDuMapView"
+        },
+        {
+          "content": "G-Map",
+          "children": [
+            {
+              "content": "G-Map",
+              "loginAuth": "Admin",
+              "icon": "IconPaths.WebView",
+              "page": "GMapTest"
+            }
+          ]
+        },
+        {
+          "content": "Zebra-ZPL",
+          "page": "PrintView.PrintView"
+        }
+      ]
+    },
+    {
+      "content": "流程设计",
+      "icon": "IconPaths.FlowChart",
+      "children": [
+        {
+          "content": "流程图编辑",
+          "page": "FlowView.FlowView"
+        },
+        {
+          "content": "错误诊断",
+          "page": "ErrorView.ErrorView"
+        }
+      ]
+    },
+    {
+      "content": "软件主题",
+      "icon": "IconPaths.Theme",
+      "children": [
+        {
+          "content": "主题颜色",
+          "children": [
+            {
+              "content": "主题方案",
+              "loginAuth": "Admin",
+              "page": "TopicView.TopicView"
+            }
+          ]
+        },
+        {
+          "content": "渐变配色",
+          "page": "BlendentPage"
+        },
+        {
+          "content": "配色系列",
+          "page": "ColorSystemPage"
+        },
+        {
+          "content": "取色器",
+          "page": "GetColorPage"
+        }
+      ]
+    },
+    {
+      "content": "轮播界面",
+      "icon": "IconPaths.Carousel",
+      "children": [
+        {
+          "content": "轮播图",
+          "page": "CarouselView.CarouselView"
+        }
+      ]
+    },
+    {
+      "content": "控件集成",
+      "icon": "IconPaths.Vision",
+      "children": [
+        {
+          "content": "VisionPro",
+          "page": "VisionProView"
+        },
+        {
+          "content": "视频播放",
+          "page": "VideoPage"
+        },
+        {
+          "content": "音频播放",
+          "page": "NAudioPlayerPage"
+        },
+        {
+          "content": "屏幕录制",
+          "page": "ScreenRecordingPage"
+        }
+      ]
+    },
+    {
+      "content": "关于X-A",
+      "icon": "IconPaths.About",
+      "page": "AboutPage"
+    }
+  ]
+}
