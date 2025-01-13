@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WPF.Admin.Models")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2b99aaddbe3a92ff27e9c7fb78a9f98269607b8a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a62d557f497c512a1496f8876d2c59c1305ed35d")]
 [assembly: System.Reflection.AssemblyProductAttribute("WPF.Admin.Models")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WPF.Admin.Models")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
