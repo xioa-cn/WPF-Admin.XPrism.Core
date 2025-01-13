@@ -41,3 +41,5 @@ F:\git\github\WPF-Admin-XPrism\WPF-Admin.XPrism.Core\WPF-Admin-XPrim\WPFAdmin\ob
 F:\git\github\WPF-Admin-XPrism\WPF-Admin.XPrism.Core\WPF-Admin-XPrim\WPFAdmin\obj\Debug\net8.0-windows\Views\NotifyIconView.baml
 F:\git\github\WPF-Admin-XPrism\WPF-Admin.XPrism.Core\WPF-Admin-XPrim\WPFAdmin\bin\Debug\net8.0-windows\GanttChartModules.dll
 F:\git\github\WPF-Admin-XPrism\WPF-Admin.XPrism.Core\WPF-Admin-XPrim\WPFAdmin\bin\Debug\net8.0-windows\GanttChartModules.pdb
+F:\git\github\WPF-Admin-XPrism\WPF-Admin.XPrism.Core\WPF-Admin-XPrim\WPFAdmin\bin\Debug\net8.0-windows\AboutModules.dll
+F:\git\github\WPF-Admin-XPrism\WPF-Admin.XPrism.Core\WPF-Admin-XPrim\WPFAdmin\bin\Debug\net8.0-windows\AboutModules.pdb

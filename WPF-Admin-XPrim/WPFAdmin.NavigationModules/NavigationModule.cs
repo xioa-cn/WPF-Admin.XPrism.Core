@@ -12,11 +12,11 @@ namespace WPFAdmin.NavigationModules;
 
 [Module(nameof(NavigationModule))]
 public class NavigationModule : IModule {
-    public static ViewAuthSwitch ViewAuthSwitch { get; set; } = ViewAuthSwitch.IsEnabled;
-
-    public NavigationModule() {
-        LoginAuthHelper.ViewAuthSwitch = ViewAuthSwitch;
+    public static ViewAuthSwitch ViewAuthSwitch {
+        get => LoginAuthHelper.ViewAuthSwitch;
+        set => LoginAuthHelper.ViewAuthSwitch = value;
     }
+
 
     public void RegisterTypes(IContainerRegistry containerRegistry) {
         containerRegistry

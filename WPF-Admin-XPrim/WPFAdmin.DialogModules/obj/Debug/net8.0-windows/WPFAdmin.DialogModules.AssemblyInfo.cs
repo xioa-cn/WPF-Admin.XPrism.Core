@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WPFAdmin.DialogModules")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+98e392d6e247c7e1bfd229edfc9b9368cd11a6a1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2b99aaddbe3a92ff27e9c7fb78a9f98269607b8a")]
 [assembly: System.Reflection.AssemblyProductAttribute("WPFAdmin.DialogModules")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WPFAdmin.DialogModules")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
