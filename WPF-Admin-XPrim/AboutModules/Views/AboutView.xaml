@@ -27,7 +27,7 @@
                     VerticalAlignment="Center"
                     FontSize="30"
                     TextWrapping="Wrap">
-                    欢迎使用Xioa.Admin.Core
+                    欢迎使用WPF-Admin.XPrism.Core
                 </TextBlock>
                 <TextBlock
                     Margin="30"
@@ -35,7 +35,10 @@
                     VerticalAlignment="Center"
                     FontSize="15"
                     TextWrapping="Wrap">
-                    Xioa-Admin 是一个基于 WPF .net Core C# 的中后台解决方案，目标是为开发中大型项目提供开箱即用的解决方案。包括二次封装组件、utils、动态菜单、权限校验、按钮级别权限控制等功能。项目会使用前端较新的技术栈，可以作为项目的启动模版，以帮助你快速搭建企业级中后台产品原型。也可以作为一个示例，用于学习 WPF .net Core C# 等主流技术。该项目会持续跟进最新技术，并将其应用在项目中
+                    WPF-Admin.XPrism.Core 是一个基于 WPF .net Core XPrism C# 的中后台解决方案，
+                    目标是为开发中大型项目提供开箱即用的解决方案。包括二次封装组件、utils、动态菜单、权限校验、按钮级别权限控制等功能。
+                    项目会使用前端较新的技术栈，可以作为项目的启动模版，以帮助你快速搭建企业级中后台产品原型。也可以作为一个示例，
+                    用于学习 WPF .net Core C# 等主流技术。该项目会持续跟进最新技术，并将其应用在项目中
                 </TextBlock>
             </StackPanel>
             <StackPanel
@@ -172,6 +175,13 @@
                         StatusBackground="#FF922B"
                         Subject="Code"
                         SubjectBackground="#555555" />
+                    <com:Shield
+                        Height="30"
+                        Margin="10"
+                        Status="XPrism.Core.wpf"
+                        StatusBackground="#FF922B"
+                        Subject="Prism"
+                        SubjectBackground="#555555" />
                 </WrapPanel>
             </StackPanel>
             <StackPanel
@@ -181,8 +191,8 @@
 
                 <TextBlock FontSize="20" TextWrapping="Wrap">
                     <Run Text="Github :" />
-                    <Hyperlink NavigateUri="https://github.com/xioa-cn/WPF-Admin" RequestNavigate="Hyperlink_RequestNavigate">
-                        <Run Text="Github上是最新的源代码，地址为：https://github.com/xioa-cn/WPF-Admin" />
+                    <Hyperlink NavigateUri="https://github.com/xioa-cn/WPF-Admin.XPrism.Core" RequestNavigate="Hyperlink_RequestNavigate">
+                        <Run Text="Github上是最新的源代码，地址为：https://github.com/xioa-cn/WPF-Admin.XPrism.Core" />
                     </Hyperlink>
                 </TextBlock>
 

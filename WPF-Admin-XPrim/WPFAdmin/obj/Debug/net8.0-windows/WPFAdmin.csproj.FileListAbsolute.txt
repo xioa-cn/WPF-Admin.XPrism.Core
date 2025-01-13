@@ -43,3 +43,5 @@ F:\git\github\WPF-Admin-XPrism\WPF-Admin.XPrism.Core\WPF-Admin-XPrim\WPFAdmin\bi
 F:\git\github\WPF-Admin-XPrism\WPF-Admin.XPrism.Core\WPF-Admin-XPrim\WPFAdmin\bin\Debug\net8.0-windows\GanttChartModules.pdb
 F:\git\github\WPF-Admin-XPrism\WPF-Admin.XPrism.Core\WPF-Admin-XPrim\WPFAdmin\bin\Debug\net8.0-windows\AboutModules.dll
 F:\git\github\WPF-Admin-XPrism\WPF-Admin.XPrism.Core\WPF-Admin-XPrim\WPFAdmin\bin\Debug\net8.0-windows\AboutModules.pdb
+F:\git\github\WPF-Admin-XPrism\WPF-Admin.XPrism.Core\WPF-Admin-XPrim\WPFAdmin\obj\Debug\net8.0-windows\Views\SplashScreen.g.cs
+F:\git\github\WPF-Admin-XPrism\WPF-Admin.XPrism.Core\WPF-Admin-XPrim\WPFAdmin\obj\Debug\net8.0-windows\Views\SplashScreen.baml
