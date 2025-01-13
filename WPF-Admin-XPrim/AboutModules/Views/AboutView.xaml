@@ -59,7 +59,7 @@
                     <com:Shield
                         Height="30"
                         Margin="10"
-                        Status="6.0"
+                        Status="8.0"
                         StatusBackground="#7E72F5"
                         Subject="Dotnet"
                         SubjectBackground="#555555" />
@@ -179,7 +179,7 @@
                         Height="30"
                         Margin="10"
                         Status="XPrism.Core.wpf"
-                        StatusBackground="#FF922B"
+                        StatusBackground="#44CC11"
                         Subject="Prism"
                         SubjectBackground="#555555" />
                 </WrapPanel>
