@@ -1,6 +1,4 @@
-﻿using System.Configuration;
-using System.Data;
-using System.Reflection;
+﻿using System.Reflection;
 using System.Windows;
 using XPrism.Core.DataContextWindow;
 using XPrism.Core.DI;

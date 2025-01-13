@@ -24,16 +24,16 @@ public partial class App {
             DataContext = NotifyViewModel,
             Icon = new System.Drawing.Icon("Assets/logo/logo_32x32.ico"),
             ContextMenu = new ContextMenu() {
-                Style = (Style)FindResource("Notify")
+                Style = (Style)FindResource("Notify")!
             },
         };
         _notifyIcon.SetBinding(TaskbarIcon.ToolTipTextProperty, binding);
         _notifyIcon.DoubleClickCommand = new RelayCommand(MainShow);
     }
 
-    private void MainShow()
-    {
-        Application.Current.MainWindow.Visibility= Visibility.Visible;
+    private void MainShow() {
+        if (Application.Current.MainWindow is not null)
+            Application.Current.MainWindow.Visibility = Visibility.Visible;
     }
 
     public static void DisposeNotifyIcon() {
@@ -44,5 +44,4 @@ public partial class App {
         _notifyIcon?.Dispose();
         base.OnExit(e);
     }
-
 }
