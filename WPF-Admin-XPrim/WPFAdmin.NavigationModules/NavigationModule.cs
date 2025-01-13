@@ -10,19 +10,22 @@ using XPrism.Core.Navigations;
 namespace WPFAdmin.NavigationModules;
 
 [Module(nameof(NavigationModule))]
-public class NavigationModule : IModule {
+public class NavigationModule : IModule
+{
     public static ViewAuthSwitch ViewAuthSwitch { get; set; } = ViewAuthSwitch.IsEnabled;
 
-    public void RegisterTypes(IContainerRegistry containerRegistry) {
+    public void RegisterTypes(IContainerRegistry containerRegistry)
+    {
         containerRegistry
             .RegisterSingleton<INavigationService, NavigationService>();
         containerRegistry.AddNavigations(regionManager =>
         {
-            regionManager.RegisterForNavigation<MainPage, MainViewModel>("MainRegion", "Main");
-            regionManager.RegisterViewWithRegion<BasePage>("Home", "BasePage");
+            regionManager.RegisterForNavigation<MainPage, MainViewModel>(RegionName.MainRegion, "Main");
+            regionManager.RegisterViewWithRegion<BasePage>(RegionName.HomeRegion, "BasePage");
         });
     }
 
-    public void OnInitialized(IContainerProvider containerProvider) {
+    public void OnInitialized(IContainerProvider containerProvider)
+    {
     }
 }

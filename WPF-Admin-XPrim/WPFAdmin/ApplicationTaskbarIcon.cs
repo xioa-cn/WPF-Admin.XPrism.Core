@@ -1,6 +1,7 @@
 ﻿using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Data;
+using CommunityToolkit.Mvvm.Input;
 using Hardcodet.Wpf.TaskbarNotification;
 using WPFAdmin.ViewModels;
 using XPrism.Core.DI;
@@ -27,8 +28,14 @@ public partial class App {
             },
         };
         _notifyIcon.SetBinding(TaskbarIcon.ToolTipTextProperty, binding);
+        _notifyIcon.DoubleClickCommand = new RelayCommand(MainShow);
     }
-    
+
+    private void MainShow()
+    {
+        Application.Current.MainWindow.Visibility= Visibility.Visible;
+    }
+
     public static void DisposeNotifyIcon() {
         _notifyIcon?.Dispose();
     }

@@ -7,7 +7,7 @@ using XPrism.Core.DI;
 
 namespace WPFAdmin.ViewModels;
 
-[AutoRegister(ServiceLifetime.Singleton, nameof(NotifyViewModel))]
+[AutoRegister(typeof(NotifyViewModel),ServiceLifetime.Singleton, nameof(NotifyViewModel))]
 public partial class NotifyViewModel : BindableBase {
     public NotifyViewModel() {
     }

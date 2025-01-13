@@ -42,7 +42,7 @@
           }
         }
       },
-      "XPrism.Core.wpf/1.0.6": {
+      "XPrism.Core.wpf/1.0.7": {
         "dependencies": {
           "CommunityToolkit.Mvvm": "8.4.0"
         },
@@ -67,7 +67,7 @@
       },
       "WPF.Admin.Models/1.0.0": {
         "dependencies": {
-          "XPrism.Core.wpf": "1.0.6"
+          "XPrism.Core.wpf": "1.0.7"
         },
         "runtime": {
           "WPF.Admin.Models.dll": {
@@ -140,12 +140,12 @@
       "path": "hardcodet.notifyicon.wpf/2.0.1",
       "hashPath": "hardcodet.notifyicon.wpf.2.0.1.nupkg.sha512"
     },
-    "XPrism.Core.wpf/1.0.6": {
+    "XPrism.Core.wpf/1.0.7": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-0iG6Rto+1Bam7rTpEa6xewYj3jzKfOiyxfW4+t8cQ6QmOM8DFrTsZJ1u5B2sbih0ppfwo12oIZbeypg/vGqcBA==",
-      "path": "xprism.core.wpf/1.0.6",
-      "hashPath": "xprism.core.wpf.1.0.6.nupkg.sha512"
+      "sha512": "sha512-XQrMcCKaZqQINKz4OlhxDUugaKJdzN/VIsvqOqZedjchkQhrlPrfyEQUSVv1gHt9J33vm44g3dfMuqBUqGK79w==",
+      "path": "xprism.core.wpf/1.0.7",
+      "hashPath": "xprism.core.wpf.1.0.7.nupkg.sha512"
     },
     "GanttChartModules/1.0.0": {
       "type": "project",

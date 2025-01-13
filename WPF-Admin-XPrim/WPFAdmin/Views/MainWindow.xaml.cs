@@ -16,6 +16,7 @@ public static class MessageToken
 [XPrismViewModel(nameof(MainWindow))]
 public partial class MainWindow {
     public MainWindow(INavigationService navigationService) {
+        Dialog.Register(MessageToken.DialogPageToken, this);
         InitializeComponent();
         navigationService.NavigateAsync("MainRegion/Main");
     }

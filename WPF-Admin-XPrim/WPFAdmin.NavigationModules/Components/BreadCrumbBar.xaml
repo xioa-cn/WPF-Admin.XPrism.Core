@@ -6,6 +6,7 @@
     xmlns:local="clr-namespace:WPFAdmin.NavigationModules.Components"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     xmlns:nav="clr-namespace:XPrism.Core.Navigations;assembly=XPrism.Core"
+    xmlns:region="clr-namespace:WPF.Admin.Models.Models;assembly=WPF.Admin.Models"
     d:DesignHeight="300"
     d:DesignWidth="300"
     mc:Ignorable="d">
@@ -179,7 +180,7 @@
             <ContentControl
                 Grid.Row="0"
                 Margin="10,10,10,0"
-                nav:RegionManagerProperty.RegionName="Home">
+                nav:RegionManagerProperty.RegionName="{x:Static region:RegionName.HomeRegion}">
                 <ContentControl.Resources>
                     <Style TargetType="Frame">
                         <!--  <Setter Property=""  -->

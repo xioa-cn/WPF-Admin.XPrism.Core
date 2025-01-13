@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("GanttChartModules")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+670bcacfb188e2e5d2cda7e2dae38d08d9b95f99")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1ab52de4bd850b5109f7e33532e8c526742d4f86")]
 [assembly: System.Reflection.AssemblyProductAttribute("GanttChartModules")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GanttChartModules")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

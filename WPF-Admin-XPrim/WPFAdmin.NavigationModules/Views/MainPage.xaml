@@ -10,8 +10,8 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     xmlns:model="clr-namespace:WPF.Admin.Themes;assembly=WPF.Admin.Themes"
     xmlns:vm="clr-namespace:WPFAdmin.NavigationModules.ViewModel"
-    d:DataContext="{d:DesignInstance Type=vm:MainViewModel}"
     Title="MainPage"
+    d:DataContext="{d:DesignInstance Type=vm:MainViewModel}"
     d:Height="500"
     d:Width="1000"
     Background="Transparent"
@@ -68,8 +68,7 @@
                             FontWeight="Bold"
                             Foreground="#FFF"
                             Style="{StaticResource HeaderBase}">
-                            <Hyperlink NavigateUri="https://github.com/xioa-cn/WPF-Admin"
-                                       RequestNavigate="Hyperlink_RequestNavigate">
+                            <Hyperlink NavigateUri="https://github.com/xioa-cn/WPF-Admin" RequestNavigate="Hyperlink_RequestNavigate">
                                 <TextBlock>
                                     Xioa.Admin
                                 </TextBlock>
@@ -102,8 +101,7 @@
                 Margin="0,4"
                 BorderBrush="{DynamicResource Border.Brush}"
                 BorderThickness="0,0,1,0">
-                <components:NaviControl  Width="{Binding Width, ElementName=NaviGrid}"
-                                         Height="{Binding Height, ElementName=NaviGrid}"/>
+                <components:NaviControl Width="{Binding Width, ElementName=NaviGrid}" Height="{Binding Height, ElementName=NaviGrid}" />
             </Border>
         </Border>
 

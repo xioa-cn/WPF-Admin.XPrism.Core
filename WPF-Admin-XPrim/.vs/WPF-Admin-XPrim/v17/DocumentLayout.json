@@ -7,20 +7,52 @@
       "RelativeMoniker": "D:0:0:{720EF34A-9CE7-4EBD-A7BA-5B1E7F0BD173}|WPFAdmin.NavigationModules\\WPFAdmin.NavigationModules.csproj|solutionrelative:wpfadmin.navigationmodules\\components\\breadcrumbbar.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{2777E3A9-0C66-4F4D-BA68-F2A42803FD8F}|WPF.Admin.Models\\WPF.Admin.Models.csproj|f:\\git\\github\\wpf-admin-xprism\\wpf-admin.xprism.core\\wpf-admin-xprim\\wpf.admin.models\\models\\regionname.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2777E3A9-0C66-4F4D-BA68-F2A42803FD8F}|WPF.Admin.Models\\WPF.Admin.Models.csproj|solutionrelative:wpf.admin.models\\models\\regionname.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{720EF34A-9CE7-4EBD-A7BA-5B1E7F0BD173}|WPFAdmin.NavigationModules\\WPFAdmin.NavigationModules.csproj|f:\\git\\github\\wpf-admin-xprism\\wpf-admin.xprism.core\\wpf-admin-xprim\\wpfadmin.navigationmodules\\components\\breadcrumbbar.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{720EF34A-9CE7-4EBD-A7BA-5B1E7F0BD173}|WPFAdmin.NavigationModules\\WPFAdmin.NavigationModules.csproj|solutionrelative:wpfadmin.navigationmodules\\components\\breadcrumbbar.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{720EF34A-9CE7-4EBD-A7BA-5B1E7F0BD173}|WPFAdmin.NavigationModules\\WPFAdmin.NavigationModules.csproj|f:\\git\\github\\wpf-admin-xprism\\wpf-admin.xprism.core\\wpf-admin-xprim\\wpfadmin.navigationmodules\\views\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{720EF34A-9CE7-4EBD-A7BA-5B1E7F0BD173}|WPFAdmin.NavigationModules\\WPFAdmin.NavigationModules.csproj|solutionrelative:wpfadmin.navigationmodules\\views\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{720EF34A-9CE7-4EBD-A7BA-5B1E7F0BD173}|WPFAdmin.NavigationModules\\WPFAdmin.NavigationModules.csproj|f:\\git\\github\\wpf-admin-xprism\\wpf-admin.xprism.core\\wpf-admin-xprim\\wpfadmin.navigationmodules\\navigationmodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{720EF34A-9CE7-4EBD-A7BA-5B1E7F0BD173}|WPFAdmin.NavigationModules\\WPFAdmin.NavigationModules.csproj|solutionrelative:wpfadmin.navigationmodules\\navigationmodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{FB8DF3D2-646E-43CB-A33F-157E5693FE31}|GanttChartModules\\GanttChartModules.csproj|f:\\git\\github\\wpf-admin-xprism\\wpf-admin.xprism.core\\wpf-admin-xprim\\ganttchartmodules\\ganttchartmodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FB8DF3D2-646E-43CB-A33F-157E5693FE31}|GanttChartModules\\GanttChartModules.csproj|solutionrelative:ganttchartmodules\\ganttchartmodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{720EF34A-9CE7-4EBD-A7BA-5B1E7F0BD173}|WPFAdmin.NavigationModules\\WPFAdmin.NavigationModules.csproj|f:\\git\\github\\wpf-admin-xprism\\wpf-admin.xprism.core\\wpf-admin-xprim\\wpfadmin.navigationmodules\\components\\basepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{720EF34A-9CE7-4EBD-A7BA-5B1E7F0BD173}|WPFAdmin.NavigationModules\\WPFAdmin.NavigationModules.csproj|solutionrelative:wpfadmin.navigationmodules\\components\\basepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B2F0EB2E-B796-482A-872B-9AC04CB7D336}|WPFAdmin\\WPFAdmin.csproj|f:\\git\\github\\wpf-admin-xprism\\wpf-admin.xprism.core\\wpf-admin-xprim\\wpfadmin\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2F0EB2E-B796-482A-872B-9AC04CB7D336}|WPFAdmin\\WPFAdmin.csproj|solutionrelative:wpfadmin\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2F0EB2E-B796-482A-872B-9AC04CB7D336}|WPFAdmin\\WPFAdmin.csproj|f:\\git\\github\\wpf-admin-xprism\\wpf-admin.xprism.core\\wpf-admin-xprim\\wpfadmin\\applicationtaskbaricon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2F0EB2E-B796-482A-872B-9AC04CB7D336}|WPFAdmin\\WPFAdmin.csproj|solutionrelative:wpfadmin\\applicationtaskbaricon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2F0EB2E-B796-482A-872B-9AC04CB7D336}|WPFAdmin\\WPFAdmin.csproj|f:\\git\\github\\wpf-admin-xprism\\wpf-admin.xprism.core\\wpf-admin-xprim\\wpfadmin\\viewmodels\\notifyviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2F0EB2E-B796-482A-872B-9AC04CB7D336}|WPFAdmin\\WPFAdmin.csproj|solutionrelative:wpfadmin\\viewmodels\\notifyviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2F0EB2E-B796-482A-872B-9AC04CB7D336}|WPFAdmin\\WPFAdmin.csproj|f:\\git\\github\\wpf-admin-xprism\\wpf-admin.xprism.core\\wpf-admin-xprim\\wpfadmin\\viewmodels\\notifyiconviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2F0EB2E-B796-482A-872B-9AC04CB7D336}|WPFAdmin\\WPFAdmin.csproj|solutionrelative:wpfadmin\\viewmodels\\notifyiconviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2F0EB2E-B796-482A-872B-9AC04CB7D336}|WPFAdmin\\WPFAdmin.csproj|f:\\git\\github\\wpf-admin-xprism\\wpf-admin.xprism.core\\wpf-admin-xprim\\wpfadmin\\views\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2F0EB2E-B796-482A-872B-9AC04CB7D336}|WPFAdmin\\WPFAdmin.csproj|solutionrelative:wpfadmin\\views\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B2F0EB2E-B796-482A-872B-9AC04CB7D336}|WPFAdmin\\WPFAdmin.csproj|f:\\git\\github\\wpf-admin-xprism\\wpf-admin.xprism.core\\wpf-admin-xprim\\wpfadmin\\views\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{B2F0EB2E-B796-482A-872B-9AC04CB7D336}|WPFAdmin\\WPFAdmin.csproj|solutionrelative:wpfadmin\\views\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B2F0EB2E-B796-482A-872B-9AC04CB7D336}|WPFAdmin\\WPFAdmin.csproj|f:\\git\\github\\wpf-admin-xprism\\wpf-admin.xprism.core\\wpf-admin-xprim\\wpfadmin\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B2F0EB2E-B796-482A-872B-9AC04CB7D336}|WPFAdmin\\WPFAdmin.csproj|solutionrelative:wpfadmin\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{720EF34A-9CE7-4EBD-A7BA-5B1E7F0BD173}|WPFAdmin.NavigationModules\\WPFAdmin.NavigationModules.csproj|f:\\git\\github\\wpf-admin-xprism\\wpf-admin.xprism.core\\wpf-admin-xprim\\wpfadmin.navigationmodules\\components\\basepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{720EF34A-9CE7-4EBD-A7BA-5B1E7F0BD173}|WPFAdmin.NavigationModules\\WPFAdmin.NavigationModules.csproj|solutionrelative:wpfadmin.navigationmodules\\components\\basepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,8 +62,110 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 8,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "NavigationModule.cs",
+              "DocumentMoniker": "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPFAdmin.NavigationModules\\NavigationModule.cs",
+              "RelativeDocumentMoniker": "WPFAdmin.NavigationModules\\NavigationModule.cs",
+              "ToolTip": "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPFAdmin.NavigationModules\\NavigationModule.cs",
+              "RelativeToolTip": "WPFAdmin.NavigationModules\\NavigationModule.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAABeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-13T07:39:05.866Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BreadCrumbBar.xaml",
+              "DocumentMoniker": "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPFAdmin.NavigationModules\\Components\\BreadCrumbBar.xaml",
+              "RelativeDocumentMoniker": "WPFAdmin.NavigationModules\\Components\\BreadCrumbBar.xaml",
+              "ToolTip": "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPFAdmin.NavigationModules\\Components\\BreadCrumbBar.xaml",
+              "RelativeToolTip": "WPFAdmin.NavigationModules\\Components\\BreadCrumbBar.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-01-13T07:38:07.121Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPFAdmin.NavigationModules\\Views\\MainPage.xaml",
+              "RelativeDocumentMoniker": "WPFAdmin.NavigationModules\\Views\\MainPage.xaml",
+              "ToolTip": "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPFAdmin.NavigationModules\\Views\\MainPage.xaml",
+              "RelativeToolTip": "WPFAdmin.NavigationModules\\Views\\MainPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-01-13T07:37:34.731Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RegionName.cs",
+              "DocumentMoniker": "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPF.Admin.Models\\Models\\RegionName.cs",
+              "RelativeDocumentMoniker": "WPF.Admin.Models\\Models\\RegionName.cs",
+              "ToolTip": "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPF.Admin.Models\\Models\\RegionName.cs",
+              "RelativeToolTip": "WPF.Admin.Models\\Models\\RegionName.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-13T07:37:06.524Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "NotifyIconViewModel.cs",
+              "DocumentMoniker": "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPFAdmin\\ViewModels\\NotifyIconViewModel.cs",
+              "RelativeDocumentMoniker": "WPFAdmin\\ViewModels\\NotifyIconViewModel.cs",
+              "ToolTip": "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPFAdmin\\ViewModels\\NotifyIconViewModel.cs",
+              "RelativeToolTip": "WPFAdmin\\ViewModels\\NotifyIconViewModel.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-13T07:22:49.819Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "NotifyViewModel.cs",
+              "DocumentMoniker": "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPFAdmin\\ViewModels\\NotifyViewModel.cs",
+              "RelativeDocumentMoniker": "WPFAdmin\\ViewModels\\NotifyViewModel.cs",
+              "ToolTip": "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPFAdmin\\ViewModels\\NotifyViewModel.cs",
+              "RelativeToolTip": "WPFAdmin\\ViewModels\\NotifyViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-13T07:21:57.26Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ApplicationTaskbarIcon.cs",
+              "DocumentMoniker": "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPFAdmin\\ApplicationTaskbarIcon.cs",
+              "RelativeDocumentMoniker": "WPFAdmin\\ApplicationTaskbarIcon.cs",
+              "ToolTip": "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPFAdmin\\ApplicationTaskbarIcon.cs",
+              "RelativeToolTip": "WPFAdmin\\ApplicationTaskbarIcon.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAuwB0AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-13T07:19:18.11Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPFAdmin\\Views\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "WPFAdmin\\Views\\MainWindow.xaml.cs",
+              "ToolTip": "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPFAdmin\\Views\\MainWindow.xaml.cs",
+              "RelativeToolTip": "WPFAdmin\\Views\\MainWindow.xaml.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAA0wEIAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-13T07:17:08.285Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -40,14 +174,14 @@
               "RelativeDocumentMoniker": "WPFAdmin.NavigationModules\\Components\\BreadCrumbBar.xaml.cs",
               "ToolTip": "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPFAdmin.NavigationModules\\Components\\BreadCrumbBar.xaml.cs",
               "RelativeToolTip": "WPFAdmin.NavigationModules\\Components\\BreadCrumbBar.xaml.cs",
-              "ViewState": "AgIAAF8AAAAAAAAAAAAswGwAAAArAAAAAAAAAA==",
+              "ViewState": "AgIAAGsAAAAAAAAAAAAswIIAAABcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-13T05:45:51.666Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 12,
               "Title": "BasePage.xaml.cs",
               "DocumentMoniker": "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPFAdmin.NavigationModules\\Components\\BasePage.xaml.cs",
               "RelativeDocumentMoniker": "WPFAdmin.NavigationModules\\Components\\BasePage.xaml.cs",
@@ -60,33 +194,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "App.xaml.cs",
               "DocumentMoniker": "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPFAdmin\\App.xaml.cs",
               "RelativeDocumentMoniker": "WPFAdmin\\App.xaml.cs",
               "ToolTip": "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPFAdmin\\App.xaml.cs",
               "RelativeToolTip": "WPFAdmin\\App.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-13T05:38:06.765Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "GanttChartModule.cs",
               "DocumentMoniker": "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\GanttChartModules\\GanttChartModule.cs",
               "RelativeDocumentMoniker": "GanttChartModules\\GanttChartModule.cs",
               "ToolTip": "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\GanttChartModules\\GanttChartModule.cs",
               "RelativeToolTip": "GanttChartModules\\GanttChartModule.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAHAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-13T05:37:06.252Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 11,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPFAdmin\\Views\\MainWindow.xaml",
               "RelativeDocumentMoniker": "WPFAdmin\\Views\\MainWindow.xaml",

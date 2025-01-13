@@ -104,10 +104,7 @@ public partial class BreadCrumbBar : UserControl
                  return;
              }
 
-             if (NaviControl.olditemModel is not null && !NaviControl.olditemModel.IsPersistence)
-             {
-                 XPrismIoc.ResetXPrismModel("");
-             }
+
 
              if (NaviControl.olditemModel is not null
                  && message.Item == NaviControl.olditemModel && message.Item.PageStatus == PageStatus.Page)
@@ -120,11 +117,19 @@ public partial class BreadCrumbBar : UserControl
 
              if (this.DataContext is MainViewModel vm)
              {
-                 var nav = await vm.NavigationService.NavigateAsync($"Home/{message.Item.Page}");
+                 string url = $"{RegionName.HomeRegion}/{message.Item.Page}";
+                 var nav = await vm.NavigationService.NavigateAsync(url);
                  if (!nav)
                  {
-                     MessageBox.Show($"没有找到页面Home/{message.Item.Page}");
+                     MessageBox.Show($"没有找到页面{url}");
                      return;
+                 }
+                 else
+                 {
+                     if (NaviControl.olditemModel is not null && !NaviControl.olditemModel.IsPersistence)
+                     {
+                         vm.NavigationService.ResetVm($"{RegionName.HomeRegion}/{NaviControl.olditemModel.Page}");
+                     }
                  }
 
              }

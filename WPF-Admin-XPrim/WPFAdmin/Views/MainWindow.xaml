@@ -7,6 +7,7 @@
     xmlns:local="clr-namespace:WPFAdmin.Views"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     xmlns:nav="clr-namespace:XPrism.Core.Navigations;assembly=XPrism.Core"
+    xmlns:region="clr-namespace:WPF.Admin.Models.Models;assembly=WPF.Admin.Models"
     xmlns:xPrism="clr-namespace:XPrism.Core.DataContextWindow;assembly=XPrism.Core"
     Title="Admin.XPrism.Core"
     Width="1200"
@@ -120,12 +121,9 @@
                                                     Stretch="Fill" />
                                             </Button>
                                         </WrapPanel>
-
                                         <Grid Grid.Row="1">
                                             <ContentPresenter />
                                         </Grid>
-
-
                                     </Grid>
                                 </Border>
                             </Border>
@@ -137,7 +135,7 @@
     </Window.Style>
     <AdornerDecorator>
         <Grid Margin="5">
-            <ContentControl nav:RegionManagerProperty.RegionName="MainRegion" />
+            <ContentControl nav:RegionManagerProperty.RegionName="{x:Static region:RegionName.MainRegion}" />
         </Grid>
     </AdornerDecorator>
 </xPrism:XPrismWindow>
