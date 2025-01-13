@@ -9,6 +9,14 @@
 
     <ItemGroup>
       <ProjectReference Include="..\WPF.Admin.Models\WPF.Admin.Models.csproj" />
+      <ProjectReference Include="..\WPF.Admin.Themes\WPF.Admin.Themes.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Remove="Assets\Img\header.jpg" />
+      <Resource Include="Assets\Img\header.jpg" />
+      <None Remove="Assets\Img\welcome.png" />
+      <Resource Include="Assets\Img\welcome.png" />
     </ItemGroup>
 
 </Project>

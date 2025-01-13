@@ -66,7 +66,7 @@ public partial class ThemeManager : BindableBase
         new ResourceDictionary
         {
             Source = new Uri(
-                "pack://application:,,,/WPF.Admin.Themes;component/GreenTheme.xaml",
+                "pack://application:,,,/WPF.Admin.Themes;component/Themes/GreenTheme.xaml",
                 UriKind.Absolute)
         };
 
@@ -74,7 +74,7 @@ public partial class ThemeManager : BindableBase
         new ResourceDictionary
         {
             Source = new Uri(
-                "pack://application:,,,/WPF.Admin.Themes;component/DarkGreenTheme.xaml",
+                "pack://application:,,,/WPF.Admin.Themes;component/Themes/DarkGreenTheme.xaml",
                 UriKind.Absolute)
         };
 

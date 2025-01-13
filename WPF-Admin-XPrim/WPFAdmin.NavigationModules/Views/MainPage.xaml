@@ -1,14 +1,188 @@
-﻿<Page x:Class="WPFAdmin.NavigationModules.Views.MainPage"
-      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-      xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
-      xmlns:local="clr-namespace:WPFAdmin.NavigationModules.Views"
-      xmlns:nav="clr-namespace:XPrism.Core.Navigations;assembly=XPrism.Core"
-      mc:Ignorable="d"
-      Title="MainPage" >
-    <Grid> 
-        <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="30">Hello XPrism</TextBlock>
-        <ContentControl nav:RegionManagerProperty.RegionName="Home"></ContentControl>
+﻿<Page
+    x:Class="WPFAdmin.NavigationModules.Views.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:components="clr-namespace:WPFAdmin.NavigationModules.Components"
+    xmlns:convert="clr-namespace:WPF.Admin.Themes.Converter;assembly=WPF.Admin.Themes"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:hc="https://handyorg.github.io/handycontrol"
+    xmlns:local="clr-namespace:WPFAdmin.NavigationModules.Views"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:model="clr-namespace:WPF.Admin.Themes;assembly=WPF.Admin.Themes"
+    xmlns:vm="clr-namespace:WPFAdmin.NavigationModules.ViewModel"
+    d:DataContext="{d:DesignInstance Type=vm:MainViewModel}"
+    Title="MainPage"
+    d:Height="500"
+    d:Width="1000"
+    Background="Transparent"
+    mc:Ignorable="d">
+    <Page.Resources>
+        <convert:WidthToVisibilityConverter x:Key="WidthToVisibilityConverter" />
+        <Style x:Key="HeaderBase" TargetType="TextBlock">
+            <Style.Triggers>
+                <DataTrigger Binding="{Binding Path=Width, ElementName=NaviGrid}" Value="55">
+                    <DataTrigger.Setters>
+                        <Setter Property="Visibility" Value="Collapsed" />
+                    </DataTrigger.Setters>
+                </DataTrigger>
+            </Style.Triggers>
+        </Style>
+        <Style x:Key="IconBase" TargetType="Grid">
+            <Style.Triggers>
+                <DataTrigger Binding="{Binding Path=Width, ElementName=NaviGrid}" Value="200">
+                    <DataTrigger.Setters>
+                        <Setter Property="Visibility" Value="Collapsed" />
+                    </DataTrigger.Setters>
+                </DataTrigger>
+            </Style.Triggers>
+        </Style>
+    </Page.Resources>
+
+    <Grid Margin="-1">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto" />
+            <RowDefinition />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="auto" />
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
+        <Border Grid.Row="0" Grid.Column="0">
+            <Border BorderBrush="{DynamicResource Border.Brush}" BorderThickness="0,0,0,1">
+                <Border
+                    x:Name="NaviGrid"
+                    Grid.Column="0"
+                    Width="55"
+                    Margin="0,4"
+                    BorderBrush="{DynamicResource Border.Brush}"
+                    BorderThickness="0,0,1,0">
+                    <Grid>
+                        <TextBlock
+                            Name="SystemTitle"
+                            Grid.Column="0"
+                            Margin="10,0"
+                            HorizontalAlignment="Center"
+                            VerticalAlignment="Center"
+                            Background="{DynamicResource Primary.Brush}"
+                            FontSize="15"
+                            FontWeight="Bold"
+                            Foreground="#FFF"
+                            Style="{StaticResource HeaderBase}">
+                            <Hyperlink NavigateUri="https://github.com/xioa-cn/WPF-Admin"
+                                       RequestNavigate="Hyperlink_RequestNavigate">
+                                <TextBlock>
+                                    Xioa.Admin
+                                </TextBlock>
+                            </Hyperlink>
+
+                            <TextBlock.RenderTransform>
+                                <RotateTransform Angle="-1" CenterX="50" CenterY="-600" />
+                            </TextBlock.RenderTransform>
+                        </TextBlock>
+                        <Grid
+                            Name="IconGrid"
+                            VerticalAlignment="Center"
+                            Style="{StaticResource IconBase}"
+                            Visibility="Visible">
+                            <Path
+                                Name="NetIcon"
+                                Width="40"
+                                HorizontalAlignment="Center"
+                                VerticalAlignment="Center"
+                                Data="{StaticResource Dotnet}"
+                                Fill="{DynamicResource Primary.Brush}"
+                                Stretch="Uniform" />
+                        </Grid>
+                    </Grid>
+                </Border>
+            </Border>
+        </Border>
+        <Border Grid.Row="1" Grid.Column="0">
+            <Border
+                Margin="0,4"
+                BorderBrush="{DynamicResource Border.Brush}"
+                BorderThickness="0,0,1,0">
+                <components:NaviControl  Width="{Binding Width, ElementName=NaviGrid}"
+                                         Height="{Binding Height, ElementName=NaviGrid}"/>
+            </Border>
+        </Border>
+
+        <Border Grid.Row="0" Grid.Column="1">
+            <Border BorderBrush="{DynamicResource Border.Brush}" BorderThickness="0,0,0,1">
+                <Grid>
+                    <StackPanel
+                        Grid.Row="0"
+                        Width="100"
+                        HorizontalAlignment="Left"
+                        VerticalAlignment="Center">
+                        <Button
+                            x:Name="ToggleButton"
+                            Grid.Column="1"
+                            Width="45"
+                            Height="45"
+                            Margin="0"
+                            HorizontalAlignment="Left"
+                            VerticalAlignment="Center"
+                            Click="OpenOrCloseNaviBar"
+                            Style="{DynamicResource OpenOrCloseButton}">
+                            <Button.ToolTip>
+                                <ToolTip>
+                                    <TextBlock>导航折叠</TextBlock>
+                                </ToolTip>
+                            </Button.ToolTip>
+                            <Grid>
+                                <Path
+                                    x:Name="LeftArrow"
+                                    Data="{StaticResource ArrowLeft}"
+                                    Fill="{DynamicResource Primary.Brush}"
+                                    Stretch="Uniform"
+                                    Visibility="{Binding Width, ElementName=NaviGrid, Converter={StaticResource WidthToVisibilityConverter}, ConverterParameter=200}" />
+                                <Path
+                                    x:Name="RightArrow"
+                                    Data="{StaticResource ArrowRight}"
+                                    Fill="{DynamicResource Primary.Brush}"
+                                    Stretch="Uniform"
+                                    Visibility="{Binding Width, ElementName=NaviGrid, Converter={StaticResource WidthToVisibilityConverter}, ConverterParameter=55}" />
+                            </Grid>
+                        </Button>
+                    </StackPanel>
+                    <StackPanel
+                        Grid.Row="0"
+                        Margin="10,0"
+                        HorizontalAlignment="Right"
+                        VerticalAlignment="Center"
+                        Orientation="Horizontal">
+                        <ToggleButton
+                            x:Name="ThemeToggle"
+                            Margin="10,0"
+                            IsChecked="{Binding Source={x:Static model:ThemeManager.Instance}, Path=IsDarkTheme, Mode=TwoWay}"
+                            Style="{StaticResource ThemeToggleStyle}" />
+
+                        <hc:Gravatar
+                            Width="40"
+                            Height="40"
+                            Margin="5"
+                            Source="../Assets/Img/Header.jpg" />
+                    </StackPanel>
+                </Grid>
+            </Border>
+        </Border>
+
+
+        <Border Grid.Row="1" Grid.Column="1">
+            <components:BreadCrumbBar />
+        </Border>
+
+        <ScrollViewer
+            Grid.Row="1"
+            Grid.Column="1"
+            HorizontalAlignment="Right"
+            VerticalScrollBarVisibility="Hidden">
+            <StackPanel
+                Margin="0,10,10,10"
+                VerticalAlignment="Top"
+                hc:Growl.GrowlParent="True" />
+        </ScrollViewer>
+
     </Grid>
 </Page>

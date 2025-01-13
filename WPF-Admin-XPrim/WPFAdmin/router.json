@@ -2,7 +2,7 @@
   "Routers": [
     {
       "content": "数据管理",
-      "icon": "IconPaths.DataList",
+      "icon": "DataList",
       "children": [
         {
           "content": "数据查询",
@@ -20,7 +20,7 @@
     },
     {
       "content": "数据分析",
-      "icon": "IconPaths.Charts",
+      "icon": "Charts",
       "children": [
         {
           "content": "数据可视化",
@@ -48,7 +48,7 @@
     },
     {
       "content": "无线滚动",
-      "icon": "IconPaths.InfiniteScroll",
+      "icon": "InfiniteScroll",
       "children": [
         {
           "content": "无线滚动条",
@@ -59,7 +59,7 @@
     },
     {
       "content": "甘特图",
-      "icon": "IconPaths.GanttChart",
+      "icon": "GanttChart",
       "children": [
         {
           "content": "甘特图",
@@ -69,7 +69,7 @@
     },
     {
       "content": "组件",
-      "icon": "IconPaths.CustomComponent",
+      "icon": "CustomComponent",
       "children": [
         {
           "content": "登录组件",
@@ -93,7 +93,7 @@
         },
         {
           "content": "列表排序",
-          "page": "DragList.DragListPage"
+          "page": "DragListPage"
         },
         {
           "content": "虚拟化列",
@@ -103,7 +103,7 @@
     },
     {
       "content": "基础服务",
-      "icon": "IconPaths.RefreshToken",
+      "icon": "RefreshToken",
       "children": [
         {
           "content": "Token刷新",
@@ -115,13 +115,13 @@
         },
         {
           "content": "绑定优化",
-          "page": "BindingPage.BindingPage"
+          "page": "BindingPage"
         }
       ]
     },
     {
       "content": "系统工具",
-      "icon": "IconPaths.CodeEdit",
+      "icon": "CodeEdit",
       "children": [
         {
           "content": "对话框",
@@ -141,56 +141,53 @@
         },
         {
           "content": "二维码生成",
-          "icon": "IconPaths.QrCode",
           "page": "QrCodeView"
         },
         {
           "content": "网页浏览器",
-          "icon": "IconPaths.WebView",
-          "page": "BaiDuMap.BaiDuMapView"
+          "page": "BaiDuMapView"
         },
         {
           "content": "G-Map",
           "children": [
             {
               "content": "G-Map",
-              "loginAuth": "Admin",
-              "icon": "IconPaths.WebView",
+              "loginAuth": 1,
               "page": "GMapTest"
             }
           ]
         },
         {
           "content": "Zebra-ZPL",
-          "page": "PrintView.PrintView"
+          "page": "PrintView"
         }
       ]
     },
     {
       "content": "流程设计",
-      "icon": "IconPaths.FlowChart",
+      "icon": "FlowChart",
       "children": [
         {
           "content": "流程图编辑",
-          "page": "FlowView.FlowView"
+          "page": "FlowView"
         },
         {
           "content": "错误诊断",
-          "page": "ErrorView.ErrorView"
+          "page": "ErrorView"
         }
       ]
     },
     {
       "content": "软件主题",
-      "icon": "IconPaths.Theme",
+      "icon": "Theme",
       "children": [
         {
           "content": "主题颜色",
           "children": [
             {
               "content": "主题方案",
-              "loginAuth": "Admin",
-              "page": "TopicView.TopicView"
+              "loginAuth": 1,
+              "page": "TopicView"
             }
           ]
         },
@@ -210,17 +207,17 @@
     },
     {
       "content": "轮播界面",
-      "icon": "IconPaths.Carousel",
+      "icon": "Carousel",
       "children": [
         {
           "content": "轮播图",
-          "page": "CarouselView.CarouselView"
+          "page": "CarouselView"
         }
       ]
     },
     {
       "content": "控件集成",
-      "icon": "IconPaths.Vision",
+      "icon": "Vision",
       "children": [
         {
           "content": "VisionPro",
@@ -242,7 +239,7 @@
     },
     {
       "content": "关于X-A",
-      "icon": "IconPaths.About",
+      "icon": "About",
       "page": "AboutPage"
     }
   ]

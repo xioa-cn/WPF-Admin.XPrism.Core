@@ -1,4 +1,5 @@
 ﻿using System.Collections.ObjectModel;
+using System.Text.Json.Serialization;
 using CommunityToolkit.Mvvm.ComponentModel;
 
 namespace WPF.Admin.Models.Models;
@@ -7,21 +8,19 @@ public partial class TreeItemModel : BindableBase {
     /// <summary>
     /// 持久化使用组件
     /// </summary>
+    [JsonPropertyName("isPersistence")]
     public bool IsPersistence { get; set; } = true;
 
-    public string? Content { get; set; }
-
+    [JsonPropertyName("content")] public string? Content { get; set; }
+    [JsonPropertyName("loginAuth")]
     public LoginAuth LoginAuth { get; set; }
-
-    public object? Icon { get; set; }
-
-    public Type? Page { get; set; }
+    [JsonPropertyName("icon")] public string? Icon { get; set; }
+    [JsonPropertyName("page")] public string? Page { get; set; }
 
     [ObservableProperty] private bool _isChecked;
 
     [ObservableProperty] private bool _isExpanded;
-
-    public ObservableCollection<TreeItemModel> Children { get; set; } = new();
+    [JsonPropertyName("children")] public ObservableCollection<TreeItemModel> Children { get; set; } = new();
 
     public bool HasChildren => Children.Count > 0;
 

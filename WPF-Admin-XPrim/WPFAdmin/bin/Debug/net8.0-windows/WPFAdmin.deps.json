@@ -8,11 +8,11 @@
     ".NETCoreApp,Version=v8.0": {
       "WPFAdmin/1.0.0": {
         "dependencies": {
+          "GanttChartModules": "1.0.0",
           "Hardcodet.NotifyIcon.Wpf": "2.0.1",
           "WPF.Admin.Themes": "1.0.0",
           "WPFAdmin.DialogModules": "1.0.0",
-          "WPFAdmin.NavigationModules": "1.0.0",
-          "XPrism.Core.wpf": "1.0.5"
+          "WPFAdmin.NavigationModules": "1.0.0"
         },
         "runtime": {
           "WPFAdmin.dll": {}
@@ -42,7 +42,7 @@
           }
         }
       },
-      "XPrism.Core.wpf/1.0.5": {
+      "XPrism.Core.wpf/1.0.6": {
         "dependencies": {
           "CommunityToolkit.Mvvm": "8.4.0"
         },
@@ -53,9 +53,21 @@
           }
         }
       },
+      "GanttChartModules/1.0.0": {
+        "dependencies": {
+          "WPF.Admin.Models": "1.0.0",
+          "WPF.Admin.Themes": "1.0.0"
+        },
+        "runtime": {
+          "GanttChartModules.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
       "WPF.Admin.Models/1.0.0": {
         "dependencies": {
-          "XPrism.Core.wpf": "1.0.5"
+          "XPrism.Core.wpf": "1.0.6"
         },
         "runtime": {
           "WPF.Admin.Models.dll": {
@@ -89,7 +101,8 @@
       },
       "WPFAdmin.NavigationModules/1.0.0": {
         "dependencies": {
-          "WPF.Admin.Models": "1.0.0"
+          "WPF.Admin.Models": "1.0.0",
+          "WPF.Admin.Themes": "1.0.0"
         },
         "runtime": {
           "WPFAdmin.NavigationModules.dll": {
@@ -127,12 +140,17 @@
       "path": "hardcodet.notifyicon.wpf/2.0.1",
       "hashPath": "hardcodet.notifyicon.wpf.2.0.1.nupkg.sha512"
     },
-    "XPrism.Core.wpf/1.0.5": {
+    "XPrism.Core.wpf/1.0.6": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-8iqDCYGVWI7uafJa7QSk5m5J+flw+r2Z7x8rEIzRADJNgIoPFzRB0JASlSQJS5fAVWUfIj0F6Jr7FStxXlWzLw==",
-      "path": "xprism.core.wpf/1.0.5",
-      "hashPath": "xprism.core.wpf.1.0.5.nupkg.sha512"
+      "sha512": "sha512-0iG6Rto+1Bam7rTpEa6xewYj3jzKfOiyxfW4+t8cQ6QmOM8DFrTsZJ1u5B2sbih0ppfwo12oIZbeypg/vGqcBA==",
+      "path": "xprism.core.wpf/1.0.6",
+      "hashPath": "xprism.core.wpf.1.0.6.nupkg.sha512"
+    },
+    "GanttChartModules/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "WPF.Admin.Models/1.0.0": {
       "type": "project",

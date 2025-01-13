@@ -18,7 +18,7 @@
           "buildTransitive/CommunityToolkit.Mvvm.targets": {}
         }
       },
-      "XPrism.Core.wpf/1.0.5": {
+      "XPrism.Core.wpf/1.0.6": {
         "type": "package",
         "dependencies": {
           "CommunityToolkit.Mvvm": "8.4.0"
@@ -79,23 +79,23 @@
         "lib/netstandard2.1/CommunityToolkit.Mvvm.xml"
       ]
     },
-    "XPrism.Core.wpf/1.0.5": {
-      "sha512": "8iqDCYGVWI7uafJa7QSk5m5J+flw+r2Z7x8rEIzRADJNgIoPFzRB0JASlSQJS5fAVWUfIj0F6Jr7FStxXlWzLw==",
+    "XPrism.Core.wpf/1.0.6": {
+      "sha512": "0iG6Rto+1Bam7rTpEa6xewYj3jzKfOiyxfW4+t8cQ6QmOM8DFrTsZJ1u5B2sbih0ppfwo12oIZbeypg/vGqcBA==",
       "type": "package",
-      "path": "xprism.core.wpf/1.0.5",
+      "path": "xprism.core.wpf/1.0.6",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "lib/net8.0/XPrism.Core.dll",
         "lib/net8.0/XPrism.Core.pdb",
-        "xprism.core.wpf.1.0.5.nupkg.sha512",
+        "xprism.core.wpf.1.0.6.nupkg.sha512",
         "xprism.core.wpf.nuspec"
       ]
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
-      "XPrism.Core.wpf >= 1.0.5"
+      "XPrism.Core.wpf >= 1.0.6"
     ]
   },
   "packageFolders": {
@@ -141,9 +141,9 @@
       "restoreAuditProperties": {
         "enableAudit": "true",
         "auditLevel": "low",
-        "auditMode": "all"
+        "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "9.0.200"
+      "SdkAnalysisLevel": "9.0.100"
     },
     "frameworks": {
       "net8.0": {
@@ -151,7 +151,7 @@
         "dependencies": {
           "XPrism.Core.wpf": {
             "target": "Package",
-            "version": "[1.0.5, )"
+            "version": "[1.0.6, )"
           }
         },
         "imports": [
@@ -170,7 +170,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200-preview.0.24575.35/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

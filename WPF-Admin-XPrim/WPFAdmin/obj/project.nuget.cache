@@ -1,13 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "HCWXLSA9qi4=",
+  "dgSpecHash": "ca5p2GdNdKA=",
   "success": true,
   "projectFilePath": "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPFAdmin\\WPFAdmin.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Administrator\\.nuget\\packages\\communitytoolkit.mvvm\\8.4.0\\communitytoolkit.mvvm.8.4.0.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\handycontrol\\3.5.1\\handycontrol.3.5.1.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\hardcodet.notifyicon.wpf\\2.0.1\\hardcodet.notifyicon.wpf.2.0.1.nupkg.sha512",
-    "C:\\Users\\Administrator\\.nuget\\packages\\xprism.core.wpf\\1.0.5\\xprism.core.wpf.1.0.5.nupkg.sha512"
+    "C:\\Users\\Administrator\\.nuget\\packages\\xprism.core.wpf\\1.0.6\\xprism.core.wpf.1.0.6.nupkg.sha512"
   ],
   "logs": []
 }
