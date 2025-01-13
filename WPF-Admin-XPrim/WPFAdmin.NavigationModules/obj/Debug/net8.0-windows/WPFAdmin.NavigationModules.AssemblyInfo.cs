@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WPFAdmin.NavigationModules")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1ab52de4bd850b5109f7e33532e8c526742d4f86")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+98e392d6e247c7e1bfd229edfc9b9368cd11a6a1")]
 [assembly: System.Reflection.AssemblyProductAttribute("WPFAdmin.NavigationModules")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WPFAdmin.NavigationModules")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

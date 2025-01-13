@@ -1,4 +1,5 @@
 ﻿using WPF.Admin.Models.Models;
+using WPF.Admin.Themes.Converter;
 using WPFAdmin.NavigationModules.Components;
 using WPFAdmin.NavigationModules.ViewModel;
 using WPFAdmin.NavigationModules.Views;
@@ -10,12 +11,14 @@ using XPrism.Core.Navigations;
 namespace WPFAdmin.NavigationModules;
 
 [Module(nameof(NavigationModule))]
-public class NavigationModule : IModule
-{
+public class NavigationModule : IModule {
     public static ViewAuthSwitch ViewAuthSwitch { get; set; } = ViewAuthSwitch.IsEnabled;
 
-    public void RegisterTypes(IContainerRegistry containerRegistry)
-    {
+    public NavigationModule() {
+        LoginAuthHelper.ViewAuthSwitch = ViewAuthSwitch;
+    }
+
+    public void RegisterTypes(IContainerRegistry containerRegistry) {
         containerRegistry
             .RegisterSingleton<INavigationService, NavigationService>();
         containerRegistry.AddNavigations(regionManager =>
@@ -25,7 +28,6 @@ public class NavigationModule : IModule
         });
     }
 
-    public void OnInitialized(IContainerProvider containerProvider)
-    {
+    public void OnInitialized(IContainerProvider containerProvider) {
     }
 }
