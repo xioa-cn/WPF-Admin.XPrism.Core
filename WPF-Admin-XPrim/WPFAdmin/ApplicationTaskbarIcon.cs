@@ -40,11 +40,9 @@ public partial class App {
             var windows = Application.Current.Windows;
             foreach (Window item in windows)
             {
-                if (item.GetType() == typeof(MainWindow))
-                {
-                    item.Visibility = Visibility.Visible;
-                    return;
-                }
+                if (item.GetType() != typeof(MainWindow)) continue;
+                item.Visibility = Visibility.Visible;
+                return;
             }
         }
     }
