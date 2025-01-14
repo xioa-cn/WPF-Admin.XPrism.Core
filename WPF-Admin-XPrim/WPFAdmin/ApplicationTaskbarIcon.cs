@@ -32,7 +32,7 @@ public partial class App {
         _notifyIcon.DoubleClickCommand = new RelayCommand(MainShow);
     }
 
-    private void MainShow() {
+    public static void MainShow() {
         if (Application.Current.MainWindow is not null)
             Application.Current.MainWindow.Visibility = Visibility.Visible;
         else

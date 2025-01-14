@@ -5,7 +5,7 @@
         <Setter Property="Template">
             <Setter.Value>
                 <ControlTemplate>
-                    <Border Background="#848991" CornerRadius="10">
+                    <Border  CornerRadius="10">
                         <view:NotifyView Margin="10" />
                     </Border>
                 </ControlTemplate>

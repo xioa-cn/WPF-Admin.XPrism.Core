@@ -4,9 +4,10 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
              xmlns:local="clr-namespace:WPF.Admin.Themes.Themes"
-             mc:Ignorable="d"
-             >
-    <Grid>
-        
-    </Grid>
+             mc:Ignorable="d" Width="150" Height="90">
+    <StackPanel Background="Transparent" Margin="10" VerticalAlignment="Center" HorizontalAlignment="Center">
+        <MenuItem Command="{Binding OpenCommand}" VerticalAlignment="Center" HorizontalAlignment="Center" Header="打开" Height="30" />
+
+        <MenuItem Command="{Binding CloseCommand}" VerticalAlignment="Center" HorizontalAlignment="Center" Header="关闭" Height="30" />
+    </StackPanel>
 </UserControl>
