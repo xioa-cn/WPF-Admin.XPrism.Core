@@ -18,7 +18,7 @@
           "buildTransitive/CommunityToolkit.Mvvm.targets": {}
         }
       },
-      "XPrism.Core.wpf/1.0.7": {
+      "XPrism.Core.wpf/1.1.0": {
         "type": "package",
         "dependencies": {
           "CommunityToolkit.Mvvm": "8.4.0"
@@ -79,23 +79,23 @@
         "lib/netstandard2.1/CommunityToolkit.Mvvm.xml"
       ]
     },
-    "XPrism.Core.wpf/1.0.7": {
-      "sha512": "XQrMcCKaZqQINKz4OlhxDUugaKJdzN/VIsvqOqZedjchkQhrlPrfyEQUSVv1gHt9J33vm44g3dfMuqBUqGK79w==",
+    "XPrism.Core.wpf/1.1.0": {
+      "sha512": "cH8GlTQkQCbwd7SqaDpCEZKaxGGzw0DvQfw9VSeJFv8/rTAWgZadEdLq9Q3vt63UZtr1xKX6V4veiMjHk/HEzQ==",
       "type": "package",
-      "path": "xprism.core.wpf/1.0.7",
+      "path": "xprism.core.wpf/1.1.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "lib/net8.0/XPrism.Core.dll",
         "lib/net8.0/XPrism.Core.pdb",
-        "xprism.core.wpf.1.0.7.nupkg.sha512",
+        "xprism.core.wpf.1.1.0.nupkg.sha512",
         "xprism.core.wpf.nuspec"
       ]
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
-      "XPrism.Core.wpf >= 1.0.7"
+      "XPrism.Core.wpf >= 1.1.0"
     ]
   },
   "packageFolders": {
@@ -151,7 +151,7 @@
         "dependencies": {
           "XPrism.Core.wpf": {
             "target": "Package",
-            "version": "[1.0.7, )"
+            "version": "[1.1.0, )"
           }
         },
         "imports": [

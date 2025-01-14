@@ -59,7 +59,7 @@
                                                 <Border
                                                     Name="bd"
                                                     Width="118"
-                                                    Height="4"
+                                                    Height="4" CornerRadius="4,4,0,0"
                                                     Margin="0,0,0,0" />
                                                 <DockPanel HorizontalAlignment="Center" VerticalAlignment="Center">
                                                     <TextBlock

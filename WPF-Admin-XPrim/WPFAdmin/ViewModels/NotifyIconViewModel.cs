@@ -27,12 +27,12 @@ public partial class NotifyIconViewModel : BindableBase, IDialogResultable<Close
             this.Result = CloseEnum.Notify;
         }
 
-        Dialog.Close(MessageToken.DialogPageToken);
+        Dialog.Close(HcDialogMessageToken.DialogMainToken);
     }
 
     [RelayCommand]
     private void Cancel() {
         this.Result = CloseEnum.None;
-        Dialog.Close(MessageToken.DialogPageToken);
+        Dialog.Close(HcDialogMessageToken.DialogMainToken);
     }
 }

@@ -13,10 +13,10 @@ public partial class MainViewModel : BindableBase {
     public MainViewModel(INavigationService navigationService) {
         NavigationService = navigationService;
         RefreshTree();
-        NavigationService.NavigateAsync("Home/BasePage");
+        
     }
 
-    private void RefreshTree() {
+    private async void RefreshTree() {
         this.TreeItems = new ObservableCollection<TreeItemModel>();
         var file = System.IO.Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "router.json");
         var read = System.IO.File.ReadAllText(file);
@@ -26,6 +26,7 @@ public partial class MainViewModel : BindableBase {
         {
             this.TreeItems.Add(item);
         }
+        await NavigationService.NavigateAsync($"{RegionName.HomeRegion}/BasePage");
     }
 
 

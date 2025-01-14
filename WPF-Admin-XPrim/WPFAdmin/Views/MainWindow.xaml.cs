@@ -9,14 +9,11 @@ using XPrism.Core.DataContextWindow;
 using XPrism.Core.Navigations;
 
 namespace WPFAdmin.Views;
-public static class MessageToken
-{
-    public static string DialogPageToken { get; set; } = "DialogPageToken";
-}
+
 [XPrismViewModel(nameof(MainWindow))]
 public partial class MainWindow {
     public MainWindow(INavigationService navigationService) {
-        Dialog.Register(MessageToken.DialogPageToken, this);
+        Dialog.Register(HcDialogMessageToken.DialogMainToken, this);
         InitializeComponent();
         navigationService.NavigateAsync("MainRegion/Main");
     }
@@ -51,7 +48,7 @@ public partial class MainWindow {
         _notifyIconView ??= new NotifyIconView();
 
         var closeEnum = CloseEnum.None;
-        var dialog = Dialog.Show(_notifyIconView, MessageToken.DialogPageToken);
+        var dialog = Dialog.Show(_notifyIconView, HcDialogMessageToken.DialogMainToken);
         await dialog.Initialize<NotifyIconViewModel>(
             vm => { }).GetResultAsync<CloseEnum>().ContinueWith(re => { closeEnum = re.Result; });
 

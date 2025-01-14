@@ -89,7 +89,7 @@ public partial class NaviControl : UserControl {
                     // 处理导航
                      if (value.PageCanInterchange == PageCanInterchange.NonePage)
                      {
-                         var windowOpen = BreadCrumbBar.items.FirstOrDefault(e => e.Key == value);
+                         var windowOpen = BreadCrumbBar.Items.FirstOrDefault(e => e.Key == value);
                          if (windowOpen.Value is not null)
                          {
                              windowOpen.Value.Activate();

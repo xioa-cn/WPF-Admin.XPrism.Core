@@ -25,6 +25,8 @@ public class NavigationModule : IModule {
         {
             regionManager.RegisterForNavigation<MainPage, MainViewModel>(RegionName.MainRegion, "Main");
             regionManager.RegisterViewWithRegion<BasePage>(RegionName.HomeRegion, "BasePage");
+           
+            regionManager.RegisterViewWithRegion<BaseWindowPage>(RegionName.HomeRegion,"BaseWindowPage");
         });
     }
 

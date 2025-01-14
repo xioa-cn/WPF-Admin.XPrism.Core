@@ -4,6 +4,7 @@ using System.Windows.Data;
 using CommunityToolkit.Mvvm.Input;
 using Hardcodet.Wpf.TaskbarNotification;
 using WPFAdmin.ViewModels;
+using WPFAdmin.Views;
 using XPrism.Core.DI;
 
 namespace WPFAdmin;
@@ -34,6 +35,18 @@ public partial class App {
     private void MainShow() {
         if (Application.Current.MainWindow is not null)
             Application.Current.MainWindow.Visibility = Visibility.Visible;
+        else
+        {
+            var windows = Application.Current.Windows;
+            foreach (Window item in windows)
+            {
+                if (item.GetType() == typeof(MainWindow))
+                {
+                    item.Visibility = Visibility.Visible;
+                    return;
+                }
+            }
+        }
     }
 
     public static void DisposeNotifyIcon() {

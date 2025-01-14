@@ -33,13 +33,13 @@
                                 Width="100"
                                 Margin="0"
                                 Padding="0"
-                                BorderBrush="#3D5B4D"
+                                
                                 BorderThickness="0,0,1,0">
                                 <TextBlock
                                     Padding="10"
                                     HorizontalAlignment="Center"
                                     VerticalAlignment="Top"
-                                    Foreground="White"
+                                    
                                     Text="{Binding Month}" />
                             </Border>
                         </DataTemplate>

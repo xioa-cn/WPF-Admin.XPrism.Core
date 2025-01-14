@@ -11,10 +11,10 @@ namespace AboutModules;
 public class AboutModule : IModule {
     public void RegisterTypes(IContainerRegistry containerRegistry) {
         var regionManager = containerRegistry.Resolve<IRegionManager>();
-        regionManager.RegisterViewWithRegion<AboutView>(RegionName.HomeRegion,"AboutPage");
+        regionManager.RegisterViewWithRegion<AboutView>(RegionName.HomeRegion, "AboutPage");
+        
     }
 
     public void OnInitialized(IContainerProvider containerProvider) {
-        
     }
 }
