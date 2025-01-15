@@ -1,5 +1,6 @@
 ﻿using System.Reflection;
 using System.Windows;
+using WPF.Admin.Models.Models;
 using WPF.Admin.Themes.Themes;
 using XPrism.Core.DataContextWindow;
 using XPrism.Core.DI;
@@ -16,7 +17,12 @@ public partial class App : Application {
     protected override void OnStartup(StartupEventArgs e) {
         base.OnStartup(e);
         Views.SplashScreen splashScreen = new Views.SplashScreen();
-        StartupCommandLine(e.Args);
+        var applicationStartupMode = StartupCommandLine(e.Args);
+        if (applicationStartupMode == ApplicationStartupMode.Debug)
+        {
+            App.DisposeNotifyIcon();
+            Environment.Exit(0);
+        }
         splashScreen.ShowWindowWithFade();
         if (Detection)
         {
