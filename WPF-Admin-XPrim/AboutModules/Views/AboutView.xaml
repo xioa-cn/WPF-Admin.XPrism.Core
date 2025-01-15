@@ -9,8 +9,11 @@
              d:DesignHeight="300" d:DesignWidth="300">
     <UserControl.Resources>
         <ResourceDictionary>
-            <ResourceDictionary.MergedDictionaries >
+            <ResourceDictionary.MergedDictionaries>
                 <ResourceDictionary Source="pack://application:,,,/AboutModules;component/ViewModels/Shield.xaml"></ResourceDictionary>
+                <ResourceDictionary
+                    Source="pack://application:,,,/WPF.Admin.Themes;component/Generic.xaml">
+                </ResourceDictionary>
             </ResourceDictionary.MergedDictionaries>
         </ResourceDictionary>
     </UserControl.Resources>
@@ -191,7 +194,8 @@
 
                 <TextBlock FontSize="20" TextWrapping="Wrap">
                     <Run Text="Github :" />
-                    <Hyperlink NavigateUri="https://github.com/xioa-cn/WPF-Admin.XPrism.Core" RequestNavigate="Hyperlink_RequestNavigate">
+                    <Hyperlink NavigateUri="https://github.com/xioa-cn/WPF-Admin.XPrism.Core"
+                               RequestNavigate="Hyperlink_RequestNavigate">
                         <Run Text="Github上是最新的源代码，地址为：https://github.com/xioa-cn/WPF-Admin.XPrism.Core" />
                     </Hyperlink>
                 </TextBlock>

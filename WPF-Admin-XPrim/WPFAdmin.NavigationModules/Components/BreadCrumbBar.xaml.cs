@@ -2,6 +2,7 @@
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Data;
+using System.Windows.Input;
 using CommunityToolkit.Mvvm.Messaging;
 using HandyControl.Controls;
 using WPF.Admin.Models.Models;
@@ -87,6 +88,7 @@ public partial class BreadCrumbBar : UserControl {
         navButton.SetBinding(ItemsControl.ItemsSourceProperty, binding);
 
         WeakReferenceMessenger.Default.Register<TreeItemModelMessenger>(this, PageAddItem);
+       
     }
 
     private async void PageAddItem(object recipient, TreeItemModelMessenger message) {

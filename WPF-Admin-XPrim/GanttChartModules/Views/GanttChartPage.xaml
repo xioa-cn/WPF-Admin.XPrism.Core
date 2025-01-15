@@ -7,13 +7,19 @@
              xmlns:vm="clr-namespace:GanttChartModules.ViewModels"
              d:DataContext="{d:DesignInstance Type= vm:GanttChartViewModel}"
              xmlns:convert="clr-namespace:WPF.Admin.Themes.Converter;assembly=WPF.Admin.Themes"
-             mc:Ignorable="d"
-             >
+             mc:Ignorable="d">
     <UserControl.Resources>
-        <convert:MarginAddTenConvert x:Key="MarginConvert" />
-        <convert:TaskMensToStringConvert x:Key="TaskMesConvert" />
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary
+                    Source="pack://application:,,,/WPF.Admin.Themes;component/Generic.xaml">
+                </ResourceDictionary>
+            </ResourceDictionary.MergedDictionaries>
+            <convert:MarginAddTenConvert x:Key="MarginConvert" />
+            <convert:TaskMensToStringConvert x:Key="TaskMesConvert" />
+        </ResourceDictionary>
     </UserControl.Resources>
-     <ScrollViewer HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Auto">
+    <ScrollViewer HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Auto">
         <Grid>
             <Grid.RowDefinitions>
                 <RowDefinition Height="40" />
@@ -33,13 +39,13 @@
                                 Width="100"
                                 Margin="0"
                                 Padding="0"
-                                
+
                                 BorderThickness="0,0,1,0">
                                 <TextBlock
                                     Padding="10"
                                     HorizontalAlignment="Center"
                                     VerticalAlignment="Top"
-                                    
+
                                     Text="{Binding Month}" />
                             </Border>
                         </DataTemplate>
@@ -80,7 +86,8 @@
                                 </Grid>
                             </Border>
                             <!--  日期和进度信息  -->
-                            <StackPanel Margin="{Binding Margin, Converter={StaticResource MarginConvert}}" Orientation="Horizontal">
+                            <StackPanel Margin="{Binding Margin, Converter={StaticResource MarginConvert}}"
+                                        Orientation="Horizontal">
                                 <TextBlock
                                     VerticalAlignment="Center"
                                     Foreground="White"

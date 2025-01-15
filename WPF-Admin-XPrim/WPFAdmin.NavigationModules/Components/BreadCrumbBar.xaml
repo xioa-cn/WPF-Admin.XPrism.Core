@@ -126,14 +126,17 @@
                                         </Border>
                                         <ControlTemplate.Triggers>
                                             <Trigger Property="IsChecked" Value="True">
-                                                <Setter TargetName="bd" Property="Background" Value="{DynamicResource Primary.Brush}" />
+                                                <Setter TargetName="bd" Property="Background"
+                                                        Value="{DynamicResource Primary.Brush}" />
                                                 <Setter Property="Background" Value="{DynamicResource Surface.Brush}" />
-                                                <Setter TargetName="Content" Property="Foreground" Value="{DynamicResource Primary.Brush}" />
+                                                <Setter TargetName="Content" Property="Foreground"
+                                                        Value="{DynamicResource Primary.Brush}" />
                                                 <Setter TargetName="Content" Property="FontWeight" Value="Bold" />
                                             </Trigger>
                                             <Trigger Property="IsMouseOver" Value="True">
                                                 <Setter Property="Background" Value="{DynamicResource Surface.Brush}" />
-                                                <Setter TargetName="Content" Property="Foreground" Value="{DynamicResource Primary.Brush}" />
+                                                <Setter TargetName="Content" Property="Foreground"
+                                                        Value="{DynamicResource Primary.Brush}" />
                                             </Trigger>
                                         </ControlTemplate.Triggers>
                                     </ControlTemplate>
@@ -177,16 +180,18 @@
                 <RowDefinition />
                 <RowDefinition Height="auto" />
             </Grid.RowDefinitions>
-            <ContentControl
-                Grid.Row="0"
-                Margin="10,10,10,0"
-                nav:RegionManagerProperty.RegionName="{x:Static region:RegionName.HomeRegion}">
+
+            <ContentControl Grid.Row="0"
+                            Margin="10,10,10,0"
+                            nav:RegionManagerProperty.RegionName="{x:Static region:RegionName.HomeRegion}">
                 <ContentControl.Resources>
                     <Style TargetType="Frame">
                         <!--  <Setter Property=""  -->
                     </Style>
                 </ContentControl.Resources>
             </ContentControl>
+
+
             <StackPanel Grid.Row="1">
                 <TextBlock
                     Margin="2"

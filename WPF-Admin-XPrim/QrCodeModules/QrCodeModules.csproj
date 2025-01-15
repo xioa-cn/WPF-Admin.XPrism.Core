@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0-windows</TargetFramework>
+        <Nullable>enable</Nullable>
+        <UseWPF>true</UseWPF>
+        <UseWindowsForms>true</UseWindowsForms>
+        <ImplicitUsings>enable</ImplicitUsings>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\WPF.Admin.Models\WPF.Admin.Models.csproj" />
+      <ProjectReference Include="..\WPF.Admin.Themes\WPF.Admin.Themes.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="QRCoder" Version="1.6.0" />
+      <PackageReference Include="SharpVectors.Wpf" Version="1.8.4.2" />
+      <PackageReference Include="ZXing.Net.Bindings.SkiaSharp" Version="0.16.20" />
+    </ItemGroup>
+
+</Project>

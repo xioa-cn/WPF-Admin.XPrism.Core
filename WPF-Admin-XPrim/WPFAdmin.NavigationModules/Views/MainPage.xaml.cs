@@ -1,6 +1,7 @@
 ﻿using System.Diagnostics;
 using System.Windows;
 using System.Windows.Controls;
+using System.Windows.Input;
 using System.Windows.Media.Animation;
 using CommunityToolkit.Mvvm.Messaging;
 using WPFAdmin.NavigationModules.Messengers;
@@ -15,6 +16,14 @@ public partial class MainPage : Page,INavigationAware {
         this.Unloaded += (sender, args) =>
         {
             WeakReferenceMessenger.Default.Unregister<ChangeMainBorderSizeMessanger>(this);
+        };
+        PreviewKeyDown += (s, e) =>
+        {
+            if (e.Key == Key.Back)
+            {
+                // 阻止BackSpace导航
+                e.Handled = true;
+            }
         };
     }
 
