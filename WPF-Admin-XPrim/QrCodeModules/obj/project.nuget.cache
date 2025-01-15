@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "I+2PliKxWhE=",
+  "dgSpecHash": "WnQA/qorrvY=",
   "success": true,
   "projectFilePath": "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\QrCodeModules\\QrCodeModules.csproj",
   "expectedPackageFiles": [
@@ -13,7 +13,7 @@
     "C:\\Users\\Administrator\\.nuget\\packages\\skiasharp.nativeassets.macos\\3.116.1\\skiasharp.nativeassets.macos.3.116.1.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\skiasharp.nativeassets.win32\\3.116.1\\skiasharp.nativeassets.win32.3.116.1.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\system.drawing.common\\6.0.0\\system.drawing.common.6.0.0.nupkg.sha512",
-    "C:\\Users\\Administrator\\.nuget\\packages\\xprism.core.wpf\\1.1.0\\xprism.core.wpf.1.1.0.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\xprism.core.wpf\\1.1.1\\xprism.core.wpf.1.1.1.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\zxing.net\\0.16.9\\zxing.net.0.16.9.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\zxing.net.bindings.skiasharp\\0.16.20\\zxing.net.bindings.skiasharp.0.16.20.nupkg.sha512"
   ],

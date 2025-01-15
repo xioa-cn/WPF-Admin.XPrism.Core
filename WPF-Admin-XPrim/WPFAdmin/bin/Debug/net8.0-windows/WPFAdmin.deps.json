@@ -10,11 +10,16 @@
         "dependencies": {
           "AboutModules": "1.0.0",
           "AntDiagramModules": "1.0.0",
+          "CarouselModules": "1.0.0",
+          "CustomModules": "1.0.0",
           "DataValidatorModules": "1.0.0",
           "GanttChartModules": "1.0.0",
+          "GetColorModules": "1.0.0",
           "Hardcodet.NotifyIcon.Wpf": "2.0.1",
+          "InfiniteScrollingModules": "1.0.0",
           "QrCodeModules": "1.0.0",
           "RouterEventModules": "1.0.0",
+          "TopicModules": "1.0.0",
           "WPF.Admin.Themes": "1.0.0",
           "WPFAdmin.DialogModules": "1.0.0",
           "WPFAdmin.NavigationModules": "1.0.0"
@@ -136,7 +141,15 @@
           "Microsoft.Win32.SystemEvents": "6.0.0"
         }
       },
-      "XPrism.Core.wpf/1.1.0": {
+      "Xioa.WPF.AttachedBehaviors/1.1.0": {
+        "runtime": {
+          "lib/net6.0/AttachedBehavior.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "XPrism.Core.wpf/1.1.1": {
         "dependencies": {
           "CommunityToolkit.Mvvm": "8.4.0"
         },
@@ -191,6 +204,30 @@
           }
         }
       },
+      "CarouselModules/1.0.0": {
+        "dependencies": {
+          "WPF.Admin.Models": "1.0.0",
+          "WPF.Admin.Themes": "1.0.0"
+        },
+        "runtime": {
+          "CarouselModules.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "CustomModules/1.0.0": {
+        "dependencies": {
+          "WPF.Admin.Models": "1.0.0",
+          "WPF.Admin.Themes": "1.0.0"
+        },
+        "runtime": {
+          "CustomModules.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
       "DataValidatorModules/1.0.0": {
         "dependencies": {
           "WPF.Admin.Models": "1.0.0",
@@ -210,6 +247,31 @@
         },
         "runtime": {
           "GanttChartModules.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "GetColorModules/1.0.0": {
+        "dependencies": {
+          "WPF.Admin.Models": "1.0.0",
+          "WPF.Admin.Themes": "1.0.0",
+          "Xioa.WPF.AttachedBehaviors": "1.1.0"
+        },
+        "runtime": {
+          "GetColorModules.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "InfiniteScrollingModules/1.0.0": {
+        "dependencies": {
+          "WPF.Admin.Models": "1.0.0",
+          "WPF.Admin.Themes": "1.0.0"
+        },
+        "runtime": {
+          "InfiniteScrollingModules.dll": {
             "assemblyVersion": "1.0.0",
             "fileVersion": "1.0.0.0"
           }
@@ -242,9 +304,21 @@
           }
         }
       },
+      "TopicModules/1.0.0": {
+        "dependencies": {
+          "WPF.Admin.Models": "1.0.0",
+          "WPF.Admin.Themes": "1.0.0"
+        },
+        "runtime": {
+          "TopicModules.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
       "WPF.Admin.Models/1.0.0": {
         "dependencies": {
-          "XPrism.Core.wpf": "1.1.0"
+          "XPrism.Core.wpf": "1.1.1"
         },
         "runtime": {
           "WPF.Admin.Models.dll": {
@@ -366,12 +440,19 @@
       "path": "system.drawing.common/6.0.0",
       "hashPath": "system.drawing.common.6.0.0.nupkg.sha512"
     },
-    "XPrism.Core.wpf/1.1.0": {
+    "Xioa.WPF.AttachedBehaviors/1.1.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-cH8GlTQkQCbwd7SqaDpCEZKaxGGzw0DvQfw9VSeJFv8/rTAWgZadEdLq9Q3vt63UZtr1xKX6V4veiMjHk/HEzQ==",
-      "path": "xprism.core.wpf/1.1.0",
-      "hashPath": "xprism.core.wpf.1.1.0.nupkg.sha512"
+      "sha512": "sha512-Sxq8KomswzMtZ0c2yydBGY8/TpYPi4GcYyeaGesQSySf7AcnFFzxeyqzzgN4BFn7zEQRRdUbCEQDfrMfdIf9Pg==",
+      "path": "xioa.wpf.attachedbehaviors/1.1.0",
+      "hashPath": "xioa.wpf.attachedbehaviors.1.1.0.nupkg.sha512"
+    },
+    "XPrism.Core.wpf/1.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-dodSUYyXsvWwo4+oTScYF0FNyVZNHLj+9C5+FQCfA4JT88csm2RP4c8/hU8KFBruyr3dAM2ETNRX6LYTqX+duA==",
+      "path": "xprism.core.wpf/1.1.1",
+      "hashPath": "xprism.core.wpf.1.1.1.nupkg.sha512"
     },
     "ZXing.Net/0.16.9": {
       "type": "package",
@@ -397,6 +478,16 @@
       "serviceable": false,
       "sha512": ""
     },
+    "CarouselModules/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CustomModules/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
     "DataValidatorModules/1.0.0": {
       "type": "project",
       "serviceable": false,
@@ -407,12 +498,27 @@
       "serviceable": false,
       "sha512": ""
     },
+    "GetColorModules/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "InfiniteScrollingModules/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
     "QrCodeModules/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
     "RouterEventModules/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "TopicModules/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

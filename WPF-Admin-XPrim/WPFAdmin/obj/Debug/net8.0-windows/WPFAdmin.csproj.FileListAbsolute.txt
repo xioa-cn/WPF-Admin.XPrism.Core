@@ -68,3 +68,14 @@ F:\git\github\WPF-Admin-XPrism\WPF-Admin.XPrism.Core\WPF-Admin-XPrim\WPFAdmin\bi
 F:\git\github\WPF-Admin-XPrism\WPF-Admin.XPrism.Core\WPF-Admin-XPrim\WPFAdmin\bin\Debug\net8.0-windows\QrCodeModules.pdb
 F:\git\github\WPF-Admin-XPrism\WPF-Admin.XPrism.Core\WPF-Admin-XPrim\WPFAdmin\bin\Debug\net8.0-windows\RouterEventModules.dll
 F:\git\github\WPF-Admin-XPrism\WPF-Admin.XPrism.Core\WPF-Admin-XPrim\WPFAdmin\bin\Debug\net8.0-windows\RouterEventModules.pdb
+F:\git\github\WPF-Admin-XPrism\WPF-Admin.XPrism.Core\WPF-Admin-XPrim\WPFAdmin\bin\Debug\net8.0-windows\TopicModules.dll
+F:\git\github\WPF-Admin-XPrism\WPF-Admin.XPrism.Core\WPF-Admin-XPrim\WPFAdmin\bin\Debug\net8.0-windows\TopicModules.pdb
+F:\git\github\WPF-Admin-XPrism\WPF-Admin.XPrism.Core\WPF-Admin-XPrim\WPFAdmin\bin\Debug\net8.0-windows\AttachedBehavior.dll
+F:\git\github\WPF-Admin-XPrism\WPF-Admin.XPrism.Core\WPF-Admin-XPrim\WPFAdmin\bin\Debug\net8.0-windows\GetColorModules.dll
+F:\git\github\WPF-Admin-XPrism\WPF-Admin.XPrism.Core\WPF-Admin-XPrim\WPFAdmin\bin\Debug\net8.0-windows\GetColorModules.pdb
+F:\git\github\WPF-Admin-XPrism\WPF-Admin.XPrism.Core\WPF-Admin-XPrim\WPFAdmin\bin\Debug\net8.0-windows\CarouselModules.dll
+F:\git\github\WPF-Admin-XPrism\WPF-Admin.XPrism.Core\WPF-Admin-XPrim\WPFAdmin\bin\Debug\net8.0-windows\CarouselModules.pdb
+F:\git\github\WPF-Admin-XPrism\WPF-Admin.XPrism.Core\WPF-Admin-XPrim\WPFAdmin\bin\Debug\net8.0-windows\InfiniteScrollingModules.dll
+F:\git\github\WPF-Admin-XPrism\WPF-Admin.XPrism.Core\WPF-Admin-XPrim\WPFAdmin\bin\Debug\net8.0-windows\InfiniteScrollingModules.pdb
+F:\git\github\WPF-Admin-XPrism\WPF-Admin.XPrism.Core\WPF-Admin-XPrim\WPFAdmin\bin\Debug\net8.0-windows\CustomModules.dll
+F:\git\github\WPF-Admin-XPrism\WPF-Admin.XPrism.Core\WPF-Admin-XPrim\WPFAdmin\bin\Debug\net8.0-windows\CustomModules.pdb

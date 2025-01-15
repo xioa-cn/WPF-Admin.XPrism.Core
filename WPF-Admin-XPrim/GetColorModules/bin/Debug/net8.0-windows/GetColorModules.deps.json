@@ -1,0 +1,124 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "GetColorModules/1.0.0": {
+        "dependencies": {
+          "WPF.Admin.Models": "1.0.0",
+          "WPF.Admin.Themes": "1.0.0",
+          "Xioa.WPF.AttachedBehaviors": "1.1.0"
+        },
+        "runtime": {
+          "GetColorModules.dll": {}
+        }
+      },
+      "CommunityToolkit.Mvvm/8.4.0": {
+        "runtime": {
+          "lib/net8.0/CommunityToolkit.Mvvm.dll": {
+            "assemblyVersion": "8.4.0.0",
+            "fileVersion": "8.4.0.1"
+          }
+        }
+      },
+      "HandyControl/3.5.1": {
+        "runtime": {
+          "lib/net8.0/HandyControl.dll": {
+            "assemblyVersion": "3.5.1.0",
+            "fileVersion": "3.5.1.0"
+          }
+        }
+      },
+      "Xioa.WPF.AttachedBehaviors/1.1.0": {
+        "runtime": {
+          "lib/net6.0/AttachedBehavior.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "XPrism.Core.wpf/1.1.1": {
+        "dependencies": {
+          "CommunityToolkit.Mvvm": "8.4.0"
+        },
+        "runtime": {
+          "lib/net8.0/XPrism.Core.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "WPF.Admin.Models/1.0.0": {
+        "dependencies": {
+          "XPrism.Core.wpf": "1.1.1"
+        },
+        "runtime": {
+          "WPF.Admin.Models.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "WPF.Admin.Themes/1.0.0": {
+        "dependencies": {
+          "HandyControl": "3.5.1",
+          "WPF.Admin.Models": "1.0.0"
+        },
+        "runtime": {
+          "WPF.Admin.Themes.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "GetColorModules/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CommunityToolkit.Mvvm/8.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-tqVU8yc/ADO9oiTRyTnwhFN68hCwvkliMierptWOudIAvWY1mWCh5VFh+guwHJmpMwfg0J0rY+yyd5Oy7ty9Uw==",
+      "path": "communitytoolkit.mvvm/8.4.0",
+      "hashPath": "communitytoolkit.mvvm.8.4.0.nupkg.sha512"
+    },
+    "HandyControl/3.5.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-i2i0xrLev7F1MFnhf0DP1CNCdGw8hVJ0HJrI0kxRv02ZJgaAzLzDTgAXDPY8GAoD3aYnBLSgM74lBHZ844KQnQ==",
+      "path": "handycontrol/3.5.1",
+      "hashPath": "handycontrol.3.5.1.nupkg.sha512"
+    },
+    "Xioa.WPF.AttachedBehaviors/1.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Sxq8KomswzMtZ0c2yydBGY8/TpYPi4GcYyeaGesQSySf7AcnFFzxeyqzzgN4BFn7zEQRRdUbCEQDfrMfdIf9Pg==",
+      "path": "xioa.wpf.attachedbehaviors/1.1.0",
+      "hashPath": "xioa.wpf.attachedbehaviors.1.1.0.nupkg.sha512"
+    },
+    "XPrism.Core.wpf/1.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-dodSUYyXsvWwo4+oTScYF0FNyVZNHLj+9C5+FQCfA4JT88csm2RP4c8/hU8KFBruyr3dAM2ETNRX6LYTqX+duA==",
+      "path": "xprism.core.wpf/1.1.1",
+      "hashPath": "xprism.core.wpf.1.1.1.nupkg.sha512"
+    },
+    "WPF.Admin.Models/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "WPF.Admin.Themes/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

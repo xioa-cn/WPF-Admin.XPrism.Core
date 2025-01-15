@@ -97,7 +97,8 @@
         },
         {
           "content": "虚拟化列",
-          "page": "VirtualizingListPage"
+          "page": "VirtualizingListPage",
+          "isPersistence": false
         }
       ]
     },

@@ -22,7 +22,7 @@
           }
         }
       },
-      "XPrism.Core.wpf/1.1.0": {
+      "XPrism.Core.wpf/1.1.1": {
         "dependencies": {
           "CommunityToolkit.Mvvm": "8.4.0"
         },
@@ -35,7 +35,7 @@
       },
       "WPF.Admin.Models/1.0.0": {
         "dependencies": {
-          "XPrism.Core.wpf": "1.1.0"
+          "XPrism.Core.wpf": "1.1.1"
         },
         "runtime": {
           "WPF.Admin.Models.dll": {
@@ -59,12 +59,12 @@
       "path": "communitytoolkit.mvvm/8.4.0",
       "hashPath": "communitytoolkit.mvvm.8.4.0.nupkg.sha512"
     },
-    "XPrism.Core.wpf/1.1.0": {
+    "XPrism.Core.wpf/1.1.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-cH8GlTQkQCbwd7SqaDpCEZKaxGGzw0DvQfw9VSeJFv8/rTAWgZadEdLq9Q3vt63UZtr1xKX6V4veiMjHk/HEzQ==",
-      "path": "xprism.core.wpf/1.1.0",
-      "hashPath": "xprism.core.wpf.1.1.0.nupkg.sha512"
+      "sha512": "sha512-dodSUYyXsvWwo4+oTScYF0FNyVZNHLj+9C5+FQCfA4JT88csm2RP4c8/hU8KFBruyr3dAM2ETNRX6LYTqX+duA==",
+      "path": "xprism.core.wpf/1.1.1",
+      "hashPath": "xprism.core.wpf.1.1.1.nupkg.sha512"
     },
     "WPF.Admin.Models/1.0.0": {
       "type": "project",

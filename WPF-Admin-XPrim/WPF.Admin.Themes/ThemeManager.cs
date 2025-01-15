@@ -1,4 +1,5 @@
-﻿using System.Windows;
+﻿using System.Collections.ObjectModel;
+using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Media;
 using System.Windows.Threading;
@@ -55,94 +56,74 @@ public partial class ThemeManager : BindableBase
      */
 
 
-    private static ResourceDictionary _hcLTheme = new ResourceDictionary()
-        { Source = new Uri("pack://application:,,,/HandyControl;component/Themes/SkinDefault.xaml", UriKind.Absolute) };
+    // HandyControl主题资源
+    private static readonly ResourceDictionary HcLightTheme = new()
+    { 
+        Source = new Uri("pack://application:,,,/HandyControl;component/Themes/SkinDefault.xaml") 
+    };
+    private static readonly ResourceDictionary HcDarkTheme = new()
+    { 
+        Source = new Uri("pack://application:,,,/HandyControl;component/Themes/SkinDark.xaml") 
+    };
 
-    private static ResourceDictionary _hcDTheme = new ResourceDictionary()
-        { Source = new Uri("pack://application:,,,/HandyControl;component/Themes/SkinDark.xaml", UriKind.Absolute) };
-
-
-    private static ResourceDictionary? _currentLTheme =
-        new ResourceDictionary
+    // 自定义主题资源
+    private static readonly ResourceDictionary CustomLightTheme = new()
+    { 
+        Source = new Uri("pack://application:,,,/WPF.Admin.Themes;component/Themes/GreenTheme.xaml") 
+    };
+    private static readonly ResourceDictionary CustomDarkTheme = new()
+    { 
+        Source = new Uri("pack://application:,,,/WPF.Admin.Themes;component/Themes/DarkGreenTheme.xaml") 
+    };
+    private void UpdateThemeResource(Collection<ResourceDictionary> resources, 
+        ResourceDictionary lightTheme, ResourceDictionary darkTheme,bool hc=false)
+    {
+        if (hc)
         {
-            Source = new Uri(
-                "pack://application:,,,/WPF.Admin.Themes;component/Themes/GreenTheme.xaml",
-                UriKind.Absolute)
-        };
+            // 1. 先移除所有HandyControl相关资源
+            var hcResources = resources.Where(x => 
+                x.Source?.ToString().Contains("/HandyControl;component/") ?? false).ToList();
+            foreach (var resource in hcResources)
+            {
+                resources.Remove(resource);
+            }
+            // 2. 重新添加HandyControl基础资源
+            resources.Add(new ResourceDictionary 
+            { 
+                Source = new Uri("pack://application:,,,/HandyControl;component/Themes/Theme.xaml") 
+            });
+        }
+       
 
-    private static ResourceDictionary? _currentDTheme =
-        new ResourceDictionary
-        {
-            Source = new Uri(
-                "pack://application:,,,/WPF.Admin.Themes;component/Themes/DarkGreenTheme.xaml",
-                UriKind.Absolute)
-        };
-
+        // 添加新主题
+        resources.Add(IsDarkTheme ? darkTheme : lightTheme);
+    }
     private void ApplyTheme()
     {
         var app = Application.Current;
         if (app == null) return;
 
-        // 移除当前主题（如果存在）
-        if (_currentTheme != null)
+        Application.Current.Dispatcher.Invoke(() =>
         {
-            Dispatcher.CurrentDispatcher.Invoke(() => { app.Resources.MergedDictionaries.Remove(_currentTheme); });
-            _currentTheme = null;
-        }
+            var resources = app.Resources.MergedDictionaries;
 
+            // 更新HandyControl主题
+            UpdateThemeResource(resources, HcLightTheme, HcDarkTheme,true);
 
-        // 移除当前主题（如果存在）
-        if (!IsDarkTheme && _currentLTheme != null)
+            // 更新自定义主题
+            UpdateThemeResource(resources, CustomLightTheme, CustomDarkTheme);
+
+            // 更新窗口背景
+            UpdateWindowBackground();
+        });
+    }
+
+    private void UpdateWindowBackground() {
+        if (Application.Current.MainWindow?.Template.FindName("MainBorder", 
+                Application.Current.MainWindow) is Border border)
         {
-            Dispatcher.CurrentDispatcher.Invoke(() =>
-            {
-                app.Resources.MergedDictionaries.Add(_currentDTheme);
-                app.Resources.MergedDictionaries.Remove(_currentLTheme);
-            });
+            border.Background = Application.Current.Resources["Background.Brush"] as SolidColorBrush;
         }
-
-        if (IsDarkTheme && _currentDTheme != null)
-        {
-            Dispatcher.CurrentDispatcher.Invoke(() =>
-            {
-                app.Resources.MergedDictionaries.Remove(_currentDTheme);
-                app.Resources.MergedDictionaries.Add(_currentLTheme);
-            });
-        }
-
-        if (!IsDarkTheme && _hcLTheme != null)
-        {
-            Dispatcher.CurrentDispatcher.Invoke(() =>
-            {
-                app.Resources.MergedDictionaries.Remove(_hcLTheme);
-                app.Resources.MergedDictionaries.Add(_hcDTheme);
-            });
-        }
-
-        if (IsDarkTheme && _hcDTheme != null)
-        {
-            Dispatcher.CurrentDispatcher.Invoke(() =>
-            {
-                app.Resources.MergedDictionaries.Remove(_hcDTheme);
-                app.Resources.MergedDictionaries.Add(_hcLTheme);
-            });
-        }
-
-        // Dispatcher.CurrentDispatcher.Invoke(() =>
-        // {
-        //     //app.Resources.MergedDictionaries.Add(_hcTheme);
-        //     // 更新窗口背景色
-        //     // if (Application.Current.MainWindow != null)
-        //     // {
-        //     //     var border =
-        //     //         Application.Current.MainWindow.Template.FindName("MainBorder",
-        //     //             Application.Current.MainWindow) as Border;
-        //     //     if (border != null)
-        //     //     {
-        //     //         border.Background = (SolidColorBrush)Application.Current.Resources["Background.Brush"];
-        //     //     }
-        //     // }
-        // });
     }
 
     private static ResourceDictionary? _currentTheme;

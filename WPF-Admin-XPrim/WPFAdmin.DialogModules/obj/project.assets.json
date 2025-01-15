@@ -18,7 +18,7 @@
           "buildTransitive/CommunityToolkit.Mvvm.targets": {}
         }
       },
-      "XPrism.Core.wpf/1.1.0": {
+      "XPrism.Core.wpf/1.1.1": {
         "type": "package",
         "dependencies": {
           "CommunityToolkit.Mvvm": "8.4.0"
@@ -38,7 +38,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
-          "XPrism.Core.wpf": "1.1.0"
+          "XPrism.Core.wpf": "1.1.1"
         },
         "compile": {
           "bin/placeholder/WPF.Admin.Models.dll": {}
@@ -92,16 +92,16 @@
         "lib/netstandard2.1/CommunityToolkit.Mvvm.xml"
       ]
     },
-    "XPrism.Core.wpf/1.1.0": {
-      "sha512": "cH8GlTQkQCbwd7SqaDpCEZKaxGGzw0DvQfw9VSeJFv8/rTAWgZadEdLq9Q3vt63UZtr1xKX6V4veiMjHk/HEzQ==",
+    "XPrism.Core.wpf/1.1.1": {
+      "sha512": "dodSUYyXsvWwo4+oTScYF0FNyVZNHLj+9C5+FQCfA4JT88csm2RP4c8/hU8KFBruyr3dAM2ETNRX6LYTqX+duA==",
       "type": "package",
-      "path": "xprism.core.wpf/1.1.0",
+      "path": "xprism.core.wpf/1.1.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "lib/net8.0/XPrism.Core.dll",
         "lib/net8.0/XPrism.Core.pdb",
-        "xprism.core.wpf.1.1.0.nupkg.sha512",
+        "xprism.core.wpf.1.1.1.nupkg.sha512",
         "xprism.core.wpf.nuspec"
       ]
     },

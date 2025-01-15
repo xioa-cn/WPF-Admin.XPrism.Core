@@ -3,12 +3,8 @@
   "WorkspaceRootPath": "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{720EF34A-9CE7-4EBD-A7BA-5B1E7F0BD173}|WPFAdmin.NavigationModules\\WPFAdmin.NavigationModules.csproj|f:\\git\\github\\wpf-admin-xprism\\wpf-admin.xprism.core\\wpf-admin-xprim\\wpfadmin.navigationmodules\\views\\windowbase.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{720EF34A-9CE7-4EBD-A7BA-5B1E7F0BD173}|WPFAdmin.NavigationModules\\WPFAdmin.NavigationModules.csproj|solutionrelative:wpfadmin.navigationmodules\\views\\windowbase.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{720EF34A-9CE7-4EBD-A7BA-5B1E7F0BD173}|WPFAdmin.NavigationModules\\WPFAdmin.NavigationModules.csproj|f:\\git\\github\\wpf-admin-xprism\\wpf-admin.xprism.core\\wpf-admin-xprim\\wpfadmin.navigationmodules\\views\\windowbase.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{720EF34A-9CE7-4EBD-A7BA-5B1E7F0BD173}|WPFAdmin.NavigationModules\\WPFAdmin.NavigationModules.csproj|solutionrelative:wpfadmin.navigationmodules\\views\\windowbase.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{197062BB-62A5-4116-821A-652FEF37E731}|CustomModules\\CustomModules.csproj|f:\\git\\github\\wpf-admin-xprism\\wpf-admin.xprism.core\\wpf-admin-xprim\\custommodules\\components\\qqcombobox.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{197062BB-62A5-4116-821A-652FEF37E731}|CustomModules\\CustomModules.csproj|solutionrelative:custommodules\\components\\qqcombobox.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,31 +14,18 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "WindowBase.xaml",
-              "DocumentMoniker": "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPFAdmin.NavigationModules\\Views\\WindowBase.xaml",
-              "RelativeDocumentMoniker": "WPFAdmin.NavigationModules\\Views\\WindowBase.xaml",
-              "ToolTip": "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPFAdmin.NavigationModules\\Views\\WindowBase.xaml",
-              "RelativeToolTip": "WPFAdmin.NavigationModules\\Views\\WindowBase.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-01-14T03:44:25.931Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "WindowBase.xaml.cs",
-              "DocumentMoniker": "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPFAdmin.NavigationModules\\Views\\WindowBase.xaml.cs",
-              "RelativeDocumentMoniker": "WPFAdmin.NavigationModules\\Views\\WindowBase.xaml.cs",
-              "ToolTip": "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPFAdmin.NavigationModules\\Views\\WindowBase.xaml.cs",
-              "RelativeToolTip": "WPFAdmin.NavigationModules\\Views\\WindowBase.xaml.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAUwDMAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-14T03:35:06.984Z",
+              "Title": "QQComboBox.xaml",
+              "DocumentMoniker": "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\CustomModules\\Components\\QQComboBox.xaml",
+              "RelativeDocumentMoniker": "CustomModules\\Components\\QQComboBox.xaml",
+              "ToolTip": "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\CustomModules\\Components\\QQComboBox.xaml*",
+              "RelativeToolTip": "CustomModules\\Components\\QQComboBox.xaml*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-01-15T06:06:01.034Z",
               "EditorCaption": ""
             }
           ]

@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0-windows</TargetFramework>
+        <Nullable>enable</Nullable>
+        <UseWPF>true</UseWPF>
+        <ImplicitUsings>enable</ImplicitUsings>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\WPF.Admin.Models\WPF.Admin.Models.csproj" />
+      <ProjectReference Include="..\WPF.Admin.Themes\WPF.Admin.Themes.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Remove="Assets\Img\Carousel\sample1.jpg" />
+      <Resource Include="Assets\Img\Carousel\sample1.jpg" />
+      <None Remove="Assets\Img\Carousel\sample2.jpg" />
+      <Resource Include="Assets\Img\Carousel\sample2.jpg" />
+      <None Remove="Assets\Img\Carousel\sample3.jpg" />
+      <Resource Include="Assets\Img\Carousel\sample3.jpg" />
+    </ItemGroup>
+
+</Project>

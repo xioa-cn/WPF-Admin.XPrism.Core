@@ -29,7 +29,7 @@ public partial class BreadCrumbBar : UserControl {
         if (BaseList == null) return null;
         var index = Array.IndexOf(BaseList.ToArray(), value);
         TreeItemModel? page = null;
-        
+
         if (index > 0 && BaseList[index].IsChecked)
         {
             BaseList[index - 1].IsChecked = true;
@@ -52,6 +52,7 @@ public partial class BreadCrumbBar : UserControl {
             {
             }
         }
+
         NaviControl.olditemModel = page;
         return page;
     }
@@ -88,7 +89,6 @@ public partial class BreadCrumbBar : UserControl {
         navButton.SetBinding(ItemsControl.ItemsSourceProperty, binding);
 
         WeakReferenceMessenger.Default.Register<TreeItemModelMessenger>(this, PageAddItem);
-       
     }
 
     private async void PageAddItem(object recipient, TreeItemModelMessenger message) {
@@ -164,7 +164,7 @@ public partial class BreadCrumbBar : UserControl {
     private async void Eject_Click(object sender, RoutedEventArgs e) {
         if ((sender as Button)?.Tag is not TreeItemModel value) return;
         var nav = value.IsChecked;
-        
+
 
         var page = await BaselistRemove(value);
         if (!nav) return;
@@ -173,6 +173,7 @@ public partial class BreadCrumbBar : UserControl {
         {
             await vm.NavigationService.NavigateAsync($"{RegionName.HomeRegion}/{page.Page}");
         }
+
         WindowBase window = new WindowBase(value) { DataContext = this.DataContext };
         Items.Add(value, window);
         window.ShowAndActivated();
@@ -189,10 +190,14 @@ public partial class BreadCrumbBar : UserControl {
         if (!nav) return;
         if (this.DataContext is MainViewModel vm && page is not null)
         {
-            await vm.NavigationService.NavigateAsync($"{RegionName.HomeRegion}/{page.Page}");
+            var go = await vm.NavigationService.NavigateAsync($"{RegionName.HomeRegion}/{page.Page}");
+            if (go && !value.IsPersistence)
+            {
+                vm.NavigationService.ResetViews($"{RegionName.HomeRegion}/{value.Page}");
+            }
         }
 
-        
+
         if (page is not null)
             WeakReferenceMessenger.Default.Send<NaviSendMessenger<TreeItemModel>>(
                 new NaviSendMessenger<TreeItemModel>(page)

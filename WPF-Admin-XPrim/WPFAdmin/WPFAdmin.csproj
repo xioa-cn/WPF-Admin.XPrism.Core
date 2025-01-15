@@ -16,10 +16,15 @@
     <ItemGroup>
       <ProjectReference Include="..\AboutModules\AboutModules.csproj" />
       <ProjectReference Include="..\AntDiagramModules\AntDiagramModules.csproj" />
+      <ProjectReference Include="..\CarouselModules\CarouselModules.csproj" />
+      <ProjectReference Include="..\CustomModules\CustomModules.csproj" />
       <ProjectReference Include="..\DataValidatorModules\DataValidatorModules.csproj" />
       <ProjectReference Include="..\GanttChartModules\GanttChartModules.csproj" />
+      <ProjectReference Include="..\GetColorModules\GetColorModules.csproj" />
+      <ProjectReference Include="..\InfiniteScrollingModules\InfiniteScrollingModules.csproj" />
       <ProjectReference Include="..\QrCodeModules\QrCodeModules.csproj" />
       <ProjectReference Include="..\RouterEventModules\RouterEventModules.csproj" />
+      <ProjectReference Include="..\TopicModules\TopicModules.csproj" />
       <ProjectReference Include="..\WPF.Admin.Themes\WPF.Admin.Themes.csproj" />
       <ProjectReference Include="..\WPFAdmin.DialogModules\WPFAdmin.DialogModules.csproj" />
       <ProjectReference Include="..\WPFAdmin.NavigationModules\WPFAdmin.NavigationModules.csproj" />
