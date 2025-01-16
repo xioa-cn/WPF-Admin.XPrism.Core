@@ -166,3 +166,16 @@ F:\git\github\WPF-Admin-XPrism\WPF-Admin.XPrism.Core\WPF-Admin-XPrim\WPF.Admin.M
 F:\git\github\WPF-Admin-XPrism\WPF-Admin.XPrism.Core\WPF-Admin-XPrim\WPF.Admin.Models\obj\Debug\net8.0\refint\WPF.Admin.Models.dll
 F:\git\github\WPF-Admin-XPrism\WPF-Admin.XPrism.Core\WPF-Admin-XPrim\WPF.Admin.Models\obj\Debug\net8.0\WPF.Admin.Models.pdb
 F:\git\github\WPF-Admin-XPrism\WPF-Admin.XPrism.Core\WPF-Admin-XPrim\WPF.Admin.Models\obj\Debug\net8.0\ref\WPF.Admin.Models.dll
+E:\git仓库\github\WPF-Admin.XPrism.Core\WPF-Admin-XPrim\WPF.Admin.Models\obj\Debug\net8.0\WPF.Admin.Models.csproj.AssemblyReference.cache
+E:\git仓库\github\WPF-Admin.XPrism.Core\WPF-Admin-XPrim\WPF.Admin.Models\obj\Debug\net8.0\WPF.Admin.Models.GeneratedMSBuildEditorConfig.editorconfig
+E:\git仓库\github\WPF-Admin.XPrism.Core\WPF-Admin-XPrim\WPF.Admin.Models\obj\Debug\net8.0\WPF.Admin.Models.AssemblyInfoInputs.cache
+E:\git仓库\github\WPF-Admin.XPrism.Core\WPF-Admin-XPrim\WPF.Admin.Models\obj\Debug\net8.0\WPF.Admin.Models.AssemblyInfo.cs
+E:\git仓库\github\WPF-Admin.XPrism.Core\WPF-Admin-XPrim\WPF.Admin.Models\obj\Debug\net8.0\WPF.Admin.Models.csproj.CoreCompileInputs.cache
+E:\git仓库\github\WPF-Admin.XPrism.Core\WPF-Admin-XPrim\WPF.Admin.Models\obj\Debug\net8.0\WPF.Admin.Models.sourcelink.json
+E:\git仓库\github\WPF-Admin.XPrism.Core\WPF-Admin-XPrim\WPF.Admin.Models\bin\Debug\net8.0\WPF.Admin.Models.deps.json
+E:\git仓库\github\WPF-Admin.XPrism.Core\WPF-Admin-XPrim\WPF.Admin.Models\bin\Debug\net8.0\WPF.Admin.Models.dll
+E:\git仓库\github\WPF-Admin.XPrism.Core\WPF-Admin-XPrim\WPF.Admin.Models\bin\Debug\net8.0\WPF.Admin.Models.pdb
+E:\git仓库\github\WPF-Admin.XPrism.Core\WPF-Admin-XPrim\WPF.Admin.Models\obj\Debug\net8.0\WPF.Admin.Models.dll
+E:\git仓库\github\WPF-Admin.XPrism.Core\WPF-Admin-XPrim\WPF.Admin.Models\obj\Debug\net8.0\refint\WPF.Admin.Models.dll
+E:\git仓库\github\WPF-Admin.XPrism.Core\WPF-Admin-XPrim\WPF.Admin.Models\obj\Debug\net8.0\WPF.Admin.Models.pdb
+E:\git仓库\github\WPF-Admin.XPrism.Core\WPF-Admin-XPrim\WPF.Admin.Models\obj\Debug\net8.0\ref\WPF.Admin.Models.dll

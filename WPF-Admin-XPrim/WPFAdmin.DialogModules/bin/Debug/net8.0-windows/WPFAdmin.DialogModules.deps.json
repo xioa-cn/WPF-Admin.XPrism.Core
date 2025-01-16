@@ -38,10 +38,7 @@
           "XPrism.Core.wpf": "1.1.3"
         },
         "runtime": {
-          "WPF.Admin.Models.dll": {
-            "assemblyVersion": "1.0.0",
-            "fileVersion": "1.0.0.0"
-          }
+          "WPF.Admin.Models.dll": {}
         }
       }
     }

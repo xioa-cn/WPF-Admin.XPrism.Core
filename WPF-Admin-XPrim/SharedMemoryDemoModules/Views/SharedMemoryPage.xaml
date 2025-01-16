@@ -7,19 +7,20 @@
       xmlns:vm="clr-namespace:SharedMemoryDemoModules.ViewModels"
       d:DataContext="{d:DesignInstance Type=vm:SharedMemoryViewModel}"
       mc:Ignorable="d"
-      Title="SharedMemoryPage" >
+      Title="SharedMemoryPage">
     <Grid>
         <Grid.ColumnDefinitions>
-            <ColumnDefinition/>
-            <ColumnDefinition/>
+            <ColumnDefinition />
+            <ColumnDefinition />
         </Grid.ColumnDefinitions>
         <StackPanel Grid.Column="0">
             <Button Command="{Binding SubscribeCommand}">Subscribe</Button>
+            <Button Command="{Binding UnsubscribeCommand}">Unsubscribe</Button>
             <TextBlock Text="{Binding Message}"></TextBlock>
         </StackPanel>
         <StackPanel Grid.Column="1">
             <Button Command="{Binding PublishMessageCommand}">PublishMessage</Button>
-            <TextBox Text="{Binding Send}"></TextBox>
+            <TextBox Text="{Binding Send,UpdateSourceTrigger=PropertyChanged}"></TextBox>
         </StackPanel>
     </Grid>
 </Page>

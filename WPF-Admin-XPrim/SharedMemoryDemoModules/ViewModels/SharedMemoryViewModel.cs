@@ -22,9 +22,10 @@ public partial class SharedMemoryViewModel : BindableBase {
     private void Subscribe() {
         _sharedMemoryPubSub.Subscribe(MessageTopics.DATA_SYNC, OnThemeChanged);
     }
-    
-    private void OnThemeChanged(SharedMessage message) {
-        var ms = Encoding.UTF8.GetString(message.Data).TrimEnd('\0');
+
+    private void OnThemeChanged((int MessageId, int TopicId, byte[] Data) obj)
+    {
+        var ms = Encoding.UTF8.GetString(obj.Data).TrimEnd('\0');
         Dispatcher.CurrentDispatcher.Invoke(() =>
         {
             Message = ms;
@@ -33,7 +34,7 @@ public partial class SharedMemoryViewModel : BindableBase {
 
     [RelayCommand]
     private void Unsubscribe() {
-        _sharedMemoryPubSub.Unsubscribe(MessageTopics.DATA_SYNC, OnThemeChanged);
+        _sharedMemoryPubSub.Unsubscribe(MessageTopics.DATA_SYNC);
     }
 
     [RelayCommand]

@@ -10,7 +10,7 @@ public partial class App {
             string? mName = System.Diagnostics.Process.GetCurrentProcess().MainModule?.ModuleName;
             string? pName = System.IO.Path.GetFileNameWithoutExtension(mName);
 
-            return System.Diagnostics.Process.GetProcessesByName(pName).Length > 2;
+            return System.Diagnostics.Process.GetProcessesByName(pName).Length > 5;
         }
         
     }
