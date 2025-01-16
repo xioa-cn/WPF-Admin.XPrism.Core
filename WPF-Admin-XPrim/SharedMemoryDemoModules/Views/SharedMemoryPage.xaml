@@ -1,0 +1,25 @@
+﻿<Page x:Class="SharedMemoryDemoModules.Views.SharedMemoryPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+      xmlns:local="clr-namespace:SharedMemoryDemoModules.Views"
+      xmlns:vm="clr-namespace:SharedMemoryDemoModules.ViewModels"
+      d:DataContext="{d:DesignInstance Type=vm:SharedMemoryViewModel}"
+      mc:Ignorable="d"
+      Title="SharedMemoryPage" >
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <StackPanel Grid.Column="0">
+            <Button Command="{Binding SubscribeCommand}">Subscribe</Button>
+            <TextBlock Text="{Binding Message}"></TextBlock>
+        </StackPanel>
+        <StackPanel Grid.Column="1">
+            <Button Command="{Binding PublishMessageCommand}">PublishMessage</Button>
+            <TextBox Text="{Binding Send}"></TextBox>
+        </StackPanel>
+    </Grid>
+</Page>

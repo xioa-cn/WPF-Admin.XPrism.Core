@@ -40,7 +40,7 @@
           }
         }
       },
-      "XPrism.Core.wpf/1.1.1": {
+      "XPrism.Core.wpf/1.1.3": {
         "dependencies": {
           "CommunityToolkit.Mvvm": "8.4.0"
         },
@@ -53,7 +53,7 @@
       },
       "WPF.Admin.Models/1.0.0": {
         "dependencies": {
-          "XPrism.Core.wpf": "1.1.1"
+          "XPrism.Core.wpf": "1.1.3"
         },
         "runtime": {
           "WPF.Admin.Models.dll": {
@@ -103,12 +103,12 @@
       "path": "xioa.wpf.attachedbehaviors/1.1.0",
       "hashPath": "xioa.wpf.attachedbehaviors.1.1.0.nupkg.sha512"
     },
-    "XPrism.Core.wpf/1.1.1": {
+    "XPrism.Core.wpf/1.1.3": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-dodSUYyXsvWwo4+oTScYF0FNyVZNHLj+9C5+FQCfA4JT88csm2RP4c8/hU8KFBruyr3dAM2ETNRX6LYTqX+duA==",
-      "path": "xprism.core.wpf/1.1.1",
-      "hashPath": "xprism.core.wpf.1.1.1.nupkg.sha512"
+      "sha512": "sha512-nwv9a2IIUsYPBGsf0BnlWoX8Bmx+laZhGDltiF0780MhbHrnpfgQtH0J32KPX4YBxj1NKJsyOhALWrnaoDD3Tg==",
+      "path": "xprism.core.wpf/1.1.3",
+      "hashPath": "xprism.core.wpf.1.1.3.nupkg.sha512"
     },
     "WPF.Admin.Models/1.0.0": {
       "type": "project",

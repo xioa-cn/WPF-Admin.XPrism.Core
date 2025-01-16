@@ -21,8 +21,37 @@ public partial class MainPage : Page,INavigationAware {
         {
             if (e.Key == Key.Back)
             {
-                // 阻止BackSpace导航
-                e.Handled = true;
+                // 尝试多种方式获取焦点元素
+                IInputElement? focusedElement = null;
+
+                // 1. 首先尝试 Keyboard.FocusedElement
+                focusedElement = Keyboard.FocusedElement;
+
+                // 2. 如果上面失败，尝试从事件源获取
+                if (focusedElement == null && s is Window window)
+                {
+                    focusedElement = FocusManager.GetFocusedElement(window);
+                }
+
+                // 3. 如果还是失败，尝试从事件原始源获取
+                if (focusedElement == null)
+                {
+                    focusedElement = e.OriginalSource as IInputElement;
+                }
+
+                // 4. 如果获取到了焦点元素，检查类型
+                if (focusedElement != null)
+                {
+                    bool isEditableControl = focusedElement is TextBox || 
+                                             focusedElement is PasswordBox || 
+                                             focusedElement is RichTextBox ||
+                                             (focusedElement is ComboBox combo && combo.IsEditable);
+
+                    if (!isEditableControl)
+                    {
+                        e.Handled = true;
+                    }
+                }
             }
         };
     }

@@ -8,6 +8,19 @@
     </PropertyGroup>
 
     <ItemGroup>
+        <!-- 先移除默认包含的文件 -->
+        <Page Remove="Views\BlendPage.xaml" />
+        <!-- 然后重新添加，指定明确的配置 -->
+        <Page Include="Views\BlendPage.xaml">
+            <SubType>Designer</SubType>
+            <Generator>MSBuild:Compile</Generator>
+        </Page>
+        <Compile Update="Views\BlendPage.xaml.cs">
+            <DependentUpon>BlendPage.xaml</DependentUpon>
+        </Compile>
+    </ItemGroup>
+    
+    <ItemGroup>
       <ProjectReference Include="..\WPF.Admin.Models\WPF.Admin.Models.csproj" />
       <ProjectReference Include="..\WPF.Admin.Themes\WPF.Admin.Themes.csproj" />
     </ItemGroup>

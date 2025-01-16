@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "6sQrprpkct8=",
+  "dgSpecHash": "TJ3smh+jef4=",
   "success": true,
   "projectFilePath": "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\CarouselModules\\CarouselModules.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Administrator\\.nuget\\packages\\communitytoolkit.mvvm\\8.4.0\\communitytoolkit.mvvm.8.4.0.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\handycontrol\\3.5.1\\handycontrol.3.5.1.nupkg.sha512",
-    "C:\\Users\\Administrator\\.nuget\\packages\\xprism.core.wpf\\1.1.1\\xprism.core.wpf.1.1.1.nupkg.sha512"
+    "C:\\Users\\Administrator\\.nuget\\packages\\xprism.core.wpf\\1.1.3\\xprism.core.wpf.1.1.3.nupkg.sha512"
   ],
   "logs": []
 }

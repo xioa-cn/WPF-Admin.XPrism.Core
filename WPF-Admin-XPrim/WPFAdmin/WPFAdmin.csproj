@@ -24,9 +24,11 @@
       <ProjectReference Include="..\InfiniteScrollingModules\InfiniteScrollingModules.csproj" />
       <ProjectReference Include="..\QrCodeModules\QrCodeModules.csproj" />
       <ProjectReference Include="..\RouterEventModules\RouterEventModules.csproj" />
+      <ProjectReference Include="..\SharedMemoryDemoModules\SharedMemoryDemoModules.csproj" />
       <ProjectReference Include="..\TopicModules\TopicModules.csproj" />
       <ProjectReference Include="..\WPF.Admin.Themes\WPF.Admin.Themes.csproj" />
       <ProjectReference Include="..\WPFAdmin.DialogModules\WPFAdmin.DialogModules.csproj" />
+      <ProjectReference Include="..\WPFAdmin.LoginModules\WPFAdmin.LoginModules.csproj" />
       <ProjectReference Include="..\WPFAdmin.NavigationModules\WPFAdmin.NavigationModules.csproj" />
     </ItemGroup>
 
@@ -38,6 +40,9 @@
         <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       </None>
       <None Update="router.json">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="appSettings.json">
         <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       </None>
     </ItemGroup>

@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DataValidatorModules")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1e1f8653bcd1a232acf544c4c45c53691c3892bc")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3cef9f9c8d90dd7d993611d230a2fb1be1568509")]
 [assembly: System.Reflection.AssemblyProductAttribute("DataValidatorModules")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DataValidatorModules")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

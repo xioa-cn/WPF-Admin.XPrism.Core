@@ -76,6 +76,10 @@
           "page": "UseQQComboBox"
         },
         {
+          "content": "内存通信",
+          "page": "SharedMemoryPage"
+        },
+        {
           "content": "图形Border",
           "page": "ShapeBorder.ShapeBorderPage"
         },

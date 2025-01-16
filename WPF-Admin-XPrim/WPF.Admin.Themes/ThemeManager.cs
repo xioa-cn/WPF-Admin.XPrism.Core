@@ -69,11 +69,11 @@ public partial class ThemeManager : BindableBase
     // 自定义主题资源
     private static readonly ResourceDictionary CustomLightTheme = new()
     { 
-        Source = new Uri("pack://application:,,,/WPF.Admin.Themes;component/Themes/GreenTheme.xaml") 
+        Source = new Uri("pack://application:,,,/WPF.Admin.Themes;component/Themes/CyanTheme.xaml") 
     };
     private static readonly ResourceDictionary CustomDarkTheme = new()
     { 
-        Source = new Uri("pack://application:,,,/WPF.Admin.Themes;component/Themes/DarkGreenTheme.xaml") 
+        Source = new Uri("pack://application:,,,/WPF.Admin.Themes;component/Themes/DarkCyanTheme.xaml") 
     };
     private void UpdateThemeResource(Collection<ResourceDictionary> resources, 
         ResourceDictionary lightTheme, ResourceDictionary darkTheme,bool hc=false)

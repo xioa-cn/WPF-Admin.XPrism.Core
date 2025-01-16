@@ -5,9 +5,9 @@
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
       xmlns:local="clr-namespace:TopicModules.Views"
       mc:Ignorable="d"
-      Title="BlendentPage" >
+      >
     <ScrollViewer VerticalScrollBarVisibility="Auto">
-        <WrapPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+        <WrapPanel >
             <Border
                 Width="300"
                 Height="60"

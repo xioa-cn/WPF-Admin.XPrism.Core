@@ -10,8 +10,9 @@
     xmlns:region="clr-namespace:WPF.Admin.Models.Models;assembly=WPF.Admin.Models"
     xmlns:xPrism="clr-namespace:XPrism.Core.DataContextWindow;assembly=XPrism.Core"
     Title="Admin.XPrism.Core"
-    Width="1200"
-    Height="775"
+    xmlns:res="clr-namespace:WPFAdmin.Config"
+    Width="{Binding Source={x:Static res:Configs.Default},Path=Width}"
+    Height="{Binding Source={x:Static res:Configs.Default},Path=Height}"
     AllowsTransparency="True"
     Background="{x:Null}"
     ResizeMode="CanResizeWithGrip"
@@ -25,8 +26,10 @@
         <Style TargetType="{x:Type Window}">
             <Setter Property="FontFamily" Value="Microsoft YaHei" />
             <Setter Property="FontWeight" Value="ExtraLight" />
-            <Setter Property="MaxHeight" Value="{Binding Source={x:Static SystemParameters.WorkArea}, Path=Height, Converter={StaticResource ConvertToDouble}}" />
-            <Setter Property="MaxWidth" Value="{Binding Source={x:Static SystemParameters.WorkArea}, Path=Width, Converter={StaticResource ConvertToDouble}}" />
+            <Setter Property="MaxHeight"
+                    Value="{Binding Source={x:Static SystemParameters.WorkArea}, Path=Height, Converter={StaticResource ConvertToDouble}}" />
+            <Setter Property="MaxWidth"
+                    Value="{Binding Source={x:Static SystemParameters.WorkArea}, Path=Width, Converter={StaticResource ConvertToDouble}}" />
             <Setter Property="Template">
                 <Setter.Value>
                     <ControlTemplate TargetType="{x:Type Window}">

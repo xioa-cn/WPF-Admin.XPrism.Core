@@ -8,7 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="XPrism.Core.wpf" Version="1.1.1" />
+    <PackageReference Include="XPrism.Core.wpf" Version="1.1.3" />
   </ItemGroup>
 
   <ItemGroup>

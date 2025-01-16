@@ -3,6 +3,26 @@
   "WorkspaceRootPath": "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{720EF34A-9CE7-4EBD-A7BA-5B1E7F0BD173}|WPFAdmin.NavigationModules\\WPFAdmin.NavigationModules.csproj|f:\\git\\github\\wpf-admin-xprism\\wpf-admin.xprism.core\\wpf-admin-xprim\\wpfadmin.navigationmodules\\components\\breadcrumbbar.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{720EF34A-9CE7-4EBD-A7BA-5B1E7F0BD173}|WPFAdmin.NavigationModules\\WPFAdmin.NavigationModules.csproj|solutionrelative:wpfadmin.navigationmodules\\components\\breadcrumbbar.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3EF4D945-2E87-4087-94E5-3958770149BF}|TopicModules\\TopicModules.csproj|f:\\git\\github\\wpf-admin-xprism\\wpf-admin.xprism.core\\wpf-admin-xprim\\topicmodules\\views\\topicview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{3EF4D945-2E87-4087-94E5-3958770149BF}|TopicModules\\TopicModules.csproj|solutionrelative:topicmodules\\views\\topicview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3EF4D945-2E87-4087-94E5-3958770149BF}|TopicModules\\TopicModules.csproj|f:\\git\\github\\wpf-admin-xprism\\wpf-admin.xprism.core\\wpf-admin-xprim\\topicmodules\\views\\blendpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{3EF4D945-2E87-4087-94E5-3958770149BF}|TopicModules\\TopicModules.csproj|solutionrelative:topicmodules\\views\\blendpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3EF4D945-2E87-4087-94E5-3958770149BF}|TopicModules\\TopicModules.csproj|f:\\git\\github\\wpf-admin-xprism\\wpf-admin.xprism.core\\wpf-admin-xprim\\topicmodules\\views\\colorsystempage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{3EF4D945-2E87-4087-94E5-3958770149BF}|TopicModules\\TopicModules.csproj|solutionrelative:topicmodules\\views\\colorsystempage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3EF4D945-2E87-4087-94E5-3958770149BF}|TopicModules\\TopicModules.csproj|f:\\git\\github\\wpf-admin-xprism\\wpf-admin.xprism.core\\wpf-admin-xprim\\topicmodules\\views\\blendentpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{3EF4D945-2E87-4087-94E5-3958770149BF}|TopicModules\\TopicModules.csproj|solutionrelative:topicmodules\\views\\blendentpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{197062BB-62A5-4116-821A-652FEF37E731}|CustomModules\\CustomModules.csproj|f:\\git\\github\\wpf-admin-xprism\\wpf-admin.xprism.core\\wpf-admin-xprim\\custommodules\\components\\qqcombobox.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{197062BB-62A5-4116-821A-652FEF37E731}|CustomModules\\CustomModules.csproj|solutionrelative:custommodules\\components\\qqcombobox.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
@@ -14,11 +34,72 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TopicView.xaml",
+              "DocumentMoniker": "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\TopicModules\\Views\\TopicView.xaml",
+              "RelativeDocumentMoniker": "TopicModules\\Views\\TopicView.xaml",
+              "ToolTip": "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\TopicModules\\Views\\TopicView.xaml",
+              "RelativeToolTip": "TopicModules\\Views\\TopicView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-01-16T04:54:08.737Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ColorSystemPage.xaml",
+              "DocumentMoniker": "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\TopicModules\\Views\\ColorSystemPage.xaml",
+              "RelativeDocumentMoniker": "TopicModules\\Views\\ColorSystemPage.xaml",
+              "ToolTip": "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\TopicModules\\Views\\ColorSystemPage.xaml",
+              "RelativeToolTip": "TopicModules\\Views\\ColorSystemPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-01-16T04:53:42.925Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BlendPage.xaml",
+              "DocumentMoniker": "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\TopicModules\\Views\\BlendPage.xaml",
+              "RelativeDocumentMoniker": "TopicModules\\Views\\BlendPage.xaml",
+              "ToolTip": "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\TopicModules\\Views\\BlendPage.xaml",
+              "RelativeToolTip": "TopicModules\\Views\\BlendPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-01-16T04:53:22.523Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "BreadCrumbBar.xaml.cs",
+              "DocumentMoniker": "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPFAdmin.NavigationModules\\Components\\BreadCrumbBar.xaml.cs",
+              "RelativeDocumentMoniker": "WPFAdmin.NavigationModules\\Components\\BreadCrumbBar.xaml.cs",
+              "ToolTip": "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPFAdmin.NavigationModules\\Components\\BreadCrumbBar.xaml.cs",
+              "RelativeToolTip": "WPFAdmin.NavigationModules\\Components\\BreadCrumbBar.xaml.cs",
+              "ViewState": "AgIAAF4AAAAAAAAAAAA0wHUAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T04:43:51.503Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BlendentPage.xaml",
+              "DocumentMoniker": "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\TopicModules\\Views\\BlendentPage.xaml",
+              "RelativeDocumentMoniker": "TopicModules\\Views\\BlendentPage.xaml",
+              "ToolTip": "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\TopicModules\\Views\\BlendentPage.xaml",
+              "RelativeToolTip": "TopicModules\\Views\\BlendentPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-01-16T04:32:40.488Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "QQComboBox.xaml",
               "DocumentMoniker": "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\CustomModules\\Components\\QQComboBox.xaml",
               "RelativeDocumentMoniker": "CustomModules\\Components\\QQComboBox.xaml",

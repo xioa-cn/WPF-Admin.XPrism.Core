@@ -1,5 +1,6 @@
-﻿namespace TopicModules.ViewModels;
+﻿using WPF.Admin.Models;
 
-public class BlendentViewModel {
-    
+namespace TopicModules.ViewModels;
+
+public class BlendentViewModel : BindableBase {
 }

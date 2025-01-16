@@ -1,5 +1,4 @@
-﻿using System.Reflection;
-using TopicModules.ViewModels;
+﻿using TopicModules.ViewModels;
 using TopicModules.Views;
 using WPF.Admin.Models.Models;
 using XPrism.Core.DI;
@@ -15,6 +14,7 @@ public class TopicModule : IModule {
         var regionManager = containerRegistry.Resolve<IRegionManager>();
         regionManager.RegisterForNavigation<TopicView, TopicViewModel>(RegionName.HomeRegion,
             "TopicView");
+    
     }
 
     public void OnInitialized(IContainerProvider containerProvider) {
