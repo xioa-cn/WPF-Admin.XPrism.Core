@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "FakoB0kDDwyDGNs9NRluwkA60opWLCN5vUuxtu0NaK+OtyK0B4STGJSV8gcpaQScsYELDpwLhKf1pW2oGuZ+UQ==",
+  "dgSpecHash": "Lv8KLolOwxs=",
   "success": true,
-  "projectFilePath": "E:\\git仓库\\github\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\AboutModules\\AboutModules.csproj",
+  "projectFilePath": "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\AboutModules\\AboutModules.csproj",
   "expectedPackageFiles": [
-    "D:\\nuget\\communitytoolkit.mvvm\\8.4.0\\communitytoolkit.mvvm.8.4.0.nupkg.sha512",
-    "D:\\nuget\\handycontrol\\3.5.1\\handycontrol.3.5.1.nupkg.sha512",
-    "D:\\nuget\\xprism.core.wpf\\1.1.3\\xprism.core.wpf.1.1.3.nupkg.sha512"
+    "C:\\Users\\Administrator\\.nuget\\packages\\communitytoolkit.mvvm\\8.4.0\\communitytoolkit.mvvm.8.4.0.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\handycontrol\\3.5.1\\handycontrol.3.5.1.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\xprism.core.wpf\\1.1.3\\xprism.core.wpf.1.1.3.nupkg.sha512"
   ],
   "logs": []
 }

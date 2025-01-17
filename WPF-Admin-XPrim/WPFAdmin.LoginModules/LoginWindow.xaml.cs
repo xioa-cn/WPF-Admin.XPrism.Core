@@ -1,6 +1,7 @@
 ﻿using System.Diagnostics;
 using System.Windows;
 using WPF.Admin.Themes.Themes;
+using XPrism.Core.DI;
 
 namespace WPFAdmin.LoginModules;
 
@@ -8,7 +9,14 @@ public partial class LoginWindow : Window {
     public LoginWindow() {
         this.DataContext = new LoginViewModel();
         InitializeComponent();
-        this.Closed += ClosedMethod;
+        // this.Closed += ClosedMethod;
+    }
+
+    public void SuccessLogin() {
+        var mainWindow =
+            XPrismIoc.FetchXPrismWindow("MainWindow");
+
+        this.SwitchWindow(mainWindow);
     }
 
     private void ClosedMethod(object? sender, EventArgs e) {
@@ -18,6 +26,8 @@ public partial class LoginWindow : Window {
 
     private void CloseWindow_Click(object sender, RoutedEventArgs e) {
         this.Close();
+        this.CloseWindowWithFade();
+        Environment.Exit(0);
     }
 
     private void Hyperlink_RequestNavigate(object sender, System.Windows.Navigation.RequestNavigateEventArgs e) {

@@ -12,13 +12,13 @@ public partial class LoginViewModel : BindableBase {
     [ObservableProperty] private string? _userName;
     [ObservableProperty] private string? _password;
     [ObservableProperty] private bool _rememberPassword;
-    public LoginViewModel()
-    {
+
+    public LoginViewModel() {
         UserName = "xioa";
     }
+
     [RelayCommand]
-    private async Task Login(System.Windows.Window window)
-    {
+    private async Task Login(System.Windows.Window window) {
         window.IsEnabled = false;
 
         try
@@ -32,15 +32,15 @@ public partial class LoginViewModel : BindableBase {
                     Password = Password,
                     LoginAuth = LoginAuth.Admin,
                 };
-                window.Close();
+                (window as LoginWindow).SuccessLogin();
                 Growl.Success($"Login Success!! {UserName}");
             }
         }
         catch (System.Exception ex)
         {
             MessageBox.Show(ex.Message);
-
         }
+
         window.IsEnabled = true;
     }
 }

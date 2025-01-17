@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "E:\\git仓库\\github\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPFAdmin\\WPFAdmin.csproj": {}
+    "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPFAdmin\\WPFAdmin.csproj": {}
   },
   "projects": {
-    "E:\\git仓库\\github\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\AboutModules\\AboutModules.csproj": {
+    "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\AboutModules\\AboutModules.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\git仓库\\github\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\AboutModules\\AboutModules.csproj",
+        "projectUniqueName": "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\AboutModules\\AboutModules.csproj",
         "projectName": "AboutModules",
-        "projectPath": "E:\\git仓库\\github\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\AboutModules\\AboutModules.csproj",
-        "packagesPath": "D:\\nuget",
-        "outputPath": "E:\\git仓库\\github\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\AboutModules\\obj\\",
+        "projectPath": "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\AboutModules\\AboutModules.csproj",
+        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "outputPath": "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\AboutModules\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "E:\\SDK\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\刘\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -29,11 +33,11 @@
           "net8.0-windows7.0": {
             "targetAlias": "net8.0-windows",
             "projectReferences": {
-              "E:\\git仓库\\github\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPF.Admin.Models\\WPF.Admin.Models.csproj": {
-                "projectPath": "E:\\git仓库\\github\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPF.Admin.Models\\WPF.Admin.Models.csproj"
+              "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPF.Admin.Models\\WPF.Admin.Models.csproj": {
+                "projectPath": "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPF.Admin.Models\\WPF.Admin.Models.csproj"
               },
-              "E:\\git仓库\\github\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPF.Admin.Themes\\WPF.Admin.Themes.csproj": {
-                "projectPath": "E:\\git仓库\\github\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPF.Admin.Themes\\WPF.Admin.Themes.csproj"
+              "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPF.Admin.Themes\\WPF.Admin.Themes.csproj": {
+                "projectPath": "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPF.Admin.Themes\\WPF.Admin.Themes.csproj"
               }
             }
           }
@@ -42,7 +46,13 @@
           "warnAsError": [
             "NU1605"
           ]
-        }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net8.0-windows7.0": {
@@ -66,21 +76,25 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200-preview.0.24575.35/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\git仓库\\github\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\AntDiagramModules\\AntDiagramModules.csproj": {
+    "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\AntDiagramModules\\AntDiagramModules.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\git仓库\\github\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\AntDiagramModules\\AntDiagramModules.csproj",
+        "projectUniqueName": "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\AntDiagramModules\\AntDiagramModules.csproj",
         "projectName": "AntDiagramModules",
-        "projectPath": "E:\\git仓库\\github\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\AntDiagramModules\\AntDiagramModules.csproj",
-        "packagesPath": "D:\\nuget",
-        "outputPath": "E:\\git仓库\\github\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\AntDiagramModules\\obj\\",
+        "projectPath": "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\AntDiagramModules\\AntDiagramModules.csproj",
+        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "outputPath": "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\AntDiagramModules\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "E:\\SDK\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\刘\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -95,11 +109,11 @@
           "net8.0-windows7.0": {
             "targetAlias": "net8.0-windows",
             "projectReferences": {
-              "E:\\git仓库\\github\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPF.Admin.Models\\WPF.Admin.Models.csproj": {
-                "projectPath": "E:\\git仓库\\github\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPF.Admin.Models\\WPF.Admin.Models.csproj"
+              "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPF.Admin.Models\\WPF.Admin.Models.csproj": {
+                "projectPath": "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPF.Admin.Models\\WPF.Admin.Models.csproj"
               },
-              "E:\\git仓库\\github\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPF.Admin.Themes\\WPF.Admin.Themes.csproj": {
-                "projectPath": "E:\\git仓库\\github\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPF.Admin.Themes\\WPF.Admin.Themes.csproj"
+              "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPF.Admin.Themes\\WPF.Admin.Themes.csproj": {
+                "projectPath": "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPF.Admin.Themes\\WPF.Admin.Themes.csproj"
               }
             }
           }
@@ -108,7 +122,13 @@
           "warnAsError": [
             "NU1605"
           ]
-        }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net8.0-windows7.0": {
@@ -132,21 +152,25 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200-preview.0.24575.35/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\git仓库\\github\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\CarouselModules\\CarouselModules.csproj": {
+    "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\CarouselModules\\CarouselModules.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\git仓库\\github\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\CarouselModules\\CarouselModules.csproj",
+        "projectUniqueName": "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\CarouselModules\\CarouselModules.csproj",
         "projectName": "CarouselModules",
-        "projectPath": "E:\\git仓库\\github\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\CarouselModules\\CarouselModules.csproj",
-        "packagesPath": "D:\\nuget",
-        "outputPath": "E:\\git仓库\\github\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\CarouselModules\\obj\\",
+        "projectPath": "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\CarouselModules\\CarouselModules.csproj",
+        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "outputPath": "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\CarouselModules\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "E:\\SDK\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\刘\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -161,11 +185,11 @@
           "net8.0-windows7.0": {
             "targetAlias": "net8.0-windows",
             "projectReferences": {
-              "E:\\git仓库\\github\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPF.Admin.Models\\WPF.Admin.Models.csproj": {
-                "projectPath": "E:\\git仓库\\github\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPF.Admin.Models\\WPF.Admin.Models.csproj"
+              "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPF.Admin.Models\\WPF.Admin.Models.csproj": {
+                "projectPath": "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPF.Admin.Models\\WPF.Admin.Models.csproj"
               },
-              "E:\\git仓库\\github\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPF.Admin.Themes\\WPF.Admin.Themes.csproj": {
-                "projectPath": "E:\\git仓库\\github\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPF.Admin.Themes\\WPF.Admin.Themes.csproj"
+              "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPF.Admin.Themes\\WPF.Admin.Themes.csproj": {
+                "projectPath": "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPF.Admin.Themes\\WPF.Admin.Themes.csproj"
               }
             }
           }
@@ -174,7 +198,13 @@
           "warnAsError": [
             "NU1605"
           ]
-        }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net8.0-windows7.0": {
@@ -198,21 +228,25 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200-preview.0.24575.35/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\git仓库\\github\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\CustomModules\\CustomModules.csproj": {
+    "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\CustomModules\\CustomModules.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\git仓库\\github\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\CustomModules\\CustomModules.csproj",
+        "projectUniqueName": "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\CustomModules\\CustomModules.csproj",
         "projectName": "CustomModules",
-        "projectPath": "E:\\git仓库\\github\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\CustomModules\\CustomModules.csproj",
-        "packagesPath": "D:\\nuget",
-        "outputPath": "E:\\git仓库\\github\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\CustomModules\\obj\\",
+        "projectPath": "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\CustomModules\\CustomModules.csproj",
+        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "outputPath": "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\CustomModules\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "E:\\SDK\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\刘\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -227,11 +261,11 @@
           "net8.0-windows7.0": {
             "targetAlias": "net8.0-windows",
             "projectReferences": {
-              "E:\\git仓库\\github\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPF.Admin.Models\\WPF.Admin.Models.csproj": {
-                "projectPath": "E:\\git仓库\\github\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPF.Admin.Models\\WPF.Admin.Models.csproj"
+              "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPF.Admin.Models\\WPF.Admin.Models.csproj": {
+                "projectPath": "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPF.Admin.Models\\WPF.Admin.Models.csproj"
               },
-              "E:\\git仓库\\github\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPF.Admin.Themes\\WPF.Admin.Themes.csproj": {
-                "projectPath": "E:\\git仓库\\github\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPF.Admin.Themes\\WPF.Admin.Themes.csproj"
+              "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPF.Admin.Themes\\WPF.Admin.Themes.csproj": {
+                "projectPath": "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPF.Admin.Themes\\WPF.Admin.Themes.csproj"
               }
             }
           }
@@ -240,7 +274,13 @@
           "warnAsError": [
             "NU1605"
           ]
-        }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net8.0-windows7.0": {
@@ -264,21 +304,25 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200-preview.0.24575.35/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\git仓库\\github\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\DataValidatorModules\\DataValidatorModules.csproj": {
+    "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\DataValidatorModules\\DataValidatorModules.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\git仓库\\github\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\DataValidatorModules\\DataValidatorModules.csproj",
+        "projectUniqueName": "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\DataValidatorModules\\DataValidatorModules.csproj",
         "projectName": "DataValidatorModules",
-        "projectPath": "E:\\git仓库\\github\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\DataValidatorModules\\DataValidatorModules.csproj",
-        "packagesPath": "D:\\nuget",
-        "outputPath": "E:\\git仓库\\github\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\DataValidatorModules\\obj\\",
+        "projectPath": "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\DataValidatorModules\\DataValidatorModules.csproj",
+        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "outputPath": "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\DataValidatorModules\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "E:\\SDK\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\刘\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -293,11 +337,11 @@
           "net8.0-windows7.0": {
             "targetAlias": "net8.0-windows",
             "projectReferences": {
-              "E:\\git仓库\\github\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPF.Admin.Models\\WPF.Admin.Models.csproj": {
-                "projectPath": "E:\\git仓库\\github\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPF.Admin.Models\\WPF.Admin.Models.csproj"
+              "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPF.Admin.Models\\WPF.Admin.Models.csproj": {
+                "projectPath": "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPF.Admin.Models\\WPF.Admin.Models.csproj"
               },
-              "E:\\git仓库\\github\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPF.Admin.Themes\\WPF.Admin.Themes.csproj": {
-                "projectPath": "E:\\git仓库\\github\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPF.Admin.Themes\\WPF.Admin.Themes.csproj"
+              "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPF.Admin.Themes\\WPF.Admin.Themes.csproj": {
+                "projectPath": "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPF.Admin.Themes\\WPF.Admin.Themes.csproj"
               }
             }
           }
@@ -306,7 +350,13 @@
           "warnAsError": [
             "NU1605"
           ]
-        }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net8.0-windows7.0": {
@@ -330,21 +380,25 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200-preview.0.24575.35/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\git仓库\\github\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\GanttChartModules\\GanttChartModules.csproj": {
+    "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\GanttChartModules\\GanttChartModules.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\git仓库\\github\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\GanttChartModules\\GanttChartModules.csproj",
+        "projectUniqueName": "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\GanttChartModules\\GanttChartModules.csproj",
         "projectName": "GanttChartModules",
-        "projectPath": "E:\\git仓库\\github\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\GanttChartModules\\GanttChartModules.csproj",
-        "packagesPath": "D:\\nuget",
-        "outputPath": "E:\\git仓库\\github\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\GanttChartModules\\obj\\",
+        "projectPath": "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\GanttChartModules\\GanttChartModules.csproj",
+        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "outputPath": "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\GanttChartModules\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "E:\\SDK\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\刘\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -359,11 +413,11 @@
           "net8.0-windows7.0": {
             "targetAlias": "net8.0-windows",
             "projectReferences": {
-              "E:\\git仓库\\github\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPF.Admin.Models\\WPF.Admin.Models.csproj": {
-                "projectPath": "E:\\git仓库\\github\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPF.Admin.Models\\WPF.Admin.Models.csproj"
+              "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPF.Admin.Models\\WPF.Admin.Models.csproj": {
+                "projectPath": "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPF.Admin.Models\\WPF.Admin.Models.csproj"
               },
-              "E:\\git仓库\\github\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPF.Admin.Themes\\WPF.Admin.Themes.csproj": {
-                "projectPath": "E:\\git仓库\\github\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPF.Admin.Themes\\WPF.Admin.Themes.csproj"
+              "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPF.Admin.Themes\\WPF.Admin.Themes.csproj": {
+                "projectPath": "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPF.Admin.Themes\\WPF.Admin.Themes.csproj"
               }
             }
           }
@@ -372,7 +426,13 @@
           "warnAsError": [
             "NU1605"
           ]
-        }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net8.0-windows7.0": {
@@ -396,21 +456,25 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200-preview.0.24575.35/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\git仓库\\github\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\GetColorModules\\GetColorModules.csproj": {
+    "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\GetColorModules\\GetColorModules.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\git仓库\\github\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\GetColorModules\\GetColorModules.csproj",
+        "projectUniqueName": "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\GetColorModules\\GetColorModules.csproj",
         "projectName": "GetColorModules",
-        "projectPath": "E:\\git仓库\\github\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\GetColorModules\\GetColorModules.csproj",
-        "packagesPath": "D:\\nuget",
-        "outputPath": "E:\\git仓库\\github\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\GetColorModules\\obj\\",
+        "projectPath": "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\GetColorModules\\GetColorModules.csproj",
+        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "outputPath": "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\GetColorModules\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "E:\\SDK\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\刘\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -425,11 +489,11 @@
           "net8.0-windows7.0": {
             "targetAlias": "net8.0-windows",
             "projectReferences": {
-              "E:\\git仓库\\github\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPF.Admin.Models\\WPF.Admin.Models.csproj": {
-                "projectPath": "E:\\git仓库\\github\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPF.Admin.Models\\WPF.Admin.Models.csproj"
+              "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPF.Admin.Models\\WPF.Admin.Models.csproj": {
+                "projectPath": "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPF.Admin.Models\\WPF.Admin.Models.csproj"
               },
-              "E:\\git仓库\\github\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPF.Admin.Themes\\WPF.Admin.Themes.csproj": {
-                "projectPath": "E:\\git仓库\\github\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPF.Admin.Themes\\WPF.Admin.Themes.csproj"
+              "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPF.Admin.Themes\\WPF.Admin.Themes.csproj": {
+                "projectPath": "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPF.Admin.Themes\\WPF.Admin.Themes.csproj"
               }
             }
           }
@@ -438,7 +502,13 @@
           "warnAsError": [
             "NU1605"
           ]
-        }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net8.0-windows7.0": {
@@ -468,21 +538,25 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200-preview.0.24575.35/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\git仓库\\github\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\InfiniteScrollingModules\\InfiniteScrollingModules.csproj": {
+    "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\InfiniteScrollingModules\\InfiniteScrollingModules.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\git仓库\\github\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\InfiniteScrollingModules\\InfiniteScrollingModules.csproj",
+        "projectUniqueName": "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\InfiniteScrollingModules\\InfiniteScrollingModules.csproj",
         "projectName": "InfiniteScrollingModules",
-        "projectPath": "E:\\git仓库\\github\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\InfiniteScrollingModules\\InfiniteScrollingModules.csproj",
-        "packagesPath": "D:\\nuget",
-        "outputPath": "E:\\git仓库\\github\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\InfiniteScrollingModules\\obj\\",
+        "projectPath": "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\InfiniteScrollingModules\\InfiniteScrollingModules.csproj",
+        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "outputPath": "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\InfiniteScrollingModules\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "E:\\SDK\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\刘\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -497,11 +571,11 @@
           "net8.0-windows7.0": {
             "targetAlias": "net8.0-windows",
             "projectReferences": {
-              "E:\\git仓库\\github\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPF.Admin.Models\\WPF.Admin.Models.csproj": {
-                "projectPath": "E:\\git仓库\\github\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPF.Admin.Models\\WPF.Admin.Models.csproj"
+              "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPF.Admin.Models\\WPF.Admin.Models.csproj": {
+                "projectPath": "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPF.Admin.Models\\WPF.Admin.Models.csproj"
               },
-              "E:\\git仓库\\github\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPF.Admin.Themes\\WPF.Admin.Themes.csproj": {
-                "projectPath": "E:\\git仓库\\github\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPF.Admin.Themes\\WPF.Admin.Themes.csproj"
+              "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPF.Admin.Themes\\WPF.Admin.Themes.csproj": {
+                "projectPath": "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPF.Admin.Themes\\WPF.Admin.Themes.csproj"
               }
             }
           }
@@ -510,7 +584,13 @@
           "warnAsError": [
             "NU1605"
           ]
-        }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net8.0-windows7.0": {
@@ -534,21 +614,25 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200-preview.0.24575.35/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\git仓库\\github\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\QrCodeModules\\QrCodeModules.csproj": {
+    "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\QrCodeModules\\QrCodeModules.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\git仓库\\github\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\QrCodeModules\\QrCodeModules.csproj",
+        "projectUniqueName": "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\QrCodeModules\\QrCodeModules.csproj",
         "projectName": "QrCodeModules",
-        "projectPath": "E:\\git仓库\\github\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\QrCodeModules\\QrCodeModules.csproj",
-        "packagesPath": "D:\\nuget",
-        "outputPath": "E:\\git仓库\\github\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\QrCodeModules\\obj\\",
+        "projectPath": "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\QrCodeModules\\QrCodeModules.csproj",
+        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "outputPath": "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\QrCodeModules\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "E:\\SDK\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\刘\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -563,11 +647,11 @@
           "net8.0-windows7.0": {
             "targetAlias": "net8.0-windows",
             "projectReferences": {
-              "E:\\git仓库\\github\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPF.Admin.Models\\WPF.Admin.Models.csproj": {
-                "projectPath": "E:\\git仓库\\github\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPF.Admin.Models\\WPF.Admin.Models.csproj"
+              "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPF.Admin.Models\\WPF.Admin.Models.csproj": {
+                "projectPath": "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPF.Admin.Models\\WPF.Admin.Models.csproj"
               },
-              "E:\\git仓库\\github\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPF.Admin.Themes\\WPF.Admin.Themes.csproj": {
-                "projectPath": "E:\\git仓库\\github\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPF.Admin.Themes\\WPF.Admin.Themes.csproj"
+              "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPF.Admin.Themes\\WPF.Admin.Themes.csproj": {
+                "projectPath": "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPF.Admin.Themes\\WPF.Admin.Themes.csproj"
               }
             }
           }
@@ -576,7 +660,13 @@
           "warnAsError": [
             "NU1605"
           ]
-        }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net8.0-windows7.0": {
@@ -614,21 +704,25 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200-preview.0.24575.35/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\git仓库\\github\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\RouterEventModules\\RouterEventModules.csproj": {
+    "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\RouterEventModules\\RouterEventModules.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\git仓库\\github\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\RouterEventModules\\RouterEventModules.csproj",
+        "projectUniqueName": "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\RouterEventModules\\RouterEventModules.csproj",
         "projectName": "RouterEventModules",
-        "projectPath": "E:\\git仓库\\github\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\RouterEventModules\\RouterEventModules.csproj",
-        "packagesPath": "D:\\nuget",
-        "outputPath": "E:\\git仓库\\github\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\RouterEventModules\\obj\\",
+        "projectPath": "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\RouterEventModules\\RouterEventModules.csproj",
+        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "outputPath": "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\RouterEventModules\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "E:\\SDK\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\刘\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -643,11 +737,11 @@
           "net8.0-windows7.0": {
             "targetAlias": "net8.0-windows",
             "projectReferences": {
-              "E:\\git仓库\\github\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPF.Admin.Models\\WPF.Admin.Models.csproj": {
-                "projectPath": "E:\\git仓库\\github\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPF.Admin.Models\\WPF.Admin.Models.csproj"
+              "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPF.Admin.Models\\WPF.Admin.Models.csproj": {
+                "projectPath": "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPF.Admin.Models\\WPF.Admin.Models.csproj"
               },
-              "E:\\git仓库\\github\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPF.Admin.Themes\\WPF.Admin.Themes.csproj": {
-                "projectPath": "E:\\git仓库\\github\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPF.Admin.Themes\\WPF.Admin.Themes.csproj"
+              "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPF.Admin.Themes\\WPF.Admin.Themes.csproj": {
+                "projectPath": "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPF.Admin.Themes\\WPF.Admin.Themes.csproj"
               }
             }
           }
@@ -656,7 +750,13 @@
           "warnAsError": [
             "NU1605"
           ]
-        }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net8.0-windows7.0": {
@@ -680,21 +780,25 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200-preview.0.24575.35/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\git仓库\\github\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\SharedMemoryDemoModules\\SharedMemoryDemoModules.csproj": {
+    "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\SharedMemoryDemoModules\\SharedMemoryDemoModules.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\git仓库\\github\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\SharedMemoryDemoModules\\SharedMemoryDemoModules.csproj",
+        "projectUniqueName": "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\SharedMemoryDemoModules\\SharedMemoryDemoModules.csproj",
         "projectName": "SharedMemoryDemoModules",
-        "projectPath": "E:\\git仓库\\github\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\SharedMemoryDemoModules\\SharedMemoryDemoModules.csproj",
-        "packagesPath": "D:\\nuget",
-        "outputPath": "E:\\git仓库\\github\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\SharedMemoryDemoModules\\obj\\",
+        "projectPath": "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\SharedMemoryDemoModules\\SharedMemoryDemoModules.csproj",
+        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "outputPath": "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\SharedMemoryDemoModules\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "E:\\SDK\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\刘\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -709,14 +813,14 @@
           "net8.0-windows7.0": {
             "targetAlias": "net8.0-windows",
             "projectReferences": {
-              "E:\\git仓库\\github\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPF.Admin.Models\\WPF.Admin.Models.csproj": {
-                "projectPath": "E:\\git仓库\\github\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPF.Admin.Models\\WPF.Admin.Models.csproj"
+              "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPF.Admin.Models\\WPF.Admin.Models.csproj": {
+                "projectPath": "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPF.Admin.Models\\WPF.Admin.Models.csproj"
               },
-              "E:\\git仓库\\github\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPF.Admin.Themes\\WPF.Admin.Themes.csproj": {
-                "projectPath": "E:\\git仓库\\github\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPF.Admin.Themes\\WPF.Admin.Themes.csproj"
+              "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPF.Admin.Themes\\WPF.Admin.Themes.csproj": {
+                "projectPath": "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPF.Admin.Themes\\WPF.Admin.Themes.csproj"
               },
-              "E:\\git仓库\\github\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPF.SharedMemory\\WPF.SharedMemory.csproj": {
-                "projectPath": "E:\\git仓库\\github\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPF.SharedMemory\\WPF.SharedMemory.csproj"
+              "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPF.SharedMemory\\WPF.SharedMemory.csproj": {
+                "projectPath": "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPF.SharedMemory\\WPF.SharedMemory.csproj"
               }
             }
           }
@@ -725,7 +829,13 @@
           "warnAsError": [
             "NU1605"
           ]
-        }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net8.0-windows7.0": {
@@ -749,21 +859,25 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200-preview.0.24575.35/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\git仓库\\github\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\TopicModules\\TopicModules.csproj": {
+    "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\TopicModules\\TopicModules.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\git仓库\\github\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\TopicModules\\TopicModules.csproj",
+        "projectUniqueName": "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\TopicModules\\TopicModules.csproj",
         "projectName": "TopicModules",
-        "projectPath": "E:\\git仓库\\github\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\TopicModules\\TopicModules.csproj",
-        "packagesPath": "D:\\nuget",
-        "outputPath": "E:\\git仓库\\github\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\TopicModules\\obj\\",
+        "projectPath": "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\TopicModules\\TopicModules.csproj",
+        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "outputPath": "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\TopicModules\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "E:\\SDK\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\刘\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -778,11 +892,11 @@
           "net8.0-windows7.0": {
             "targetAlias": "net8.0-windows",
             "projectReferences": {
-              "E:\\git仓库\\github\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPF.Admin.Models\\WPF.Admin.Models.csproj": {
-                "projectPath": "E:\\git仓库\\github\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPF.Admin.Models\\WPF.Admin.Models.csproj"
+              "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPF.Admin.Models\\WPF.Admin.Models.csproj": {
+                "projectPath": "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPF.Admin.Models\\WPF.Admin.Models.csproj"
               },
-              "E:\\git仓库\\github\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPF.Admin.Themes\\WPF.Admin.Themes.csproj": {
-                "projectPath": "E:\\git仓库\\github\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPF.Admin.Themes\\WPF.Admin.Themes.csproj"
+              "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPF.Admin.Themes\\WPF.Admin.Themes.csproj": {
+                "projectPath": "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPF.Admin.Themes\\WPF.Admin.Themes.csproj"
               }
             }
           }
@@ -791,7 +905,13 @@
           "warnAsError": [
             "NU1605"
           ]
-        }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net8.0-windows7.0": {
@@ -815,21 +935,25 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200-preview.0.24575.35/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\git仓库\\github\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPF.Admin.Models\\WPF.Admin.Models.csproj": {
+    "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPF.Admin.Models\\WPF.Admin.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\git仓库\\github\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPF.Admin.Models\\WPF.Admin.Models.csproj",
+        "projectUniqueName": "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPF.Admin.Models\\WPF.Admin.Models.csproj",
         "projectName": "WPF.Admin.Models",
-        "projectPath": "E:\\git仓库\\github\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPF.Admin.Models\\WPF.Admin.Models.csproj",
-        "packagesPath": "D:\\nuget",
-        "outputPath": "E:\\git仓库\\github\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPF.Admin.Models\\obj\\",
+        "projectPath": "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPF.Admin.Models\\WPF.Admin.Models.csproj",
+        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "outputPath": "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPF.Admin.Models\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "E:\\SDK\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\刘\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -850,7 +974,13 @@
           "warnAsError": [
             "NU1605"
           ]
-        }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net8.0": {
@@ -877,21 +1007,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200-preview.0.24575.35/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\git仓库\\github\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPF.Admin.Service\\WPF.Admin.Service.csproj": {
+    "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPF.Admin.Service\\WPF.Admin.Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\git仓库\\github\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPF.Admin.Service\\WPF.Admin.Service.csproj",
+        "projectUniqueName": "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPF.Admin.Service\\WPF.Admin.Service.csproj",
         "projectName": "WPF.Admin.Service",
-        "projectPath": "E:\\git仓库\\github\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPF.Admin.Service\\WPF.Admin.Service.csproj",
-        "packagesPath": "D:\\nuget",
-        "outputPath": "E:\\git仓库\\github\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPF.Admin.Service\\obj\\",
+        "projectPath": "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPF.Admin.Service\\WPF.Admin.Service.csproj",
+        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "outputPath": "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPF.Admin.Service\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "E:\\SDK\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\刘\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -906,8 +1040,8 @@
           "net8.0-windows7.0": {
             "targetAlias": "net8.0-windows",
             "projectReferences": {
-              "E:\\git仓库\\github\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPF.Admin.Models\\WPF.Admin.Models.csproj": {
-                "projectPath": "E:\\git仓库\\github\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPF.Admin.Models\\WPF.Admin.Models.csproj"
+              "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPF.Admin.Models\\WPF.Admin.Models.csproj": {
+                "projectPath": "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPF.Admin.Models\\WPF.Admin.Models.csproj"
               }
             }
           }
@@ -916,7 +1050,13 @@
           "warnAsError": [
             "NU1605"
           ]
-        }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net8.0-windows7.0": {
@@ -946,21 +1086,25 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200-preview.0.24575.35/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\git仓库\\github\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPF.Admin.Themes\\WPF.Admin.Themes.csproj": {
+    "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPF.Admin.Themes\\WPF.Admin.Themes.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\git仓库\\github\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPF.Admin.Themes\\WPF.Admin.Themes.csproj",
+        "projectUniqueName": "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPF.Admin.Themes\\WPF.Admin.Themes.csproj",
         "projectName": "WPF.Admin.Themes",
-        "projectPath": "E:\\git仓库\\github\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPF.Admin.Themes\\WPF.Admin.Themes.csproj",
-        "packagesPath": "D:\\nuget",
-        "outputPath": "E:\\git仓库\\github\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPF.Admin.Themes\\obj\\",
+        "projectPath": "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPF.Admin.Themes\\WPF.Admin.Themes.csproj",
+        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "outputPath": "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPF.Admin.Themes\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "E:\\SDK\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\刘\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -975,8 +1119,8 @@
           "net8.0-windows7.0": {
             "targetAlias": "net8.0-windows",
             "projectReferences": {
-              "E:\\git仓库\\github\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPF.Admin.Models\\WPF.Admin.Models.csproj": {
-                "projectPath": "E:\\git仓库\\github\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPF.Admin.Models\\WPF.Admin.Models.csproj"
+              "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPF.Admin.Models\\WPF.Admin.Models.csproj": {
+                "projectPath": "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPF.Admin.Models\\WPF.Admin.Models.csproj"
               }
             }
           }
@@ -985,7 +1129,13 @@
           "warnAsError": [
             "NU1605"
           ]
-        }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net8.0-windows7.0": {
@@ -1015,21 +1165,25 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200-preview.0.24575.35/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\git仓库\\github\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPF.SharedMemory\\WPF.SharedMemory.csproj": {
+    "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPF.SharedMemory\\WPF.SharedMemory.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\git仓库\\github\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPF.SharedMemory\\WPF.SharedMemory.csproj",
+        "projectUniqueName": "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPF.SharedMemory\\WPF.SharedMemory.csproj",
         "projectName": "WPF.SharedMemory",
-        "projectPath": "E:\\git仓库\\github\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPF.SharedMemory\\WPF.SharedMemory.csproj",
-        "packagesPath": "D:\\nuget",
-        "outputPath": "E:\\git仓库\\github\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPF.SharedMemory\\obj\\",
+        "projectPath": "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPF.SharedMemory\\WPF.SharedMemory.csproj",
+        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "outputPath": "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPF.SharedMemory\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "E:\\SDK\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\刘\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -1050,7 +1204,13 @@
           "warnAsError": [
             "NU1605"
           ]
-        }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net8.0-windows7.0": {
@@ -1074,21 +1234,25 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200-preview.0.24575.35/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\git仓库\\github\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPFAdmin.DialogModules\\WPFAdmin.DialogModules.csproj": {
+    "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPFAdmin.DialogModules\\WPFAdmin.DialogModules.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\git仓库\\github\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPFAdmin.DialogModules\\WPFAdmin.DialogModules.csproj",
+        "projectUniqueName": "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPFAdmin.DialogModules\\WPFAdmin.DialogModules.csproj",
         "projectName": "WPFAdmin.DialogModules",
-        "projectPath": "E:\\git仓库\\github\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPFAdmin.DialogModules\\WPFAdmin.DialogModules.csproj",
-        "packagesPath": "D:\\nuget",
-        "outputPath": "E:\\git仓库\\github\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPFAdmin.DialogModules\\obj\\",
+        "projectPath": "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPFAdmin.DialogModules\\WPFAdmin.DialogModules.csproj",
+        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "outputPath": "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPFAdmin.DialogModules\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "E:\\SDK\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\刘\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -1103,8 +1267,8 @@
           "net8.0-windows7.0": {
             "targetAlias": "net8.0-windows",
             "projectReferences": {
-              "E:\\git仓库\\github\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPF.Admin.Models\\WPF.Admin.Models.csproj": {
-                "projectPath": "E:\\git仓库\\github\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPF.Admin.Models\\WPF.Admin.Models.csproj"
+              "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPF.Admin.Models\\WPF.Admin.Models.csproj": {
+                "projectPath": "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPF.Admin.Models\\WPF.Admin.Models.csproj"
               }
             }
           }
@@ -1113,7 +1277,13 @@
           "warnAsError": [
             "NU1605"
           ]
-        }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net8.0-windows7.0": {
@@ -1137,21 +1307,25 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200-preview.0.24575.35/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\git仓库\\github\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPFAdmin.LoginModules\\WPFAdmin.LoginModules.csproj": {
+    "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPFAdmin.LoginModules\\WPFAdmin.LoginModules.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\git仓库\\github\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPFAdmin.LoginModules\\WPFAdmin.LoginModules.csproj",
+        "projectUniqueName": "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPFAdmin.LoginModules\\WPFAdmin.LoginModules.csproj",
         "projectName": "WPFAdmin.LoginModules",
-        "projectPath": "E:\\git仓库\\github\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPFAdmin.LoginModules\\WPFAdmin.LoginModules.csproj",
-        "packagesPath": "D:\\nuget",
-        "outputPath": "E:\\git仓库\\github\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPFAdmin.LoginModules\\obj\\",
+        "projectPath": "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPFAdmin.LoginModules\\WPFAdmin.LoginModules.csproj",
+        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "outputPath": "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPFAdmin.LoginModules\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "E:\\SDK\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\刘\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -1166,14 +1340,14 @@
           "net8.0-windows7.0": {
             "targetAlias": "net8.0-windows",
             "projectReferences": {
-              "E:\\git仓库\\github\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPF.Admin.Models\\WPF.Admin.Models.csproj": {
-                "projectPath": "E:\\git仓库\\github\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPF.Admin.Models\\WPF.Admin.Models.csproj"
+              "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPF.Admin.Models\\WPF.Admin.Models.csproj": {
+                "projectPath": "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPF.Admin.Models\\WPF.Admin.Models.csproj"
               },
-              "E:\\git仓库\\github\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPF.Admin.Service\\WPF.Admin.Service.csproj": {
-                "projectPath": "E:\\git仓库\\github\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPF.Admin.Service\\WPF.Admin.Service.csproj"
+              "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPF.Admin.Service\\WPF.Admin.Service.csproj": {
+                "projectPath": "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPF.Admin.Service\\WPF.Admin.Service.csproj"
               },
-              "E:\\git仓库\\github\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPF.Admin.Themes\\WPF.Admin.Themes.csproj": {
-                "projectPath": "E:\\git仓库\\github\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPF.Admin.Themes\\WPF.Admin.Themes.csproj"
+              "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPF.Admin.Themes\\WPF.Admin.Themes.csproj": {
+                "projectPath": "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPF.Admin.Themes\\WPF.Admin.Themes.csproj"
               }
             }
           }
@@ -1182,7 +1356,13 @@
           "warnAsError": [
             "NU1605"
           ]
-        }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net8.0-windows7.0": {
@@ -1206,21 +1386,25 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200-preview.0.24575.35/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\git仓库\\github\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPFAdmin.NavigationModules\\WPFAdmin.NavigationModules.csproj": {
+    "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPFAdmin.NavigationModules\\WPFAdmin.NavigationModules.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\git仓库\\github\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPFAdmin.NavigationModules\\WPFAdmin.NavigationModules.csproj",
+        "projectUniqueName": "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPFAdmin.NavigationModules\\WPFAdmin.NavigationModules.csproj",
         "projectName": "WPFAdmin.NavigationModules",
-        "projectPath": "E:\\git仓库\\github\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPFAdmin.NavigationModules\\WPFAdmin.NavigationModules.csproj",
-        "packagesPath": "D:\\nuget",
-        "outputPath": "E:\\git仓库\\github\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPFAdmin.NavigationModules\\obj\\",
+        "projectPath": "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPFAdmin.NavigationModules\\WPFAdmin.NavigationModules.csproj",
+        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "outputPath": "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPFAdmin.NavigationModules\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "E:\\SDK\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\刘\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -1235,11 +1419,11 @@
           "net8.0-windows7.0": {
             "targetAlias": "net8.0-windows",
             "projectReferences": {
-              "E:\\git仓库\\github\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPF.Admin.Models\\WPF.Admin.Models.csproj": {
-                "projectPath": "E:\\git仓库\\github\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPF.Admin.Models\\WPF.Admin.Models.csproj"
+              "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPF.Admin.Models\\WPF.Admin.Models.csproj": {
+                "projectPath": "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPF.Admin.Models\\WPF.Admin.Models.csproj"
               },
-              "E:\\git仓库\\github\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPF.Admin.Themes\\WPF.Admin.Themes.csproj": {
-                "projectPath": "E:\\git仓库\\github\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPF.Admin.Themes\\WPF.Admin.Themes.csproj"
+              "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPF.Admin.Themes\\WPF.Admin.Themes.csproj": {
+                "projectPath": "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPF.Admin.Themes\\WPF.Admin.Themes.csproj"
               }
             }
           }
@@ -1248,7 +1432,13 @@
           "warnAsError": [
             "NU1605"
           ]
-        }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net8.0-windows7.0": {
@@ -1272,21 +1462,25 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200-preview.0.24575.35/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\git仓库\\github\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPFAdmin\\WPFAdmin.csproj": {
+    "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPFAdmin\\WPFAdmin.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\git仓库\\github\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPFAdmin\\WPFAdmin.csproj",
+        "projectUniqueName": "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPFAdmin\\WPFAdmin.csproj",
         "projectName": "WPFAdmin",
-        "projectPath": "E:\\git仓库\\github\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPFAdmin\\WPFAdmin.csproj",
-        "packagesPath": "D:\\nuget",
-        "outputPath": "E:\\git仓库\\github\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPFAdmin\\obj\\",
+        "projectPath": "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPFAdmin\\WPFAdmin.csproj",
+        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "outputPath": "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPFAdmin\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "E:\\SDK\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\刘\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -1301,53 +1495,53 @@
           "net8.0-windows7.0": {
             "targetAlias": "net8.0-windows",
             "projectReferences": {
-              "E:\\git仓库\\github\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\AboutModules\\AboutModules.csproj": {
-                "projectPath": "E:\\git仓库\\github\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\AboutModules\\AboutModules.csproj"
+              "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\AboutModules\\AboutModules.csproj": {
+                "projectPath": "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\AboutModules\\AboutModules.csproj"
               },
-              "E:\\git仓库\\github\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\AntDiagramModules\\AntDiagramModules.csproj": {
-                "projectPath": "E:\\git仓库\\github\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\AntDiagramModules\\AntDiagramModules.csproj"
+              "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\AntDiagramModules\\AntDiagramModules.csproj": {
+                "projectPath": "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\AntDiagramModules\\AntDiagramModules.csproj"
               },
-              "E:\\git仓库\\github\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\CarouselModules\\CarouselModules.csproj": {
-                "projectPath": "E:\\git仓库\\github\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\CarouselModules\\CarouselModules.csproj"
+              "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\CarouselModules\\CarouselModules.csproj": {
+                "projectPath": "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\CarouselModules\\CarouselModules.csproj"
               },
-              "E:\\git仓库\\github\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\CustomModules\\CustomModules.csproj": {
-                "projectPath": "E:\\git仓库\\github\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\CustomModules\\CustomModules.csproj"
+              "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\CustomModules\\CustomModules.csproj": {
+                "projectPath": "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\CustomModules\\CustomModules.csproj"
               },
-              "E:\\git仓库\\github\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\DataValidatorModules\\DataValidatorModules.csproj": {
-                "projectPath": "E:\\git仓库\\github\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\DataValidatorModules\\DataValidatorModules.csproj"
+              "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\DataValidatorModules\\DataValidatorModules.csproj": {
+                "projectPath": "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\DataValidatorModules\\DataValidatorModules.csproj"
               },
-              "E:\\git仓库\\github\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\GanttChartModules\\GanttChartModules.csproj": {
-                "projectPath": "E:\\git仓库\\github\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\GanttChartModules\\GanttChartModules.csproj"
+              "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\GanttChartModules\\GanttChartModules.csproj": {
+                "projectPath": "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\GanttChartModules\\GanttChartModules.csproj"
               },
-              "E:\\git仓库\\github\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\GetColorModules\\GetColorModules.csproj": {
-                "projectPath": "E:\\git仓库\\github\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\GetColorModules\\GetColorModules.csproj"
+              "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\GetColorModules\\GetColorModules.csproj": {
+                "projectPath": "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\GetColorModules\\GetColorModules.csproj"
               },
-              "E:\\git仓库\\github\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\InfiniteScrollingModules\\InfiniteScrollingModules.csproj": {
-                "projectPath": "E:\\git仓库\\github\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\InfiniteScrollingModules\\InfiniteScrollingModules.csproj"
+              "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\InfiniteScrollingModules\\InfiniteScrollingModules.csproj": {
+                "projectPath": "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\InfiniteScrollingModules\\InfiniteScrollingModules.csproj"
               },
-              "E:\\git仓库\\github\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\QrCodeModules\\QrCodeModules.csproj": {
-                "projectPath": "E:\\git仓库\\github\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\QrCodeModules\\QrCodeModules.csproj"
+              "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\QrCodeModules\\QrCodeModules.csproj": {
+                "projectPath": "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\QrCodeModules\\QrCodeModules.csproj"
               },
-              "E:\\git仓库\\github\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\RouterEventModules\\RouterEventModules.csproj": {
-                "projectPath": "E:\\git仓库\\github\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\RouterEventModules\\RouterEventModules.csproj"
+              "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\RouterEventModules\\RouterEventModules.csproj": {
+                "projectPath": "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\RouterEventModules\\RouterEventModules.csproj"
               },
-              "E:\\git仓库\\github\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\SharedMemoryDemoModules\\SharedMemoryDemoModules.csproj": {
-                "projectPath": "E:\\git仓库\\github\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\SharedMemoryDemoModules\\SharedMemoryDemoModules.csproj"
+              "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\SharedMemoryDemoModules\\SharedMemoryDemoModules.csproj": {
+                "projectPath": "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\SharedMemoryDemoModules\\SharedMemoryDemoModules.csproj"
               },
-              "E:\\git仓库\\github\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\TopicModules\\TopicModules.csproj": {
-                "projectPath": "E:\\git仓库\\github\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\TopicModules\\TopicModules.csproj"
+              "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\TopicModules\\TopicModules.csproj": {
+                "projectPath": "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\TopicModules\\TopicModules.csproj"
               },
-              "E:\\git仓库\\github\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPF.Admin.Themes\\WPF.Admin.Themes.csproj": {
-                "projectPath": "E:\\git仓库\\github\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPF.Admin.Themes\\WPF.Admin.Themes.csproj"
+              "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPF.Admin.Themes\\WPF.Admin.Themes.csproj": {
+                "projectPath": "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPF.Admin.Themes\\WPF.Admin.Themes.csproj"
               },
-              "E:\\git仓库\\github\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPFAdmin.DialogModules\\WPFAdmin.DialogModules.csproj": {
-                "projectPath": "E:\\git仓库\\github\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPFAdmin.DialogModules\\WPFAdmin.DialogModules.csproj"
+              "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPFAdmin.DialogModules\\WPFAdmin.DialogModules.csproj": {
+                "projectPath": "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPFAdmin.DialogModules\\WPFAdmin.DialogModules.csproj"
               },
-              "E:\\git仓库\\github\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPFAdmin.LoginModules\\WPFAdmin.LoginModules.csproj": {
-                "projectPath": "E:\\git仓库\\github\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPFAdmin.LoginModules\\WPFAdmin.LoginModules.csproj"
+              "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPFAdmin.LoginModules\\WPFAdmin.LoginModules.csproj": {
+                "projectPath": "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPFAdmin.LoginModules\\WPFAdmin.LoginModules.csproj"
               },
-              "E:\\git仓库\\github\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPFAdmin.NavigationModules\\WPFAdmin.NavigationModules.csproj": {
-                "projectPath": "E:\\git仓库\\github\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPFAdmin.NavigationModules\\WPFAdmin.NavigationModules.csproj"
+              "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPFAdmin.NavigationModules\\WPFAdmin.NavigationModules.csproj": {
+                "projectPath": "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPFAdmin.NavigationModules\\WPFAdmin.NavigationModules.csproj"
               }
             }
           }
@@ -1356,7 +1550,13 @@
           "warnAsError": [
             "NU1605"
           ]
-        }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net8.0-windows7.0": {
@@ -1386,7 +1586,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200-preview.0.24575.35/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

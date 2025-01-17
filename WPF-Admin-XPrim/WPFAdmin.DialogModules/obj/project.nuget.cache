@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "CN7BS47Id+Zmiq1W2zUf00MxhgOqXTSV3RdiBhTkJLvSIT48JyxjtEoU9nbdHBkV3rz/nc+0nRntUrXijF5P6Q==",
+  "dgSpecHash": "+98+PZjVziw=",
   "success": true,
-  "projectFilePath": "E:\\git仓库\\github\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPFAdmin.DialogModules\\WPFAdmin.DialogModules.csproj",
+  "projectFilePath": "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPFAdmin.DialogModules\\WPFAdmin.DialogModules.csproj",
   "expectedPackageFiles": [
-    "D:\\nuget\\communitytoolkit.mvvm\\8.4.0\\communitytoolkit.mvvm.8.4.0.nupkg.sha512",
-    "D:\\nuget\\xprism.core.wpf\\1.1.3\\xprism.core.wpf.1.1.3.nupkg.sha512"
+    "C:\\Users\\Administrator\\.nuget\\packages\\communitytoolkit.mvvm\\8.4.0\\communitytoolkit.mvvm.8.4.0.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\xprism.core.wpf\\1.1.3\\xprism.core.wpf.1.1.3.nupkg.sha512"
   ],
   "logs": []
 }

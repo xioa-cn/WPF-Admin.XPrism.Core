@@ -196,7 +196,10 @@
           "WPF.Admin.Themes": "1.0.0"
         },
         "runtime": {
-          "AboutModules.dll": {}
+          "AboutModules.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "AntDiagramModules/1.0.0": {
@@ -205,7 +208,10 @@
           "WPF.Admin.Themes": "1.0.0"
         },
         "runtime": {
-          "AntDiagramModules.dll": {}
+          "AntDiagramModules.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "CarouselModules/1.0.0": {
@@ -214,7 +220,10 @@
           "WPF.Admin.Themes": "1.0.0"
         },
         "runtime": {
-          "CarouselModules.dll": {}
+          "CarouselModules.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "CustomModules/1.0.0": {
@@ -223,7 +232,10 @@
           "WPF.Admin.Themes": "1.0.0"
         },
         "runtime": {
-          "CustomModules.dll": {}
+          "CustomModules.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "DataValidatorModules/1.0.0": {
@@ -232,7 +244,10 @@
           "WPF.Admin.Themes": "1.0.0"
         },
         "runtime": {
-          "DataValidatorModules.dll": {}
+          "DataValidatorModules.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "GanttChartModules/1.0.0": {
@@ -241,7 +256,10 @@
           "WPF.Admin.Themes": "1.0.0"
         },
         "runtime": {
-          "GanttChartModules.dll": {}
+          "GanttChartModules.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "GetColorModules/1.0.0": {
@@ -251,7 +269,10 @@
           "Xioa.WPF.AttachedBehaviors": "1.1.0"
         },
         "runtime": {
-          "GetColorModules.dll": {}
+          "GetColorModules.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "InfiniteScrollingModules/1.0.0": {
@@ -260,7 +281,10 @@
           "WPF.Admin.Themes": "1.0.0"
         },
         "runtime": {
-          "InfiniteScrollingModules.dll": {}
+          "InfiniteScrollingModules.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "QrCodeModules/1.0.0": {
@@ -272,7 +296,10 @@
           "ZXing.Net.Bindings.SkiaSharp": "0.16.20"
         },
         "runtime": {
-          "QrCodeModules.dll": {}
+          "QrCodeModules.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "RouterEventModules/1.0.0": {
@@ -281,7 +308,10 @@
           "WPF.Admin.Themes": "1.0.0"
         },
         "runtime": {
-          "RouterEventModules.dll": {}
+          "RouterEventModules.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "SharedMemoryDemoModules/1.0.0": {
@@ -291,7 +321,10 @@
           "WPF.SharedMemory": "1.0.0"
         },
         "runtime": {
-          "SharedMemoryDemoModules.dll": {}
+          "SharedMemoryDemoModules.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "TopicModules/1.0.0": {
@@ -300,7 +333,10 @@
           "WPF.Admin.Themes": "1.0.0"
         },
         "runtime": {
-          "TopicModules.dll": {}
+          "TopicModules.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "WPF.Admin.Models/1.0.0": {
@@ -308,7 +344,10 @@
           "XPrism.Core.wpf": "1.1.3"
         },
         "runtime": {
-          "WPF.Admin.Models.dll": {}
+          "WPF.Admin.Models.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "WPF.Admin.Service/1.0.0": {
@@ -317,7 +356,10 @@
           "Xioa.NAxios": "1.1.0"
         },
         "runtime": {
-          "WPF.Admin.Service.dll": {}
+          "WPF.Admin.Service.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "WPF.Admin.Themes/1.0.0": {
@@ -326,12 +368,18 @@
           "WPF.Admin.Models": "1.0.0"
         },
         "runtime": {
-          "WPF.Admin.Themes.dll": {}
+          "WPF.Admin.Themes.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "WPF.SharedMemory/1.0.0": {
         "runtime": {
-          "WPF.SharedMemory.dll": {}
+          "WPF.SharedMemory.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "WPFAdmin.DialogModules/1.0.0": {
@@ -339,7 +387,10 @@
           "WPF.Admin.Models": "1.0.0"
         },
         "runtime": {
-          "WPFAdmin.DialogModules.dll": {}
+          "WPFAdmin.DialogModules.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "WPFAdmin.LoginModules/1.0.0": {
@@ -349,7 +400,10 @@
           "WPF.Admin.Themes": "1.0.0"
         },
         "runtime": {
-          "WPFAdmin.LoginModules.dll": {}
+          "WPFAdmin.LoginModules.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "WPFAdmin.NavigationModules/1.0.0": {
@@ -358,7 +412,10 @@
           "WPF.Admin.Themes": "1.0.0"
         },
         "runtime": {
-          "WPFAdmin.NavigationModules.dll": {}
+          "WPFAdmin.NavigationModules.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }

@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "nnzSUAbuz85Jsx4AaZy8dhKIPa0S4qOJaKMXfTSac+x4S5k+YZc3cAtvIFcv35HK8vAW3e0Cb0moW2cVFc1jsQ==",
+  "dgSpecHash": "nn4/uJiHk3M=",
   "success": true,
-  "projectFilePath": "E:\\git仓库\\github\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\GanttChartModules\\GanttChartModules.csproj",
+  "projectFilePath": "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\GanttChartModules\\GanttChartModules.csproj",
   "expectedPackageFiles": [
-    "D:\\nuget\\communitytoolkit.mvvm\\8.4.0\\communitytoolkit.mvvm.8.4.0.nupkg.sha512",
-    "D:\\nuget\\handycontrol\\3.5.1\\handycontrol.3.5.1.nupkg.sha512",
-    "D:\\nuget\\xprism.core.wpf\\1.1.3\\xprism.core.wpf.1.1.3.nupkg.sha512"
+    "C:\\Users\\Administrator\\.nuget\\packages\\communitytoolkit.mvvm\\8.4.0\\communitytoolkit.mvvm.8.4.0.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\handycontrol\\3.5.1\\handycontrol.3.5.1.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\xprism.core.wpf\\1.1.3\\xprism.core.wpf.1.1.3.nupkg.sha512"
   ],
   "logs": []
 }
