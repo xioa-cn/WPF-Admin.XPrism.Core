@@ -22,7 +22,6 @@ F:\git\github\WPF-Admin-XPrism\WPF-Admin.XPrism.Core\WPF-Admin-XPrim\WPF.Admin.M
 F:\git\github\WPF-Admin-XPrism\WPF-Admin.XPrism.Core\WPF-Admin-XPrim\WPF.Admin.Models\bin\Debug\net8.0\System.Drawing.Common.dll
 F:\git\github\WPF-Admin-XPrism\WPF-Admin.XPrism.Core\WPF-Admin-XPrim\WPF.Admin.Models\bin\Debug\net8.0\System.Windows.Forms.Primitives.dll
 F:\git\github\WPF-Admin-XPrism\WPF-Admin.XPrism.Core\WPF-Admin-XPrim\WPF.Admin.Models\bin\Debug\net8.0\System.Diagnostics.EventLog.dll
-F:\git\github\WPF-Admin-XPrism\WPF-Admin.XPrism.Core\WPF-Admin-XPrim\WPF.Admin.Models\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
 F:\git\github\WPF-Admin-XPrism\WPF-Admin.XPrism.Core\WPF-Admin-XPrim\WPF.Admin.Models\bin\Debug\net8.0\System.Security.Cryptography.Pkcs.dll
 F:\git\github\WPF-Admin-XPrism\WPF-Admin.XPrism.Core\WPF-Admin-XPrim\WPF.Admin.Models\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
 F:\git\github\WPF-Admin-XPrism\WPF-Admin.XPrism.Core\WPF-Admin-XPrim\WPF.Admin.Models\bin\Debug\net8.0\cs\PresentationFramework.resources.dll

@@ -1,5 +1,6 @@
 ﻿using System.Reflection;
 using System.Windows;
+using WPF.Admin.Models.EFDbContext.Temp;
 using WPF.Admin.Models.Models;
 using WPF.Admin.Themes.Themes;
 using WPFAdmin.LoginModules;
@@ -17,10 +18,11 @@ public partial class App : Application {
     protected override void OnStartup(StartupEventArgs e) {
         Detect();
         base.OnStartup(e);
-        
+
+       
         Views.SplashScreen splashScreen = new Views.SplashScreen();
         splashScreen.ShowWindowWithFade();
-        
+
         ContainerLocator.Container.RegisterSingleton<LoginWindow>();
         ContainerLocator.Container.RegisterEventAggregator<EventAggregator>();
         ContainerLocator.Container.AutoRegisterByAttribute(Assembly.Load("WPFAdmin"));
@@ -30,9 +32,9 @@ public partial class App : Application {
         ContainerLocator.Container.AutoRegisterByAttribute<XPrismViewModelAttribute>(
             Assembly.Load("WPFAdmin"));
         ContainerLocator.Container.Build();
-        
+
         var applicationStartupMode = StartupCommandLine(e.Args);
-        
+
         if (applicationStartupMode == ApplicationStartupMode.Debug)
         {
             Environment.Exit(0);
