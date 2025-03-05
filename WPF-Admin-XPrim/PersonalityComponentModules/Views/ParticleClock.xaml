@@ -7,14 +7,7 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     Title="ParticleClock"
     mc:Ignorable="d">
-    <Page.Resources>
-        <!--  移除粒子样式，因为我们在代码中直接设置了粒子属性  -->
-    </Page.Resources>
-
     <Grid>
-
-
-
         <!--  时钟容器  -->
         <Viewbox Margin="20" Stretch="Uniform">
             <Grid Width="600" Height="300">
@@ -24,7 +17,7 @@
                     Width="600"
                     Height="300" />
 
-                <!--  数字时间显示（可选）  -->
+                <!--  数字时间显示  -->
                 <TextBlock
                     x:Name="TimeDisplay"
                     Margin="0,0,0,10"
