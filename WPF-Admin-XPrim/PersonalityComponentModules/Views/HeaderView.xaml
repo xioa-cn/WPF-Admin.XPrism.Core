@@ -1,0 +1,196 @@
+﻿<Page
+    x:Class="PersonalityComponentModules.Views.HeaderView"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="clr-namespace:PersonalityComponentModules.Views"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    Title="HeaderView"
+    Width="800"
+    Height="450"
+    mc:Ignorable="d">
+    <Page.Resources>
+        <Storyboard x:Key="MouseEnterAnimation">
+            <!--  头像放大动画  -->
+            <DoubleAnimation
+                Storyboard.TargetName="AvatarImage"
+                Storyboard.TargetProperty="Width"
+                To="180"
+                Duration="0:0:0.3" />
+            <DoubleAnimation
+                Storyboard.TargetName="AvatarImage"
+                Storyboard.TargetProperty="Height"
+                To="180"
+                Duration="0:0:0.3" />
+
+            <!--  圆环缩小动画  -->
+            <DoubleAnimation
+                Storyboard.TargetName="BottomRing"
+                Storyboard.TargetProperty="Width"
+                To="140"
+                Duration="0:0:0.3" />
+            <DoubleAnimation
+                Storyboard.TargetName="BottomRing"
+                Storyboard.TargetProperty="Height"
+                To="140"
+                Duration="0:0:0.3" />
+            <DoubleAnimation
+                Storyboard.TargetName="TopRing"
+                Storyboard.TargetProperty="Width"
+                To="140"
+                Duration="0:0:0.3" />
+            <DoubleAnimation
+                Storyboard.TargetName="TopRing"
+                Storyboard.TargetProperty="Height"
+                To="140"
+                Duration="0:0:0.3" />
+
+            <!--  遮罩层动画  -->
+            <DoubleAnimation
+                Storyboard.TargetName="MaskEllipse"
+                Storyboard.TargetProperty="RadiusX"
+                To="70"
+                Duration="0:0:0.3" />
+            <DoubleAnimation
+                Storyboard.TargetName="MaskEllipse"
+                Storyboard.TargetProperty="RadiusY"
+                To="70"
+                Duration="0:0:0.3" />
+        </Storyboard>
+
+        <Storyboard x:Key="MouseLeaveAnimation">
+            <!--  头像恢复动画  -->
+            <DoubleAnimation
+                Storyboard.TargetName="AvatarImage"
+                Storyboard.TargetProperty="Width"
+                To="150"
+                Duration="0:0:0.3" />
+            <DoubleAnimation
+                Storyboard.TargetName="AvatarImage"
+                Storyboard.TargetProperty="Height"
+                To="150"
+                Duration="0:0:0.3" />
+
+            <!--  圆环恢复动画  -->
+            <DoubleAnimation
+                Storyboard.TargetName="BottomRing"
+                Storyboard.TargetProperty="Width"
+                To="160"
+                Duration="0:0:0.3" />
+            <DoubleAnimation
+                Storyboard.TargetName="BottomRing"
+                Storyboard.TargetProperty="Height"
+                To="160"
+                Duration="0:0:0.3" />
+            <DoubleAnimation
+                Storyboard.TargetName="TopRing"
+                Storyboard.TargetProperty="Width"
+                To="160"
+                Duration="0:0:0.3" />
+            <DoubleAnimation
+                Storyboard.TargetName="TopRing"
+                Storyboard.TargetProperty="Height"
+                To="160"
+                Duration="0:0:0.3" />
+
+            <!--  遮罩层恢复动画  -->
+            <DoubleAnimation
+                Storyboard.TargetName="MaskEllipse"
+                Storyboard.TargetProperty="RadiusX"
+                To="80"
+                Duration="0:0:0.3" />
+            <DoubleAnimation
+                Storyboard.TargetName="MaskEllipse"
+                Storyboard.TargetProperty="RadiusY"
+                To="80"
+                Duration="0:0:0.3" />
+        </Storyboard>
+    </Page.Resources>
+
+    <Grid Background="{DynamicResource Border.Brush}">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+
+        <!--  外层容器  -->
+        <Grid
+            Width="200"
+            Height="200"
+            HorizontalAlignment="Center"
+            VerticalAlignment="Center">
+
+            <!--  头像和圆环容器  -->
+            <Grid
+                x:Name="AvatarContainer"
+                Width="200"
+                Height="200"
+                MouseEnter="AvatarContainer_MouseEnter"
+                MouseLeave="AvatarContainer_MouseLeave">
+
+                <!--  底层圆环（只显示上半部分）  -->
+                <Ellipse
+                    x:Name="BottomRing"
+                    Width="160"
+                    Height="160"
+                    Fill="Transparent"
+                    Stroke="#3498db"
+                    StrokeThickness="6">
+                    <Ellipse.Clip>
+                        <RectangleGeometry Rect="0,0,160,80" />
+                    </Ellipse.Clip>
+                </Ellipse>
+
+                <!--  中间层头像  -->
+                <Image
+                    x:Name="AvatarImage"
+                    Width="150"
+                    Height="150"
+                    Source="../Assets/1.png"
+                    Stretch="UniformToFill" />
+
+                <!--  顶层圆环（只显示下半部分）  -->
+                <Ellipse
+                    x:Name="TopRing"
+                    Width="160"
+                    Height="160"
+                    Fill="Transparent"
+                    Stroke="#3498db"
+                    StrokeThickness="6">
+                    <Ellipse.Clip>
+                        <RectangleGeometry Rect="0,80,160,80" />
+                    </Ellipse.Clip>
+                </Ellipse>
+            </Grid>
+
+            <!--  外层遮罩，确保头像不超出底部区域  -->
+            <Grid Width="200" Height="200">
+                <!--  上半部分透明，允许头像超出  -->
+                <Rectangle
+                    Height="100"
+                    VerticalAlignment="Top"
+                    Fill="Transparent" />
+
+                <!--  下半部分白色，遮挡超出的头像  -->
+                <Rectangle
+                    Height="100"
+                    VerticalAlignment="Bottom"
+                    Fill="{DynamicResource Border.Brush}">
+                    <Rectangle.Clip>
+                        <CombinedGeometry GeometryCombineMode="Exclude">
+                            <CombinedGeometry.Geometry1>
+                                <RectangleGeometry Rect="0,0,200,100" />
+                            </CombinedGeometry.Geometry1>
+                            <CombinedGeometry.Geometry2>
+                                <EllipseGeometry
+                                    x:Name="MaskEllipse"
+                                    Center="100,0"
+                                    RadiusX="80"
+                                    RadiusY="80" />
+                            </CombinedGeometry.Geometry2>
+                        </CombinedGeometry>
+                    </Rectangle.Clip>
+                </Rectangle>
+            </Grid>
+        </Grid>
+    </Grid>
+</Page>

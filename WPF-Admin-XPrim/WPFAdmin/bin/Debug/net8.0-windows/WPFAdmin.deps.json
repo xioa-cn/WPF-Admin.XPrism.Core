@@ -19,6 +19,7 @@
           "GetColorModules": "1.0.0",
           "Hardcodet.NotifyIcon.Wpf": "2.0.1",
           "InfiniteScrollingModules": "1.0.0",
+          "PersonalityComponentModules": "1.0.0",
           "QrCodeModules": "1.0.0",
           "RouterEventModules": "1.0.0",
           "SharedMemoryDemoModules": "1.0.0",
@@ -912,6 +913,19 @@
           }
         }
       },
+      "PersonalityComponentModules/1.0.0": {
+        "dependencies": {
+          "WPF.Admin.Models": "1.0.0",
+          "WPF.Admin.Service": "1.0.0",
+          "WPF.Admin.Themes": "1.0.0"
+        },
+        "runtime": {
+          "PersonalityComponentModules.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
       "QrCodeModules/1.0.0": {
         "dependencies": {
           "QRCoder": "1.6.0",
@@ -1636,6 +1650,11 @@
       "sha512": ""
     },
     "InfiniteScrollingModules/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "PersonalityComponentModules/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0-windows</TargetFramework>
+        <Nullable>enable</Nullable>
+        <UseWPF>true</UseWPF>
+        <ImplicitUsings>enable</ImplicitUsings>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\WPF.Admin.Models\WPF.Admin.Models.csproj" />
+      <ProjectReference Include="..\WPF.Admin.Service\WPF.Admin.Service.csproj" />
+      <ProjectReference Include="..\WPF.Admin.Themes\WPF.Admin.Themes.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Remove="Assets\header.png" />
+      <Resource Include="Assets\header.png" />
+      <None Remove="Assets\login2.png" />
+      <Resource Include="Assets\login2.png" />
+      <None Remove="Assets\1.png" />
+      <Resource Include="Assets\1.png" />
+    </ItemGroup>
+
+</Project>

@@ -108,6 +108,11 @@
           "content": "充电图标",
           "page": "ChargeView",
           "isPersistence": false
+        },
+        {
+          "content": "个性头像",
+          "page": "HeaderView",
+          "isPersistence": false
         }
       ]
     },

@@ -1532,6 +1532,24 @@
           "Microsoft.WindowsDesktop.App.WPF"
         ]
       },
+      "PersonalityComponentModules/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "WPF.Admin.Models": "1.0.0",
+          "WPF.Admin.Service": "1.0.0",
+          "WPF.Admin.Themes": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/PersonalityComponentModules.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PersonalityComponentModules.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      },
       "QrCodeModules/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
@@ -4225,6 +4243,11 @@
       "path": "../InfiniteScrollingModules/InfiniteScrollingModules.csproj",
       "msbuildProject": "../InfiniteScrollingModules/InfiniteScrollingModules.csproj"
     },
+    "PersonalityComponentModules/1.0.0": {
+      "type": "project",
+      "path": "../PersonalityComponentModules/PersonalityComponentModules.csproj",
+      "msbuildProject": "../PersonalityComponentModules/PersonalityComponentModules.csproj"
+    },
     "QrCodeModules/1.0.0": {
       "type": "project",
       "path": "../QrCodeModules/QrCodeModules.csproj",
@@ -4294,6 +4317,7 @@
       "GetColorModules >= 1.0.0",
       "Hardcodet.NotifyIcon.Wpf >= 2.0.1",
       "InfiniteScrollingModules >= 1.0.0",
+      "PersonalityComponentModules >= 1.0.0",
       "QrCodeModules >= 1.0.0",
       "RouterEventModules >= 1.0.0",
       "SharedMemoryDemoModules >= 1.0.0",
@@ -4369,6 +4393,9 @@
             },
             "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\InfiniteScrollingModules\\InfiniteScrollingModules.csproj": {
               "projectPath": "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\InfiniteScrollingModules\\InfiniteScrollingModules.csproj"
+            },
+            "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\PersonalityComponentModules\\PersonalityComponentModules.csproj": {
+              "projectPath": "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\PersonalityComponentModules\\PersonalityComponentModules.csproj"
             },
             "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\QrCodeModules\\QrCodeModules.csproj": {
               "projectPath": "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\QrCodeModules\\QrCodeModules.csproj"

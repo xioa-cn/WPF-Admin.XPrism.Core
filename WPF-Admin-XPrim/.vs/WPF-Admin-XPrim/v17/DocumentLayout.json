@@ -3,24 +3,12 @@
   "WorkspaceRootPath": "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9103D4C2-65BD-4F0F-BB79-E0549CC87D45}|ChargeModules\\ChargeModules.csproj|f:\\git\\github\\wpf-admin-xprism\\wpf-admin.xprism.core\\wpf-admin-xprim\\chargemodules\\views\\chargeview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{9103D4C2-65BD-4F0F-BB79-E0549CC87D45}|ChargeModules\\ChargeModules.csproj|solutionrelative:chargemodules\\views\\chargeview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{D8A4165C-3221-4187-898D-32FCA45E5024}|PersonalityComponentModules\\PersonalityComponentModules.csproj|f:\\git\\github\\wpf-admin-xprism\\wpf-admin.xprism.core\\wpf-admin-xprim\\personalitycomponentmodules\\views\\headerview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D8A4165C-3221-4187-898D-32FCA45E5024}|PersonalityComponentModules\\PersonalityComponentModules.csproj|solutionrelative:personalitycomponentmodules\\views\\headerview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B2F0EB2E-B796-482A-872B-9AC04CB7D336}|WPFAdmin\\WPFAdmin.csproj|f:\\git\\github\\wpf-admin-xprism\\wpf-admin.xprism.core\\wpf-admin-xprim\\wpfadmin\\router.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{B2F0EB2E-B796-482A-872B-9AC04CB7D336}|WPFAdmin\\WPFAdmin.csproj|solutionrelative:wpfadmin\\router.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9103D4C2-65BD-4F0F-BB79-E0549CC87D45}|ChargeModules\\ChargeModules.csproj|f:\\git\\github\\wpf-admin-xprism\\wpf-admin.xprism.core\\wpf-admin-xprim\\chargemodules\\chargemodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9103D4C2-65BD-4F0F-BB79-E0549CC87D45}|ChargeModules\\ChargeModules.csproj|solutionrelative:chargemodules\\chargemodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9103D4C2-65BD-4F0F-BB79-E0549CC87D45}|ChargeModules\\ChargeModules.csproj|f:\\git\\github\\wpf-admin-xprism\\wpf-admin.xprism.core\\wpf-admin-xprim\\chargemodules\\viewmodels\\chargeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9103D4C2-65BD-4F0F-BB79-E0549CC87D45}|ChargeModules\\ChargeModules.csproj|solutionrelative:chargemodules\\viewmodels\\chargeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D967566B-96C8-4F06-8CA9-379723CB3135}|CarouselModules\\CarouselModules.csproj|f:\\git\\github\\wpf-admin-xprism\\wpf-admin.xprism.core\\wpf-admin-xprim\\carouselmodules\\carouselmodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D967566B-96C8-4F06-8CA9-379723CB3135}|CarouselModules\\CarouselModules.csproj|solutionrelative:carouselmodules\\carouselmodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D8A4165C-3221-4187-898D-32FCA45E5024}|PersonalityComponentModules\\PersonalityComponentModules.csproj|f:\\git\\github\\wpf-admin-xprism\\wpf-admin.xprism.core\\wpf-admin-xprim\\personalitycomponentmodules\\views\\headerview.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{D8A4165C-3221-4187-898D-32FCA45E5024}|PersonalityComponentModules\\PersonalityComponentModules.csproj|solutionrelative:personalitycomponentmodules\\views\\headerview.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,70 +18,31 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "router.json",
-              "DocumentMoniker": "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPFAdmin\\router.json",
-              "RelativeDocumentMoniker": "WPFAdmin\\router.json",
-              "ToolTip": "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPFAdmin\\router.json",
-              "RelativeToolTip": "WPFAdmin\\router.json",
-              "ViewState": "AgIAADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-03-05T01:27:08.794Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ChargeViewModel.cs",
-              "DocumentMoniker": "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\ChargeModules\\ViewModels\\ChargeViewModel.cs",
-              "RelativeDocumentMoniker": "ChargeModules\\ViewModels\\ChargeViewModel.cs",
-              "ToolTip": "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\ChargeModules\\ViewModels\\ChargeViewModel.cs",
-              "RelativeToolTip": "ChargeModules\\ViewModels\\ChargeViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAfAAAAAAAAAA==",
+              "Title": "HeaderView.xaml.cs",
+              "DocumentMoniker": "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\PersonalityComponentModules\\Views\\HeaderView.xaml.cs",
+              "RelativeDocumentMoniker": "PersonalityComponentModules\\Views\\HeaderView.xaml.cs",
+              "ToolTip": "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\PersonalityComponentModules\\Views\\HeaderView.xaml.cs",
+              "RelativeToolTip": "PersonalityComponentModules\\Views\\HeaderView.xaml.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAkwA8AAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-05T01:24:53.444Z",
+              "WhenOpened": "2025-03-05T02:46:34.782Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ChargeView.xaml",
-              "DocumentMoniker": "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\ChargeModules\\Views\\ChargeView.xaml",
-              "RelativeDocumentMoniker": "ChargeModules\\Views\\ChargeView.xaml",
-              "ToolTip": "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\ChargeModules\\Views\\ChargeView.xaml",
-              "RelativeToolTip": "ChargeModules\\Views\\ChargeView.xaml",
+              "Title": "HeaderView.xaml",
+              "DocumentMoniker": "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\PersonalityComponentModules\\Views\\HeaderView.xaml",
+              "RelativeDocumentMoniker": "PersonalityComponentModules\\Views\\HeaderView.xaml",
+              "ToolTip": "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\PersonalityComponentModules\\Views\\HeaderView.xaml",
+              "RelativeToolTip": "PersonalityComponentModules\\Views\\HeaderView.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-03-05T01:24:24.281Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "CarouselModule.cs",
-              "DocumentMoniker": "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\CarouselModules\\CarouselModule.cs",
-              "RelativeDocumentMoniker": "CarouselModules\\CarouselModule.cs",
-              "ToolTip": "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\CarouselModules\\CarouselModule.cs",
-              "RelativeToolTip": "CarouselModules\\CarouselModule.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-05T01:23:42.068Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ChargeModule.cs",
-              "DocumentMoniker": "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\ChargeModules\\ChargeModule.cs",
-              "RelativeDocumentMoniker": "ChargeModules\\ChargeModule.cs",
-              "ToolTip": "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\ChargeModules\\ChargeModule.cs",
-              "RelativeToolTip": "ChargeModules\\ChargeModule.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-05T01:22:32.977Z",
+              "WhenOpened": "2025-03-05T02:30:57.571Z",
               "EditorCaption": ""
             }
           ]
