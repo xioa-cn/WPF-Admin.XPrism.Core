@@ -18,6 +18,8 @@ public class PersonalityComponentModule : IModule {
             "ParticleClock");
         regionManager.RegisterForNavigation<PinYinView, PinYinViewModel>(RegionName.HomeRegion,
             "PinYinView");
+        regionManager.RegisterForNavigation<ReadTextView, ReadTextViewModel>(RegionName.HomeRegion,
+            "ReadTextView");
     }
 
     public void OnInitialized(IContainerProvider containerProvider) {

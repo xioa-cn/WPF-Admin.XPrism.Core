@@ -1,0 +1,148 @@
+﻿<Page
+    x:Class="PersonalityComponentModules.Views.ReadTextView"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="clr-namespace:PersonalityComponentModules.Views"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    Title="ReadTextView"
+    Width="800"
+    Height="450"
+    mc:Ignorable="d">
+
+    <Grid Background="{DynamicResource Border.Brush}">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+
+        <!--  标题  -->
+        <TextBlock
+            Margin="0,20,0,10"
+            HorizontalAlignment="Center"
+            FontSize="24"
+            Foreground="{DynamicResource Text.Primary.Brush}"
+            Text="文本朗读" />
+
+        <!--  文本输入区域  -->
+        <Border
+            Grid.Row="1"
+            Margin="20"
+            Background="{DynamicResource Border.Background.Brush}"
+            BorderBrush="{DynamicResource Border.Line.Brush}"
+            BorderThickness="1">
+            <Grid>
+                <TextBox
+                    x:Name="InputTextBox"
+                    Margin="10"
+                    AcceptsReturn="True"
+                    Background="Transparent"
+                    BorderThickness="0"
+                    FontSize="16"
+                    Text="这是一段示例文本，用于测试文本朗读功能。您可以在此输入任何想要朗读的文字，然后点击下方的按钮开始朗读。"
+                    TextWrapping="Wrap"
+                    VerticalScrollBarVisibility="Auto" />
+            </Grid>
+        </Border>
+
+        <!--  控制按钮区域  -->
+        <StackPanel
+            Grid.Row="3"
+            Margin="0,0,0,20"
+            HorizontalAlignment="Center"
+            Orientation="Horizontal">
+
+            <!--  语速控制  -->
+            <StackPanel Margin="10,0" Orientation="Vertical">
+                <TextBlock
+                    HorizontalAlignment="Center"
+                    Foreground="{DynamicResource Text.Primary.Brush}"
+                    Text="语速" />
+                <Slider
+                    x:Name="RateSlider"
+                    Width="100"
+                    IsSnapToTickEnabled="True"
+                    Maximum="10"
+                    Minimum="-10"
+                    TickFrequency="1"
+                    Value="0" />
+            </StackPanel>
+
+            <!--  音量控制  -->
+            <StackPanel Margin="10,0" Orientation="Vertical">
+                <TextBlock
+                    HorizontalAlignment="Center"
+                    Foreground="{DynamicResource Text.Primary.Brush}"
+                    Text="音量" />
+                <Slider
+                    x:Name="VolumeSlider"
+                    Width="100"
+                    IsSnapToTickEnabled="True"
+                    Maximum="100"
+                    Minimum="0"
+                    TickFrequency="10"
+                    Value="100" />
+            </StackPanel>
+
+            <!--  语音选择  -->
+            <StackPanel Margin="10,0" Orientation="Vertical">
+                <TextBlock
+                    HorizontalAlignment="Center"
+                    Foreground="{DynamicResource Text.Primary.Brush}"
+                    Text="语音" />
+                <ComboBox
+                    x:Name="VoiceComboBox"
+                    Width="150"
+                    Margin="0,2,0,0" />
+            </StackPanel>
+
+            <!--  控制按钮  -->
+            <Button
+                x:Name="StartButton"
+                Width="100"
+                Height="30"
+                Margin="10,0"
+                Click="StartButton_Click"
+                Content="开始朗读" />
+
+            <Button
+                x:Name="PauseButton"
+                Width="80"
+                Height="30"
+                Margin="10,0"
+                Click="PauseButton_Click"
+                Content="暂停"
+                IsEnabled="False" />
+
+            <Button
+                x:Name="StopButton"
+                Width="80"
+                Height="30"
+                Margin="10,0"
+                Click="StopButton_Click"
+                Content="停止"
+                IsEnabled="False" />
+        </StackPanel>
+
+        <!--  朗读状态指示器  -->
+        <Border
+            x:Name="StatusIndicator"
+            Grid.Row="2"
+            Margin="20,0,0,0"
+            Padding="10,5"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Top"
+            Background="{DynamicResource Border.Background.Brush}"
+            BorderBrush="{DynamicResource Border.Line.Brush}"
+            BorderThickness="1"
+            Visibility="Collapsed">
+            <TextBlock
+                x:Name="StatusText"
+                Margin="20"
+                Foreground="{DynamicResource Text.Primary.Brush}"
+                Text="正在朗读..." />
+        </Border>
+    </Grid>
+</Page>

@@ -21,6 +21,7 @@
       <None Remove="Assets\1.png" />
       <PackageReference Include="Chinese" Version="0.5.0" />
       <PackageReference Include="Microsoft.International.Converters.PinYinConverter" Version="1.0.0" />
+      <PackageReference Include="System.Speech" Version="9.0.2" />
       <Resource Include="Assets\1.png" />
     </ItemGroup>
 

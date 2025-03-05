@@ -123,6 +123,11 @@
           "content": "拼音标注",
           "page": "PinYinView",
           "isPersistence": false
+        },
+        {
+          "content": "朗读文字",
+          "page": "ReadTextView",
+          "isPersistence": false
         }
       ]
     },

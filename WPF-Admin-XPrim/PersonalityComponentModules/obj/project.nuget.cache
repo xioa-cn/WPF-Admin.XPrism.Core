@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "IcGC9LsWr/w=",
+  "dgSpecHash": "nnccG/vmLOQ=",
   "success": true,
   "projectFilePath": "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\PersonalityComponentModules\\PersonalityComponentModules.csproj",
   "expectedPackageFiles": [
@@ -65,6 +65,7 @@
     "C:\\Users\\Administrator\\.nuget\\packages\\system.security.cryptography.protecteddata\\6.0.0\\system.security.cryptography.protecteddata.6.0.0.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\system.security.permissions\\6.0.0\\system.security.permissions.6.0.0.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\system.security.principal.windows\\5.0.0\\system.security.principal.windows.5.0.0.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\system.speech\\9.0.2\\system.speech.9.0.2.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\system.text.encoding\\4.3.0\\system.text.encoding.4.3.0.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\system.text.encoding.codepages\\6.0.0\\system.text.encoding.codepages.6.0.0.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\system.text.encodings.web\\9.0.2\\system.text.encodings.web.9.0.2.nupkg.sha512",

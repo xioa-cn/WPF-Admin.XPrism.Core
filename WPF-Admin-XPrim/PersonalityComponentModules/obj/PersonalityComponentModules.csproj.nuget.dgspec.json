@@ -68,6 +68,10 @@
             "Microsoft.International.Converters.PinYinConverter": {
               "target": "Package",
               "version": "[1.0.0, )"
+            },
+            "System.Speech": {
+              "target": "Package",
+              "version": "[9.0.2, )"
             }
           },
           "imports": [

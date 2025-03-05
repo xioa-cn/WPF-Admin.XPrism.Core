@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("InfiniteScrollingModules")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+590b32601974a25c7346fd388f335d6052ecbefe")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+51bdb57d2ee3cb5789b88d1a68002d4b3346768b")]
 [assembly: System.Reflection.AssemblyProductAttribute("InfiniteScrollingModules")]
 [assembly: System.Reflection.AssemblyTitleAttribute("InfiniteScrollingModules")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
