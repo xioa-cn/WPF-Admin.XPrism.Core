@@ -55,6 +55,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataManagerModules", "DataM
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersonalityComponentModules", "PersonalityComponentModules\PersonalityComponentModules.csproj", "{D8A4165C-3221-4187-898D-32FCA45E5024}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{D0377D08-66A5-4833-ACE5-2065E965A50B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPFAdmin.Test", "WPFAdmin.Test\WPFAdmin.Test.csproj", "{E118A2D7-5280-4704-8FFC-2F509EB6F143}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -153,6 +157,10 @@ Global
 		{D8A4165C-3221-4187-898D-32FCA45E5024}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D8A4165C-3221-4187-898D-32FCA45E5024}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D8A4165C-3221-4187-898D-32FCA45E5024}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E118A2D7-5280-4704-8FFC-2F509EB6F143}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E118A2D7-5280-4704-8FFC-2F509EB6F143}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E118A2D7-5280-4704-8FFC-2F509EB6F143}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E118A2D7-5280-4704-8FFC-2F509EB6F143}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -181,6 +189,7 @@ Global
 		{9103D4C2-65BD-4F0F-BB79-E0549CC87D45} = {6EFA3031-9EFE-40F1-BCEE-D7BE9F152013}
 		{A7282669-D36C-470E-B912-12AE91665732} = {6EFA3031-9EFE-40F1-BCEE-D7BE9F152013}
 		{D8A4165C-3221-4187-898D-32FCA45E5024} = {6EFA3031-9EFE-40F1-BCEE-D7BE9F152013}
+		{E118A2D7-5280-4704-8FFC-2F509EB6F143} = {D0377D08-66A5-4833-ACE5-2065E965A50B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {FDCE3D24-9A71-4F74-BA40-ECD00EB81C3B}

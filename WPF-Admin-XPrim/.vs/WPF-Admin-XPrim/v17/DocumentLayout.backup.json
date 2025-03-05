@@ -3,12 +3,8 @@
   "WorkspaceRootPath": "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D8A4165C-3221-4187-898D-32FCA45E5024}|PersonalityComponentModules\\PersonalityComponentModules.csproj|f:\\git\\github\\wpf-admin-xprism\\wpf-admin.xprism.core\\wpf-admin-xprim\\personalitycomponentmodules\\views\\pinyinview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D8A4165C-3221-4187-898D-32FCA45E5024}|PersonalityComponentModules\\PersonalityComponentModules.csproj|solutionrelative:personalitycomponentmodules\\views\\pinyinview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D8A4165C-3221-4187-898D-32FCA45E5024}|PersonalityComponentModules\\PersonalityComponentModules.csproj|f:\\git\\github\\wpf-admin-xprism\\wpf-admin.xprism.core\\wpf-admin-xprim\\personalitycomponentmodules\\views\\pinyinview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{D8A4165C-3221-4187-898D-32FCA45E5024}|PersonalityComponentModules\\PersonalityComponentModules.csproj|solutionrelative:personalitycomponentmodules\\views\\pinyinview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{E118A2D7-5280-4704-8FFC-2F509EB6F143}|WPFAdmin.Test\\WPFAdmin.Test.csproj|f:\\git\\github\\wpf-admin-xprism\\wpf-admin.xprism.core\\wpf-admin-xprim\\wpfadmin.test\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E118A2D7-5280-4704-8FFC-2F509EB6F143}|WPFAdmin.Test\\WPFAdmin.Test.csproj|solutionrelative:wpfadmin.test\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,31 +14,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "PinYinView.xaml",
-              "DocumentMoniker": "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\PersonalityComponentModules\\Views\\PinYinView.xaml",
-              "RelativeDocumentMoniker": "PersonalityComponentModules\\Views\\PinYinView.xaml",
-              "ToolTip": "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\PersonalityComponentModules\\Views\\PinYinView.xaml",
-              "RelativeToolTip": "PersonalityComponentModules\\Views\\PinYinView.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-03-05T04:33:35.814Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "PinYinView.xaml.cs",
-              "DocumentMoniker": "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\PersonalityComponentModules\\Views\\PinYinView.xaml.cs",
-              "RelativeDocumentMoniker": "PersonalityComponentModules\\Views\\PinYinView.xaml.cs",
-              "ToolTip": "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\PersonalityComponentModules\\Views\\PinYinView.xaml.cs",
-              "RelativeToolTip": "PersonalityComponentModules\\Views\\PinYinView.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJsAAAA/AAAAAAAAAA==",
+              "Title": "UnitTest1.cs",
+              "DocumentMoniker": "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPFAdmin.Test\\UnitTest1.cs",
+              "RelativeDocumentMoniker": "WPFAdmin.Test\\UnitTest1.cs",
+              "ToolTip": "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPFAdmin.Test\\UnitTest1.cs",
+              "RelativeToolTip": "WPFAdmin.Test\\UnitTest1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-05T04:32:00.452Z",
+              "WhenOpened": "2025-03-05T07:17:48.14Z",
               "EditorCaption": ""
             }
           ]
