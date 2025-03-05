@@ -51,6 +51,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharedMemoryDemoModules", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChargeModules", "ChargeModules\ChargeModules.csproj", "{9103D4C2-65BD-4F0F-BB79-E0549CC87D45}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataManagerModules", "DataManagerModules\DataManagerModules.csproj", "{A7282669-D36C-470E-B912-12AE91665732}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -141,6 +143,10 @@ Global
 		{9103D4C2-65BD-4F0F-BB79-E0549CC87D45}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9103D4C2-65BD-4F0F-BB79-E0549CC87D45}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9103D4C2-65BD-4F0F-BB79-E0549CC87D45}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7282669-D36C-470E-B912-12AE91665732}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7282669-D36C-470E-B912-12AE91665732}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7282669-D36C-470E-B912-12AE91665732}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7282669-D36C-470E-B912-12AE91665732}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -167,6 +173,7 @@ Global
 		{01210CA1-6F07-42CD-A8B7-C8BAADE351E1} = {7D261E2A-B46B-478A-A9E2-42815C4E5993}
 		{5B8EFC6B-18A4-456A-B082-077407FE3954} = {6EFA3031-9EFE-40F1-BCEE-D7BE9F152013}
 		{9103D4C2-65BD-4F0F-BB79-E0549CC87D45} = {6EFA3031-9EFE-40F1-BCEE-D7BE9F152013}
+		{A7282669-D36C-470E-B912-12AE91665732} = {6EFA3031-9EFE-40F1-BCEE-D7BE9F152013}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {FDCE3D24-9A71-4F74-BA40-ECD00EB81C3B}

@@ -19,6 +19,7 @@
       <ProjectReference Include="..\CarouselModules\CarouselModules.csproj" />
       <ProjectReference Include="..\ChargeModules\ChargeModules.csproj" />
       <ProjectReference Include="..\CustomModules\CustomModules.csproj" />
+      <ProjectReference Include="..\DataManagerModules\DataManagerModules.csproj" />
       <ProjectReference Include="..\DataValidatorModules\DataValidatorModules.csproj" />
       <ProjectReference Include="..\GanttChartModules\GanttChartModules.csproj" />
       <ProjectReference Include="..\GetColorModules\GetColorModules.csproj" />

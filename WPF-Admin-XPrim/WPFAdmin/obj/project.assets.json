@@ -1445,6 +1445,24 @@
           "Microsoft.WindowsDesktop.App.WPF"
         ]
       },
+      "DataManagerModules/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "WPF.Admin.Models": "1.0.0",
+          "WPF.Admin.Service": "1.0.0",
+          "WPF.Admin.Themes": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/DataManagerModules.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DataManagerModules.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      },
       "DataValidatorModules/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
@@ -4182,6 +4200,11 @@
       "path": "../CustomModules/CustomModules.csproj",
       "msbuildProject": "../CustomModules/CustomModules.csproj"
     },
+    "DataManagerModules/1.0.0": {
+      "type": "project",
+      "path": "../DataManagerModules/DataManagerModules.csproj",
+      "msbuildProject": "../DataManagerModules/DataManagerModules.csproj"
+    },
     "DataValidatorModules/1.0.0": {
       "type": "project",
       "path": "../DataValidatorModules/DataValidatorModules.csproj",
@@ -4265,6 +4288,7 @@
       "CarouselModules >= 1.0.0",
       "ChargeModules >= 1.0.0",
       "CustomModules >= 1.0.0",
+      "DataManagerModules >= 1.0.0",
       "DataValidatorModules >= 1.0.0",
       "GanttChartModules >= 1.0.0",
       "GetColorModules >= 1.0.0",
@@ -4330,6 +4354,9 @@
             },
             "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\CustomModules\\CustomModules.csproj": {
               "projectPath": "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\CustomModules\\CustomModules.csproj"
+            },
+            "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\DataManagerModules\\DataManagerModules.csproj": {
+              "projectPath": "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\DataManagerModules\\DataManagerModules.csproj"
             },
             "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\DataValidatorModules\\DataValidatorModules.csproj": {
               "projectPath": "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\DataValidatorModules\\DataValidatorModules.csproj"
