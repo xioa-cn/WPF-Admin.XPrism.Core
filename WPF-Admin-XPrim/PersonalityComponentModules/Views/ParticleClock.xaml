@@ -1,0 +1,39 @@
+﻿<Page
+    x:Class="PersonalityComponentModules.Views.ParticleClock"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="clr-namespace:PersonalityComponentModules.Views"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    Title="ParticleClock"
+    mc:Ignorable="d">
+    <Page.Resources>
+        <!--  移除粒子样式，因为我们在代码中直接设置了粒子属性  -->
+    </Page.Resources>
+
+    <Grid>
+
+
+
+        <!--  时钟容器  -->
+        <Viewbox Margin="20" Stretch="Uniform">
+            <Grid Width="600" Height="300">
+                <!--  粒子画布  -->
+                <Canvas
+                    x:Name="ParticleCanvas"
+                    Width="600"
+                    Height="300" />
+
+                <!--  数字时间显示（可选）  -->
+                <TextBlock
+                    x:Name="TimeDisplay"
+                    Margin="0,0,0,10"
+                    HorizontalAlignment="Center"
+                    VerticalAlignment="Bottom"
+                    FontSize="24"
+                    Foreground="{DynamicResource Text.Primary.Brush}"
+                    Opacity="0.7" />
+            </Grid>
+        </Viewbox>
+    </Grid>
+</Page>

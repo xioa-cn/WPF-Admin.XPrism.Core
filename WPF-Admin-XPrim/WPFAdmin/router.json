@@ -113,6 +113,11 @@
           "content": "个性头像",
           "page": "HeaderView",
           "isPersistence": false
+        },
+        {
+          "content": "粒子时钟",
+          "page": "ParticleClock",
+          "isPersistence": false
         }
       ]
     },

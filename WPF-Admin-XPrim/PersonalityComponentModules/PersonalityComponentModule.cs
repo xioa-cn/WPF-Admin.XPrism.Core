@@ -14,6 +14,8 @@ public class PersonalityComponentModule : IModule {
         var regionManager = containerRegistry.Resolve<IRegionManager>();
         regionManager.RegisterForNavigation<HeaderView, HeaderViewModel>(RegionName.HomeRegion,
             "HeaderView");
+        regionManager.RegisterForNavigation<ParticleClock, ParticleClockViewModel>(RegionName.HomeRegion,
+            "ParticleClock");
     }
 
     public void OnInitialized(IContainerProvider containerProvider) {

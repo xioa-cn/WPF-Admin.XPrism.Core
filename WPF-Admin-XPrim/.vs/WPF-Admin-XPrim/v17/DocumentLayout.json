@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D8A4165C-3221-4187-898D-32FCA45E5024}|PersonalityComponentModules\\PersonalityComponentModules.csproj|f:\\git\\github\\wpf-admin-xprism\\wpf-admin.xprism.core\\wpf-admin-xprim\\personalitycomponentmodules\\views\\headerview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{D8A4165C-3221-4187-898D-32FCA45E5024}|PersonalityComponentModules\\PersonalityComponentModules.csproj|solutionrelative:personalitycomponentmodules\\views\\headerview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{D8A4165C-3221-4187-898D-32FCA45E5024}|PersonalityComponentModules\\PersonalityComponentModules.csproj|f:\\git\\github\\wpf-admin-xprism\\wpf-admin.xprism.core\\wpf-admin-xprim\\personalitycomponentmodules\\views\\particleclock.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8A4165C-3221-4187-898D-32FCA45E5024}|PersonalityComponentModules\\PersonalityComponentModules.csproj|solutionrelative:personalitycomponentmodules\\views\\particleclock.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D8A4165C-3221-4187-898D-32FCA45E5024}|PersonalityComponentModules\\PersonalityComponentModules.csproj|f:\\git\\github\\wpf-admin-xprism\\wpf-admin.xprism.core\\wpf-admin-xprim\\personalitycomponentmodules\\views\\headerview.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
-      "RelativeMoniker": "D:0:0:{D8A4165C-3221-4187-898D-32FCA45E5024}|PersonalityComponentModules\\PersonalityComponentModules.csproj|solutionrelative:personalitycomponentmodules\\views\\headerview.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+      "AbsoluteMoniker": "D:0:0:{2DF7B4AB-42D7-4440-A79F-BF791CE1CD42}|WPF.Admin.Themes\\WPF.Admin.Themes.csproj|f:\\git\\github\\wpf-admin-xprism\\wpf-admin.xprism.core\\wpf-admin-xprim\\wpf.admin.themes\\thememanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DF7B4AB-42D7-4440-A79F-BF791CE1CD42}|WPF.Admin.Themes\\WPF.Admin.Themes.csproj|solutionrelative:wpf.admin.themes\\thememanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8A4165C-3221-4187-898D-32FCA45E5024}|PersonalityComponentModules\\PersonalityComponentModules.csproj|f:\\git\\github\\wpf-admin-xprism\\wpf-admin.xprism.core\\wpf-admin-xprim\\personalitycomponentmodules\\views\\particleclock.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D8A4165C-3221-4187-898D-32FCA45E5024}|PersonalityComponentModules\\PersonalityComponentModules.csproj|solutionrelative:personalitycomponentmodules\\views\\particleclock.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,31 +22,44 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "HeaderView.xaml.cs",
-              "DocumentMoniker": "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\PersonalityComponentModules\\Views\\HeaderView.xaml.cs",
-              "RelativeDocumentMoniker": "PersonalityComponentModules\\Views\\HeaderView.xaml.cs",
-              "ToolTip": "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\PersonalityComponentModules\\Views\\HeaderView.xaml.cs",
-              "RelativeToolTip": "PersonalityComponentModules\\Views\\HeaderView.xaml.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAkwA8AAAAIAAAAAAAAAA==",
+              "Title": "ThemeManager.cs",
+              "DocumentMoniker": "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPF.Admin.Themes\\ThemeManager.cs",
+              "RelativeDocumentMoniker": "WPF.Admin.Themes\\ThemeManager.cs",
+              "ToolTip": "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPF.Admin.Themes\\ThemeManager.cs",
+              "RelativeToolTip": "WPF.Admin.Themes\\ThemeManager.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAUwCQAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-05T02:46:34.782Z",
+              "WhenOpened": "2025-03-05T04:13:37.725Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ParticleClock.xaml",
+              "DocumentMoniker": "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\PersonalityComponentModules\\Views\\ParticleClock.xaml",
+              "RelativeDocumentMoniker": "PersonalityComponentModules\\Views\\ParticleClock.xaml",
+              "ToolTip": "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\PersonalityComponentModules\\Views\\ParticleClock.xaml",
+              "RelativeToolTip": "PersonalityComponentModules\\Views\\ParticleClock.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-05T03:44:09.8Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "HeaderView.xaml",
-              "DocumentMoniker": "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\PersonalityComponentModules\\Views\\HeaderView.xaml",
-              "RelativeDocumentMoniker": "PersonalityComponentModules\\Views\\HeaderView.xaml",
-              "ToolTip": "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\PersonalityComponentModules\\Views\\HeaderView.xaml",
-              "RelativeToolTip": "PersonalityComponentModules\\Views\\HeaderView.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-03-05T02:30:57.571Z",
+              "Title": "ParticleClock.xaml.cs",
+              "DocumentMoniker": "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\PersonalityComponentModules\\Views\\ParticleClock.xaml.cs",
+              "RelativeDocumentMoniker": "PersonalityComponentModules\\Views\\ParticleClock.xaml.cs",
+              "ToolTip": "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\PersonalityComponentModules\\Views\\ParticleClock.xaml.cs",
+              "RelativeToolTip": "PersonalityComponentModules\\Views\\ParticleClock.xaml.cs",
+              "ViewState": "AgIAABMBAAAAAAAAAAAtwC0BAABQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-05T03:43:57.96Z",
               "EditorCaption": ""
             }
           ]
