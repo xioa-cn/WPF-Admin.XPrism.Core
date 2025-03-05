@@ -10,11 +10,11 @@
       Title="DataValidatorPage" >
     <Page.Resources>
         <ResourceDictionary>
-            <ResourceDictionary.MergedDictionaries>
-                <ResourceDictionary
-                    Source="pack://application:,,,/WPF.Admin.Themes;component/Generic.xaml">
-                </ResourceDictionary>
-            </ResourceDictionary.MergedDictionaries>
+            <!-- <ResourceDictionary.MergedDictionaries> -->
+            <!--     <ResourceDictionary -->
+            <!--         Source="pack://application:,,,/WPF.Admin.Themes;component/Generic.xaml"> -->
+            <!--     </ResourceDictionary> -->
+            <!-- </ResourceDictionary.MergedDictionaries> -->
             <convert:HasErrorsConverter x:Key="HasErrorsConverter" />
         </ResourceDictionary>
     </Page.Resources>
@@ -60,7 +60,7 @@
         <TextBlock Margin="10,0">VM层验证：</TextBlock>
         <TextBox
             Width="200"
-            Height="40" Style="{StaticResource TextBoxExtend}"
+            Height="40" 
             Margin="10"
             Text="{Binding Height, UpdateSourceTrigger=PropertyChanged, ValidatesOnNotifyDataErrors=True}" />
         <Button

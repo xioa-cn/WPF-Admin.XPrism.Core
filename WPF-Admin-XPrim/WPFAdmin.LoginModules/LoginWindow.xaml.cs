@@ -1,5 +1,7 @@
-﻿using System.Diagnostics;
+﻿using CommunityToolkit.Mvvm.Messaging;
+using System.Diagnostics;
 using System.Windows;
+using WPF.Admin.Models.Models;
 using WPF.Admin.Themes.Themes;
 using XPrism.Core.DI;
 
@@ -15,7 +17,7 @@ public partial class LoginWindow : Window {
     public void SuccessLogin() {
         var mainWindow =
             XPrismIoc.FetchXPrismWindow("MainWindow");
-
+        WeakReferenceMessenger.Default.Send(new UseIcon());
         this.SwitchWindow(mainWindow);
     }
 

@@ -13,6 +13,7 @@
 
     <ItemGroup>
       <PackageReference Include="Xioa.NAxios" Version="1.1.0" />
+      <PackageReference Include="Xioa.WPF.XLog" Version="1.0.1" />
     </ItemGroup>
 
 </Project>

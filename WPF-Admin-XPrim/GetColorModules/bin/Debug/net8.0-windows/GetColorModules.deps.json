@@ -457,6 +457,14 @@
           }
         }
       },
+      "Snackbar/1.0.0": {
+        "runtime": {
+          "lib/net8.0/Snackbar.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
       "System.ClientModel/1.0.0": {
         "dependencies": {
           "System.Memory.Data": "1.0.2",
@@ -646,7 +654,7 @@
         },
         "runtime": {
           "WPF.Admin.Models.dll": {
-            "assemblyVersion": "1.0.0",
+            "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
           }
         }
@@ -654,11 +662,12 @@
       "WPF.Admin.Themes/1.0.0": {
         "dependencies": {
           "HandyControl": "3.5.1",
+          "Snackbar": "1.0.0",
           "WPF.Admin.Models": "1.0.0"
         },
         "runtime": {
           "WPF.Admin.Themes.dll": {
-            "assemblyVersion": "1.0.0",
+            "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
           }
         }
@@ -943,6 +952,13 @@
       "sha512": "sha512-Gf1L9hdJFW3zPw1CWqgkBLLxySAPzRKeWXFwm7YFxzgPQvM4ISkR8ZFGlVYWAxfd0oYxnXRulu+WVgt0jdHQ5Q==",
       "path": "pomelo.entityframeworkcore.mysql/9.0.0-preview.2.efcore.9.0.0",
       "hashPath": "pomelo.entityframeworkcore.mysql.9.0.0-preview.2.efcore.9.0.0.nupkg.sha512"
+    },
+    "Snackbar/1.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-j7aDgxOWY1Xm7ehJowJ1I8FN9rnff9LStrPAxaaNJm8R7LYXjrK6Q++7iQgZ0fpckTcuFz5hY6YlWqu2Hp8EwQ==",
+      "path": "snackbar/1.0.0",
+      "hashPath": "snackbar.1.0.0.nupkg.sha512"
     },
     "System.ClientModel/1.0.0": {
       "type": "package",

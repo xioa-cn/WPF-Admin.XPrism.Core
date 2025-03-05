@@ -17,6 +17,7 @@
       <ProjectReference Include="..\AboutModules\AboutModules.csproj" />
       <ProjectReference Include="..\AntDiagramModules\AntDiagramModules.csproj" />
       <ProjectReference Include="..\CarouselModules\CarouselModules.csproj" />
+      <ProjectReference Include="..\ChargeModules\ChargeModules.csproj" />
       <ProjectReference Include="..\CustomModules\CustomModules.csproj" />
       <ProjectReference Include="..\DataValidatorModules\DataValidatorModules.csproj" />
       <ProjectReference Include="..\GanttChartModules\GanttChartModules.csproj" />
@@ -26,7 +27,10 @@
       <ProjectReference Include="..\RouterEventModules\RouterEventModules.csproj" />
       <ProjectReference Include="..\SharedMemoryDemoModules\SharedMemoryDemoModules.csproj" />
       <ProjectReference Include="..\TopicModules\TopicModules.csproj" />
+      <ProjectReference Include="..\WPF.Admin.Models\WPF.Admin.Models.csproj" />
+      <ProjectReference Include="..\WPF.Admin.Service\WPF.Admin.Service.csproj" />
       <ProjectReference Include="..\WPF.Admin.Themes\WPF.Admin.Themes.csproj" />
+      <ProjectReference Include="..\WPF.SharedMemory\WPF.SharedMemory.csproj" />
       <ProjectReference Include="..\WPFAdmin.DialogModules\WPFAdmin.DialogModules.csproj" />
       <ProjectReference Include="..\WPFAdmin.LoginModules\WPFAdmin.LoginModules.csproj" />
       <ProjectReference Include="..\WPFAdmin.NavigationModules\WPFAdmin.NavigationModules.csproj" />

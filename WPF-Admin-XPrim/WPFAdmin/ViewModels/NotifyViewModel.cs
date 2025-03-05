@@ -27,7 +27,8 @@ public partial class NotifyViewModel : BindableBase {
 
     [RelayCommand]
     private void Close() {
-        App.DisposeNotifyIcon();
+        App.DisposeAppResources();
+        XPrism.Core.Co.CloseApplication.ShutdownApplication();
         Environment.Exit(0);
     }
 }

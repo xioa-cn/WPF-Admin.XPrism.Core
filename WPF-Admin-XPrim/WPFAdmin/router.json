@@ -103,6 +103,11 @@
           "content": "虚拟化列",
           "page": "VirtualizingListPage",
           "isPersistence": false
+        },
+        {
+          "content": "充电图标",
+          "page": "ChargeView",
+          "isPersistence": false
         }
       ]
     },

@@ -3,28 +3,24 @@
   "WorkspaceRootPath": "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{720EF34A-9CE7-4EBD-A7BA-5B1E7F0BD173}|WPFAdmin.NavigationModules\\WPFAdmin.NavigationModules.csproj|f:\\git\\github\\wpf-admin-xprism\\wpf-admin.xprism.core\\wpf-admin-xprim\\wpfadmin.navigationmodules\\components\\breadcrumbbar.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{720EF34A-9CE7-4EBD-A7BA-5B1E7F0BD173}|WPFAdmin.NavigationModules\\WPFAdmin.NavigationModules.csproj|solutionrelative:wpfadmin.navigationmodules\\components\\breadcrumbbar.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9103D4C2-65BD-4F0F-BB79-E0549CC87D45}|ChargeModules\\ChargeModules.csproj|f:\\git\\github\\wpf-admin-xprism\\wpf-admin.xprism.core\\wpf-admin-xprim\\chargemodules\\views\\chargeview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{9103D4C2-65BD-4F0F-BB79-E0549CC87D45}|ChargeModules\\ChargeModules.csproj|solutionrelative:chargemodules\\views\\chargeview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3EF4D945-2E87-4087-94E5-3958770149BF}|TopicModules\\TopicModules.csproj|f:\\git\\github\\wpf-admin-xprism\\wpf-admin.xprism.core\\wpf-admin-xprim\\topicmodules\\views\\topicview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{3EF4D945-2E87-4087-94E5-3958770149BF}|TopicModules\\TopicModules.csproj|solutionrelative:topicmodules\\views\\topicview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{B2F0EB2E-B796-482A-872B-9AC04CB7D336}|WPFAdmin\\WPFAdmin.csproj|f:\\git\\github\\wpf-admin-xprism\\wpf-admin.xprism.core\\wpf-admin-xprim\\wpfadmin\\router.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B2F0EB2E-B796-482A-872B-9AC04CB7D336}|WPFAdmin\\WPFAdmin.csproj|solutionrelative:wpfadmin\\router.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3EF4D945-2E87-4087-94E5-3958770149BF}|TopicModules\\TopicModules.csproj|f:\\git\\github\\wpf-admin-xprism\\wpf-admin.xprism.core\\wpf-admin-xprim\\topicmodules\\views\\blendpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{3EF4D945-2E87-4087-94E5-3958770149BF}|TopicModules\\TopicModules.csproj|solutionrelative:topicmodules\\views\\blendpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{9103D4C2-65BD-4F0F-BB79-E0549CC87D45}|ChargeModules\\ChargeModules.csproj|f:\\git\\github\\wpf-admin-xprism\\wpf-admin.xprism.core\\wpf-admin-xprim\\chargemodules\\chargemodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9103D4C2-65BD-4F0F-BB79-E0549CC87D45}|ChargeModules\\ChargeModules.csproj|solutionrelative:chargemodules\\chargemodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3EF4D945-2E87-4087-94E5-3958770149BF}|TopicModules\\TopicModules.csproj|f:\\git\\github\\wpf-admin-xprism\\wpf-admin.xprism.core\\wpf-admin-xprim\\topicmodules\\views\\colorsystempage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{3EF4D945-2E87-4087-94E5-3958770149BF}|TopicModules\\TopicModules.csproj|solutionrelative:topicmodules\\views\\colorsystempage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{9103D4C2-65BD-4F0F-BB79-E0549CC87D45}|ChargeModules\\ChargeModules.csproj|f:\\git\\github\\wpf-admin-xprism\\wpf-admin.xprism.core\\wpf-admin-xprim\\chargemodules\\viewmodels\\chargeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9103D4C2-65BD-4F0F-BB79-E0549CC87D45}|ChargeModules\\ChargeModules.csproj|solutionrelative:chargemodules\\viewmodels\\chargeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3EF4D945-2E87-4087-94E5-3958770149BF}|TopicModules\\TopicModules.csproj|f:\\git\\github\\wpf-admin-xprism\\wpf-admin.xprism.core\\wpf-admin-xprim\\topicmodules\\views\\blendentpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{3EF4D945-2E87-4087-94E5-3958770149BF}|TopicModules\\TopicModules.csproj|solutionrelative:topicmodules\\views\\blendentpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{197062BB-62A5-4116-821A-652FEF37E731}|CustomModules\\CustomModules.csproj|f:\\git\\github\\wpf-admin-xprism\\wpf-admin.xprism.core\\wpf-admin-xprim\\custommodules\\components\\qqcombobox.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{197062BB-62A5-4116-821A-652FEF37E731}|CustomModules\\CustomModules.csproj|solutionrelative:custommodules\\components\\qqcombobox.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{D967566B-96C8-4F06-8CA9-379723CB3135}|CarouselModules\\CarouselModules.csproj|f:\\git\\github\\wpf-admin-xprism\\wpf-admin.xprism.core\\wpf-admin-xprim\\carouselmodules\\carouselmodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D967566B-96C8-4F06-8CA9-379723CB3135}|CarouselModules\\CarouselModules.csproj|solutionrelative:carouselmodules\\carouselmodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,75 +30,71 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "TopicView.xaml",
-              "DocumentMoniker": "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\TopicModules\\Views\\TopicView.xaml",
-              "RelativeDocumentMoniker": "TopicModules\\Views\\TopicView.xaml",
-              "ToolTip": "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\TopicModules\\Views\\TopicView.xaml",
-              "RelativeToolTip": "TopicModules\\Views\\TopicView.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-01-16T04:54:08.737Z"
+              "Title": "router.json",
+              "DocumentMoniker": "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPFAdmin\\router.json",
+              "RelativeDocumentMoniker": "WPFAdmin\\router.json",
+              "ToolTip": "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPFAdmin\\router.json",
+              "RelativeToolTip": "WPFAdmin\\router.json",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-05T01:27:08.794Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "ColorSystemPage.xaml",
-              "DocumentMoniker": "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\TopicModules\\Views\\ColorSystemPage.xaml",
-              "RelativeDocumentMoniker": "TopicModules\\Views\\ColorSystemPage.xaml",
-              "ToolTip": "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\TopicModules\\Views\\ColorSystemPage.xaml",
-              "RelativeToolTip": "TopicModules\\Views\\ColorSystemPage.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-01-16T04:53:42.925Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "BlendPage.xaml",
-              "DocumentMoniker": "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\TopicModules\\Views\\BlendPage.xaml",
-              "RelativeDocumentMoniker": "TopicModules\\Views\\BlendPage.xaml",
-              "ToolTip": "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\TopicModules\\Views\\BlendPage.xaml",
-              "RelativeToolTip": "TopicModules\\Views\\BlendPage.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-01-16T04:53:22.523Z"
+              "Title": "ChargeViewModel.cs",
+              "DocumentMoniker": "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\ChargeModules\\ViewModels\\ChargeViewModel.cs",
+              "RelativeDocumentMoniker": "ChargeModules\\ViewModels\\ChargeViewModel.cs",
+              "ToolTip": "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\ChargeModules\\ViewModels\\ChargeViewModel.cs",
+              "RelativeToolTip": "ChargeModules\\ViewModels\\ChargeViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-05T01:24:53.444Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "BreadCrumbBar.xaml.cs",
-              "DocumentMoniker": "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPFAdmin.NavigationModules\\Components\\BreadCrumbBar.xaml.cs",
-              "RelativeDocumentMoniker": "WPFAdmin.NavigationModules\\Components\\BreadCrumbBar.xaml.cs",
-              "ToolTip": "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\WPFAdmin.NavigationModules\\Components\\BreadCrumbBar.xaml.cs",
-              "RelativeToolTip": "WPFAdmin.NavigationModules\\Components\\BreadCrumbBar.xaml.cs",
-              "ViewState": "AgIAAF4AAAAAAAAAAAA0wHUAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-16T04:43:51.503Z",
+              "Title": "ChargeView.xaml",
+              "DocumentMoniker": "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\ChargeModules\\Views\\ChargeView.xaml",
+              "RelativeDocumentMoniker": "ChargeModules\\Views\\ChargeView.xaml",
+              "ToolTip": "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\ChargeModules\\Views\\ChargeView.xaml",
+              "RelativeToolTip": "ChargeModules\\Views\\ChargeView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-05T01:24:24.281Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "BlendentPage.xaml",
-              "DocumentMoniker": "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\TopicModules\\Views\\BlendentPage.xaml",
-              "RelativeDocumentMoniker": "TopicModules\\Views\\BlendentPage.xaml",
-              "ToolTip": "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\TopicModules\\Views\\BlendentPage.xaml",
-              "RelativeToolTip": "TopicModules\\Views\\BlendentPage.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-01-16T04:32:40.488Z"
+              "Title": "CarouselModule.cs",
+              "DocumentMoniker": "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\CarouselModules\\CarouselModule.cs",
+              "RelativeDocumentMoniker": "CarouselModules\\CarouselModule.cs",
+              "ToolTip": "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\CarouselModules\\CarouselModule.cs",
+              "RelativeToolTip": "CarouselModules\\CarouselModule.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-05T01:23:42.068Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "QQComboBox.xaml",
-              "DocumentMoniker": "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\CustomModules\\Components\\QQComboBox.xaml",
-              "RelativeDocumentMoniker": "CustomModules\\Components\\QQComboBox.xaml",
-              "ToolTip": "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\CustomModules\\Components\\QQComboBox.xaml",
-              "RelativeToolTip": "CustomModules\\Components\\QQComboBox.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-01-15T06:06:01.034Z"
+              "DocumentIndex": 2,
+              "Title": "ChargeModule.cs",
+              "DocumentMoniker": "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\ChargeModules\\ChargeModule.cs",
+              "RelativeDocumentMoniker": "ChargeModules\\ChargeModule.cs",
+              "ToolTip": "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\ChargeModules\\ChargeModule.cs",
+              "RelativeToolTip": "ChargeModules\\ChargeModule.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-05T01:22:32.977Z",
+              "EditorCaption": ""
             }
           ]
         }

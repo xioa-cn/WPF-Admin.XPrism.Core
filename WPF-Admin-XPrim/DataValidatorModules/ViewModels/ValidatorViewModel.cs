@@ -16,7 +16,7 @@ public partial class ValidatorViewModel : ObservableValidator
     [ObservableProperty]
     [Required(ErrorMessage = "不能为空值")]
     [NotifyDataErrorInfo]
-    private string _height = "0";
+    private float _height = 0;
 
     [RelayCommand]
     private void Submit()
