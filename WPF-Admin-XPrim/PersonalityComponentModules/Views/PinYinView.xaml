@@ -1,0 +1,75 @@
+﻿<Page
+    x:Class="PersonalityComponentModules.Views.PinYinView"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="clr-namespace:PersonalityComponentModules.Views"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    Title="PinYinView"
+    Width="800"
+    Height="450"
+    mc:Ignorable="d">
+    <Page.Resources>
+        <Style x:Key="PinyinTextStyle" TargetType="TextBlock">
+            <Setter Property="FontSize" Value="10" />
+            <Setter Property="Foreground" Value="#E74C3C" />
+            <Setter Property="TextAlignment" Value="Center" />
+            <Setter Property="Margin" Value="0,0,0,0" />
+        </Style>
+
+        <Style x:Key="ChineseTextStyle" TargetType="TextBlock">
+            <Setter Property="FontSize" Value="16" />
+            <Setter Property="Foreground" Value="{DynamicResource Text.Primary.Brush}" />
+            <Setter Property="TextAlignment" Value="Center" />
+            <Setter Property="Margin" Value="0,2,0,0" />
+        </Style>
+    </Page.Resources>
+
+    <Grid Background="{DynamicResource Border.Brush}">
+
+        <StackPanel Margin="20">
+            <!--  标题  -->
+            <TextBlock
+                Margin="0,0,0,20"
+                HorizontalAlignment="Center"
+                FontSize="24"
+                Foreground="{DynamicResource Text.Primary.Brush}"
+                Text="拼音标注示例" />
+
+            <!--  输入区域  -->
+            <Grid Margin="0,0,0,20">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                </Grid.RowDefinitions>
+
+                <TextBlock
+                    Margin="0,0,0,5"
+                    FontSize="16"
+                    Foreground="{DynamicResource Text.Primary.Brush}"
+                    Text="输入文本:" />
+
+                <Grid Grid.Row="1">
+                    <TextBox
+                        x:Name="InputTextBox"
+                        Height="80"
+                        AcceptsReturn="True"
+                        FontSize="16"
+                        Text="目前，ChatGPT的Plus订阅用户已经可以使用GPT-4，其他用户需要排队内测。"
+                        TextChanged="InputTextBox_TextChanged"
+                        TextWrapping="Wrap" />
+                </Grid>
+            </Grid>
+
+            <!--  拼音标注区域  -->
+            <Border
+                Padding="10"
+                Background="{DynamicResource Border.Background.Brush}"
+                BorderBrush="{DynamicResource Border.Line.Brush}"
+                BorderThickness="1">
+                <WrapPanel x:Name="PinyinPanel" Orientation="Horizontal" />
+            </Border>
+        </StackPanel>
+
+    </Grid>
+</Page>

@@ -60,6 +60,16 @@
       "frameworks": {
         "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows",
+          "dependencies": {
+            "Chinese": {
+              "target": "Package",
+              "version": "[0.5.0, )"
+            },
+            "Microsoft.International.Converters.PinYinConverter": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

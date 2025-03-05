@@ -47,6 +47,19 @@
           }
         }
       },
+      "Chinese/0.5.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Caching.Memory": "6.0.1",
+          "NStandard": "0.9.4"
+        },
+        "compile": {
+          "lib/net6.0/Chinese.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Chinese.dll": {}
+        }
+      },
       "CommunityToolkit.Mvvm/8.4.0": {
         "type": "package",
         "compile": {
@@ -577,6 +590,15 @@
           }
         }
       },
+      "Microsoft.International.Converters.PinYinConverter/1.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/ChnCharInfo.dll": {}
+        },
+        "runtime": {
+          "lib/ChnCharInfo.dll": {}
+        }
+      },
       "Microsoft.NETCore.Platforms/1.1.0": {
         "type": "package",
         "compile": {
@@ -677,6 +699,19 @@
         },
         "runtime": {
           "lib/net8.0/Npgsql.EntityFrameworkCore.PostgreSQL.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "NStandard/0.9.4": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/NStandard.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/NStandard.dll": {
             "related": ".xml"
           }
         }
@@ -1536,6 +1571,8 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
+          "Chinese": "0.5.0",
+          "Microsoft.International.Converters.PinYinConverter": "1.0.0",
           "WPF.Admin.Models": "1.0.0",
           "WPF.Admin.Service": "1.0.0",
           "WPF.Admin.Themes": "1.0.0"
@@ -1779,6 +1816,28 @@
         "azureicon.png",
         "lib/netstandard2.0/Azure.Identity.dll",
         "lib/netstandard2.0/Azure.Identity.xml"
+      ]
+    },
+    "Chinese/0.5.0": {
+      "sha512": "6Jvj8w8lOUDPOR2HmkcLxJer4baAijpH/z7rOtum7jx5aR27EML/ndYsrkmyPK8yWJOQEWK+cJrOshW8PuFyIQ==",
+      "type": "package",
+      "path": "chinese/0.5.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Chinese.png",
+        "LICENSE.md",
+        "chinese.0.5.0.nupkg.sha512",
+        "chinese.nuspec",
+        "lib/net35/Chinese.dll",
+        "lib/net40/Chinese.dll",
+        "lib/net45/Chinese.dll",
+        "lib/net451/Chinese.dll",
+        "lib/net46/Chinese.dll",
+        "lib/net5.0/Chinese.dll",
+        "lib/net6.0/Chinese.dll",
+        "lib/netstandard2.0/Chinese.dll",
+        "lib/netstandard2.1/Chinese.dll"
       ]
     },
     "CommunityToolkit.Mvvm/8.4.0": {
@@ -2667,6 +2726,18 @@
         "microsoft.identitymodel.tokens.nuspec"
       ]
     },
+    "Microsoft.International.Converters.PinYinConverter/1.0.0": {
+      "sha512": "hEs/VPwGFeVNLf2Wc6k2bMYF71zE6x+lW4MfebRAjkVbAbaa4DbEmdFRfSBymvGLtdsCUvXo2aa/yFKYSCYmEQ==",
+      "type": "package",
+      "path": "microsoft.international.converters.pinyinconverter/1.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/ChnCharInfo.dll",
+        "microsoft.international.converters.pinyinconverter.1.0.0.nupkg.sha512",
+        "microsoft.international.converters.pinyinconverter.nuspec"
+      ]
+    },
     "Microsoft.NETCore.Platforms/1.1.0": {
       "sha512": "kz0PEW2lhqygehI/d6XsPCQzD7ff7gUJaVGPVETX611eadGsA3A877GdSlU0LRVMCTH/+P3o2iDTak+S08V2+A==",
       "type": "package",
@@ -2803,6 +2874,39 @@
         "npgsql.entityframeworkcore.postgresql.9.0.3.nupkg.sha512",
         "npgsql.entityframeworkcore.postgresql.nuspec",
         "postgresql.png"
+      ]
+    },
+    "NStandard/0.9.4": {
+      "sha512": "zYINF96PAuV6scYTtner3GsyfwWmYEX2nseUwWdBkCldverwNUzj+0meBp0tpG1MLo4b9rKUviOMcuy0xobjQg==",
+      "type": "package",
+      "path": "nstandard/0.9.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "lib/net35/NStandard.dll",
+        "lib/net35/NStandard.xml",
+        "lib/net40/NStandard.dll",
+        "lib/net40/NStandard.xml",
+        "lib/net45/NStandard.dll",
+        "lib/net45/NStandard.xml",
+        "lib/net451/NStandard.dll",
+        "lib/net451/NStandard.xml",
+        "lib/net452/NStandard.dll",
+        "lib/net452/NStandard.xml",
+        "lib/net46/NStandard.dll",
+        "lib/net46/NStandard.xml",
+        "lib/net5.0/NStandard.dll",
+        "lib/net5.0/NStandard.xml",
+        "lib/net6.0/NStandard.dll",
+        "lib/net6.0/NStandard.xml",
+        "lib/netstandard2.0/NStandard.dll",
+        "lib/netstandard2.0/NStandard.xml",
+        "lib/netstandard2.1/NStandard.dll",
+        "lib/netstandard2.1/NStandard.xml",
+        "nstandard.0.9.4.nupkg.sha512",
+        "nstandard.nuspec",
+        "nstandard.png"
       ]
     },
     "Pomelo.EntityFrameworkCore.MySql/9.0.0-preview.2.efcore.9.0.0": {
@@ -4476,5 +4580,17 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Microsoft.International.Converters.PinYinConverter 1.0.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0-windows7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Microsoft.International.Converters.PinYinConverter",
+      "targetGraphs": [
+        "net8.0-windows7.0"
+      ]
+    }
+  ]
 }

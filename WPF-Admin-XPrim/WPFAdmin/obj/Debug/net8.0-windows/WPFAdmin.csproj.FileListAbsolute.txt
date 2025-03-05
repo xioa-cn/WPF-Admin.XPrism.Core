@@ -240,3 +240,6 @@ F:\git\github\WPF-Admin-XPrism\WPF-Admin.XPrism.Core\WPF-Admin-XPrim\WPFAdmin\bi
 F:\git\github\WPF-Admin-XPrism\WPF-Admin.XPrism.Core\WPF-Admin-XPrim\WPFAdmin\bin\Debug\net8.0-windows\DataManagerModules.pdb
 F:\git\github\WPF-Admin-XPrism\WPF-Admin.XPrism.Core\WPF-Admin-XPrim\WPFAdmin\bin\Debug\net8.0-windows\PersonalityComponentModules.dll
 F:\git\github\WPF-Admin-XPrism\WPF-Admin.XPrism.Core\WPF-Admin-XPrim\WPFAdmin\bin\Debug\net8.0-windows\PersonalityComponentModules.pdb
+F:\git\github\WPF-Admin-XPrism\WPF-Admin.XPrism.Core\WPF-Admin-XPrim\WPFAdmin\bin\Debug\net8.0-windows\Chinese.dll
+F:\git\github\WPF-Admin-XPrism\WPF-Admin.XPrism.Core\WPF-Admin-XPrim\WPFAdmin\bin\Debug\net8.0-windows\NStandard.dll
+F:\git\github\WPF-Admin-XPrism\WPF-Admin.XPrism.Core\WPF-Admin-XPrim\WPFAdmin\bin\Debug\net8.0-windows\ChnCharInfo.dll

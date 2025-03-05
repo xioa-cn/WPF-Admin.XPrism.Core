@@ -19,6 +19,8 @@
       <None Remove="Assets\login2.png" />
       <Resource Include="Assets\login2.png" />
       <None Remove="Assets\1.png" />
+      <PackageReference Include="Chinese" Version="0.5.0" />
+      <PackageReference Include="Microsoft.International.Converters.PinYinConverter" Version="1.0.0" />
       <Resource Include="Assets\1.png" />
     </ItemGroup>
 

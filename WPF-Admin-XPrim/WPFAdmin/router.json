@@ -118,6 +118,11 @@
           "content": "粒子时钟",
           "page": "ParticleClock",
           "isPersistence": false
+        },
+        {
+          "content": "拼音标注",
+          "page": "PinYinView",
+          "isPersistence": false
         }
       ]
     },

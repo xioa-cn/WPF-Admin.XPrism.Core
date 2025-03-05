@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PersonalityComponentModules")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ac100fd861bbea0f807692a6739d61488cd172c4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+590b32601974a25c7346fd388f335d6052ecbefe")]
 [assembly: System.Reflection.AssemblyProductAttribute("PersonalityComponentModules")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PersonalityComponentModules")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
