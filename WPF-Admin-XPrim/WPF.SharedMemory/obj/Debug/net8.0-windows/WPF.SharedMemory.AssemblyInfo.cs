@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WPF.SharedMemory")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+89b0c4e96f08ce0e8ede62fe05015c74d4f21f90")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+acf305c72becb8ba3187c3bdb3a2f59b5a2d14e5")]
 [assembly: System.Reflection.AssemblyProductAttribute("WPF.SharedMemory")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WPF.SharedMemory")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
