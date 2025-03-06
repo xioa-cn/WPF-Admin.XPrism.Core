@@ -23,6 +23,8 @@ namespace ChargeModules
             var regionManager = containerRegistry.Resolve<IRegionManager>();
             regionManager.RegisterForNavigation<ChargeView, ChargeViewModel>(RegionName.HomeRegion,
                 "ChargeView");
+            regionManager.RegisterForNavigation<Charge2View, Charge2ViewModel>(RegionName.HomeRegion,
+                "Charge2View");
         }
     }
 }

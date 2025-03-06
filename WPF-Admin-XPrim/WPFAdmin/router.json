@@ -110,6 +110,11 @@
           "isPersistence": false
         },
         {
+          "content": "水滴图标",
+          "page": "Charge2View",
+          "isPersistence": false
+        },
+        {
           "content": "个性头像",
           "page": "HeaderView",
           "isPersistence": false

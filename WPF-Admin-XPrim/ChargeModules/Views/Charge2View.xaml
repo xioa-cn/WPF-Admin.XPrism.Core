@@ -1,0 +1,245 @@
+﻿<Page
+    x:Class="ChargeModules.Views.Charge2View"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="clr-namespace:ChargeModules.Views"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    Title="Charge2View"
+    Width="800"
+    Height="450"
+    mc:Ignorable="d">
+
+    <Grid Background="Black">
+        <Viewbox Stretch="Uniform">
+            <Grid Width="300" Height="400">
+
+                <!--  主容器  -->
+                <Grid Margin="0,50,0,0">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="auto" />
+                        <RowDefinition />
+                    </Grid.RowDefinitions>
+                    <!--  圆形进度条背景 - 使用模糊效果  -->
+                    <Ellipse
+                        x:Name="CircleBackground"
+                        Grid.Row="0"
+                        Width="200"
+                        Height="200"
+                        HorizontalAlignment="Center"
+                        VerticalAlignment="Center"
+                        Fill="#FF79F77F"
+                        Opacity="0.9">
+                        <Ellipse.Effect>
+                            <BlurEffect Radius="8" />
+                        </Ellipse.Effect>
+                        <Ellipse.RenderTransform>
+                            <RotateTransform x:Name="CircleRotation" CenterX="100" CenterY="100" />
+                        </Ellipse.RenderTransform>
+                        <Ellipse.Clip>
+                            <EllipseGeometry
+                                Center="100,100"
+                                RadiusX="90"
+                                RadiusY="90" />
+                        </Ellipse.Clip>
+                    </Ellipse>
+
+                    <!--  中心黑色圆形  -->
+                    <Ellipse
+                        Grid.Row="0"
+                        Width="175"
+                        Height="175"
+                        HorizontalAlignment="Center"
+                        VerticalAlignment="Center"
+                        Fill="Black" />
+
+                    <!--  水滴底部  -->
+                    <Canvas
+                        Grid.RowSpan="2"
+                        Width="300"
+                        Height="100"
+                        Margin="130"
+                        HorizontalAlignment="Center"
+                        VerticalAlignment="Top"
+                        ClipToBounds="False">
+
+
+                        <!--  上升的小水滴  -->
+                        <ItemsControl x:Name="DropsContainer">
+                            <ItemsControl.ItemsPanel>
+                                <ItemsPanelTemplate>
+                                    <Canvas />
+                                </ItemsPanelTemplate>
+                            </ItemsControl.ItemsPanel>
+                            <ItemsControl.Items>
+                                <Ellipse
+                                    x:Name="Drop1"
+                                    Canvas.Left="130"
+                                    Canvas.Top="280"
+                                    Width="15"
+                                    Height="15"
+                                    Fill="#FF79F77F">
+                                    <Ellipse.Effect>
+                                        <BlurEffect Radius="4" />
+                                    </Ellipse.Effect>
+                                </Ellipse>
+                                <Ellipse
+                                    x:Name="Drop2"
+                                    Canvas.Left="150"
+                                    Canvas.Top="260"
+                                    Width="10"
+                                    Height="10"
+                                    Fill="#FF79F77F">
+                                    <Ellipse.Effect>
+                                        <BlurEffect Radius="4" />
+                                    </Ellipse.Effect>
+                                </Ellipse>
+                                <Ellipse
+                                    x:Name="Drop3"
+                                    Canvas.Left="140"
+                                    Canvas.Top="240"
+                                    Width="12"
+                                    Height="12"
+                                    Fill="#FF79F77F">
+                                    <Ellipse.Effect>
+                                        <BlurEffect Radius="4" />
+                                    </Ellipse.Effect>
+                                </Ellipse>
+                                <Ellipse
+                                    x:Name="Drop4"
+                                    Canvas.Left="160"
+                                    Canvas.Top="220"
+                                    Width="8"
+                                    Height="8"
+                                    Fill="#FF79F77F">
+                                    <Ellipse.Effect>
+                                        <BlurEffect Radius="4" />
+                                    </Ellipse.Effect>
+                                </Ellipse>
+                            </ItemsControl.Items>
+                        </ItemsControl>
+                    </Canvas>
+
+                    <!--  中心百分比文字  -->
+                    <TextBlock
+                        x:Name="PercentText"
+                        HorizontalAlignment="Center"
+                        VerticalAlignment="Center"
+                        FontFamily="Consolas"
+                        FontSize="48"
+                        FontWeight="Normal"
+                        Foreground="White"
+                        Text="60%" />
+                </Grid>
+
+                <!--  动画定义  -->
+                <Grid.Resources>
+                    <!--  圆形旋转动画  -->
+                    <Storyboard x:Key="CircleAnimation" RepeatBehavior="Forever">
+                        <DoubleAnimation
+                            RepeatBehavior="Forever"
+                            Storyboard.TargetName="CircleRotation"
+                            Storyboard.TargetProperty="Angle"
+                            From="0"
+                            To="360"
+                            Duration="0:0:10" />
+
+                        <!--  圆形变形动画  -->
+                        <DoubleAnimation
+                            AutoReverse="True"
+                            RepeatBehavior="Forever"
+                            Storyboard.TargetName="CircleBackground"
+                            Storyboard.TargetProperty="Width"
+                            From="200"
+                            To="205"
+                            Duration="0:0:5" />
+
+                        <DoubleAnimation
+                            AutoReverse="True"
+                            RepeatBehavior="Forever"
+                            Storyboard.TargetName="CircleBackground"
+                            Storyboard.TargetProperty="Height"
+                            From="200"
+                            To="205"
+                            Duration="0:0:5" />
+                    </Storyboard>
+
+                    <!--  水滴上升动画  -->
+                    <Storyboard x:Key="DropAnimation" RepeatBehavior="Forever">
+                        <DoubleAnimation
+                            RepeatBehavior="Forever"
+                            Storyboard.TargetName="Drop1"
+                            Storyboard.TargetProperty="(Canvas.Top)"
+                            From="200"
+                            To="100"
+                            Duration="0:0:4" />
+
+                        <DoubleAnimation
+                            RepeatBehavior="Forever"
+                            Storyboard.TargetName="Drop2"
+                            Storyboard.TargetProperty="(Canvas.Top)"
+                            From="180"
+                            To="80"
+                            Duration="0:0:5" />
+
+                        <DoubleAnimation
+                            RepeatBehavior="Forever"
+                            Storyboard.TargetName="Drop3"
+                            Storyboard.TargetProperty="(Canvas.Top)"
+                            From="160"
+                            To="60"
+                            Duration="0:0:6" />
+
+                        <DoubleAnimation
+                            RepeatBehavior="Forever"
+                            Storyboard.TargetName="Drop4"
+                            Storyboard.TargetProperty="(Canvas.Top)"
+                            From="140"
+                            To="40"
+                            Duration="0:0:7" />
+
+                        <!--  水滴透明度动画  -->
+                        <DoubleAnimation
+                            RepeatBehavior="Forever"
+                            Storyboard.TargetName="Drop1"
+                            Storyboard.TargetProperty="Opacity"
+                            From="0.8"
+                            To="0.2"
+                            Duration="0:0:4" />
+
+                        <DoubleAnimation
+                            RepeatBehavior="Forever"
+                            Storyboard.TargetName="Drop2"
+                            Storyboard.TargetProperty="Opacity"
+                            From="0.8"
+                            To="0.2"
+                            Duration="0:0:5" />
+
+                        <DoubleAnimation
+                            RepeatBehavior="Forever"
+                            Storyboard.TargetName="Drop3"
+                            Storyboard.TargetProperty="Opacity"
+                            From="0.8"
+                            To="0.2"
+                            Duration="0:0:6" />
+
+                        <DoubleAnimation
+                            RepeatBehavior="Forever"
+                            Storyboard.TargetName="Drop4"
+                            Storyboard.TargetProperty="Opacity"
+                            From="0.8"
+                            To="0.2"
+                            Duration="0:0:7" />
+                    </Storyboard>
+                </Grid.Resources>
+
+                <Grid.Triggers>
+                    <EventTrigger RoutedEvent="Grid.Loaded">
+                        <BeginStoryboard Storyboard="{StaticResource CircleAnimation}" />
+                        <BeginStoryboard Storyboard="{StaticResource DropAnimation}" />
+                    </EventTrigger>
+                </Grid.Triggers>
+            </Grid>
+        </Viewbox>
+    </Grid>
+</Page>
