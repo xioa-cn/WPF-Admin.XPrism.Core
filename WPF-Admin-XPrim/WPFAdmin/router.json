@@ -110,8 +110,13 @@
           "isPersistence": false
         },
         {
-          "content": "水滴图标",
+          "content": "水滴效果",
           "page": "Charge2View",
+          "isPersistence": false
+        },
+        {
+          "content": "旋转效果",
+          "page": "Charge3View",
           "isPersistence": false
         },
         {

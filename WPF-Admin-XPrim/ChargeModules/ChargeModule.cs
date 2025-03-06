@@ -25,6 +25,8 @@ namespace ChargeModules
                 "ChargeView");
             regionManager.RegisterForNavigation<Charge2View, Charge2ViewModel>(RegionName.HomeRegion,
                 "Charge2View");
+            regionManager.RegisterForNavigation<Charge3View, Charge3ViewModel>(RegionName.HomeRegion,
+                "Charge3View");
         }
     }
 }
