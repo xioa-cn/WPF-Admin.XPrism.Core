@@ -3,7 +3,7 @@
 namespace WPF.Admin.Themes.Helper;
 
 /// <summary>
-/// 获取windows主题颜色中的默认应用颜色
+/// 获取windows主题
 /// </summary>
 public class SystemThemeDetector {
             private bool isDarkMode;
