@@ -5,12 +5,13 @@ using WPF.Admin.Themes.Converter;
 namespace WPFAdmin.Config;
 
 public class Configs {
-    public static Configs? Default { get; }
+    public static Configs Default { get; }
     [JsonPropertyName("height")] public double Height { get; set; }
     [JsonPropertyName("width")] public double Width { get; set; }
     [JsonPropertyName("index")] public string? IndexStatus { get; set; }
     [JsonPropertyName("api")] public string? ApiBaseUrl { get; set; }
     [JsonPropertyName("auth")] public string? ViewAuthSwitch { get; set; }
+    [JsonPropertyName("useSystemTheme")] public bool UseSystemTheme { get; set; }
 
     static Configs() {
         var settingJsonFile =

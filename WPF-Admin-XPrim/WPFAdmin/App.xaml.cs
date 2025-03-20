@@ -1,10 +1,12 @@
-﻿using System.Reflection;
+﻿using System.Diagnostics;
+using System.Reflection;
 using System.Windows;
 using WPF.Admin.Models.Models;
 using WPF.Admin.Service.Logger;
 using WPF.Admin.Service.Services;
 using WPF.Admin.Service.Services.Login;
 using WPF.Admin.Themes;
+using WPF.Admin.Themes.Helper;
 using WPF.Admin.Themes.Themes;
 using WPFAdmin.LoginModules;
 using XPrism.Core.DataContextWindow;
@@ -19,6 +21,7 @@ namespace WPFAdmin;
 /// </summary>
 public partial class App : Application {
     protected override void OnStartup(StartupEventArgs e) {
+        SystemTheme();
         // 设置全局异常处理
         AppDomain.CurrentDomain.UnhandledException += (s, args) =>
         {
@@ -33,7 +36,7 @@ public partial class App : Application {
         Detect();
         base.OnStartup(e);
         DispatcherHelper.Initialize();
-        ThemeManager.Instance.IsDarkTheme = false;
+        
         Views.SplashScreen splashScreen = new Views.SplashScreen();
         splashScreen.ShowWindowWithFade();
         Task.Run(() =>
