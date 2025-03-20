@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SharedMemoryDemoModules")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b0a0717fdbdc67b62f1e69cc25452c045622b7e1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+108f3bd50ecfd0bab0d7976fa4413f8fad160389")]
 [assembly: System.Reflection.AssemblyProductAttribute("SharedMemoryDemoModules")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SharedMemoryDemoModules")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

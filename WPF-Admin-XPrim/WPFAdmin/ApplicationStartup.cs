@@ -34,6 +34,9 @@ public partial class App
                 {
                     var mainWindow =
                         XPrismIoc.FetchXPrismWindow(nameof(MainWindow));
+                    
+                    // 直接进入main窗口时 查看上次登录的权限
+                    AuthLoaded();
                     splashScreen.SwitchWindow(mainWindow);
                     NotifyIconInitialize();
                     break;
@@ -41,5 +44,9 @@ public partial class App
             default:
                 throw new ArgumentOutOfRangeException();
         }
+    }
+
+    private void AuthLoaded() {
+        // 在登录记录中查看
     }
 }

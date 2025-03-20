@@ -21,7 +21,7 @@ namespace WPFAdmin;
 /// </summary>
 public partial class App : Application {
     protected override void OnStartup(StartupEventArgs e) {
-        SystemTheme();
+        SystemTheme(); // 系统主题
         // 设置全局异常处理
         AppDomain.CurrentDomain.UnhandledException += (s, args) =>
         {
@@ -33,7 +33,7 @@ public partial class App : Application {
             XLogGlobal.Logger?.LogError("Dispatcher Unhandled Exception", args.Exception);
             //args.Handled = true;
         };
-        Detect();
+        Detect(); // 检测是否为多开
         base.OnStartup(e);
         DispatcherHelper.Initialize();
         
@@ -45,23 +45,25 @@ public partial class App : Application {
             Thread.Sleep(1000);
             DispatcherHelper.CheckBeginInvokeOnUI(() =>
             {
+                // 注册登录窗口
                 ContainerLocator.Container.RegisterTransient<LoginWindow>();
-                ContainerLocator.Container.RegisterEventAggregator<EventAggregator>();
-                ContainerLocator.Container.AutoRegisterByAttribute(Assembly.Load("WPFAdmin"));
+                ContainerLocator.Container.RegisterEventAggregator<EventAggregator>(); // 注册事件总线
+                ContainerLocator.Container.AutoRegisterByAttribute(Assembly.Load("WPFAdmin")); // 注册WPFAdmin中AutoRegisterAttribute特性类
                 ContainerLocator.Container
-                    .RegisterSingleton<IModuleFinder>(new DirectoryModuleFinder())
-                    .RegisterMeModuleManager(manager => { manager.LoadModulesConfig(AppDomain.CurrentDomain.BaseDirectory); });
+                    .RegisterSingleton<IModuleFinder>(new DirectoryModuleFinder()) // 添加基于目录的模块发现器
+                    .RegisterMeModuleManager(manager => { manager.LoadModulesConfig(AppDomain.CurrentDomain.BaseDirectory); }); // 指定路径
                 ContainerLocator.Container.AutoRegisterByAttribute<XPrismViewModelAttribute>(
-                    Assembly.Load("WPFAdmin"));
+                    Assembly.Load("WPFAdmin"));// 注册WPFAdmin中XPrismViewModelAttribute特性类
                 ContainerLocator.Container.Build();
 
-                var applicationStartupMode = StartupCommandLine(e.Args);
+                var applicationStartupMode = StartupCommandLine(e.Args); // 接收命令行参数
 
-                if (applicationStartupMode == ApplicationStartupMode.Debug)
+                if (applicationStartupMode == ApplicationStartupMode.Debug) // Debug模式不需要执行之后的代码
                 {
                     Environment.Exit(0);
                 }
 
+                // 启动主窗口
                 StartupWindow(splashScreen);
             });
         });

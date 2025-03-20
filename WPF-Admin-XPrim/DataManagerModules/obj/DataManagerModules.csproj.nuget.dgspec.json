@@ -312,10 +312,6 @@
             "HandyControl": {
               "target": "Package",
               "version": "[3.5.1, )"
-            },
-            "Snackbar": {
-              "target": "Package",
-              "version": "[1.0.0, )"
             }
           },
           "imports": [

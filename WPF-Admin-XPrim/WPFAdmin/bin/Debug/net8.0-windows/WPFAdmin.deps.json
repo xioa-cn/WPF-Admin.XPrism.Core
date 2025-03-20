@@ -596,14 +596,6 @@
           }
         }
       },
-      "Snackbar/1.0.0": {
-        "runtime": {
-          "lib/net8.0/Snackbar.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
-          }
-        }
-      },
       "System.ClientModel/1.0.0": {
         "dependencies": {
           "System.Memory.Data": "1.0.2",
@@ -1057,7 +1049,6 @@
       "WPF.Admin.Themes/1.0.0": {
         "dependencies": {
           "HandyControl": "3.5.1",
-          "Snackbar": "1.0.0",
           "WPF.Admin.Models": "1.0.0"
         },
         "runtime": {
@@ -1454,13 +1445,6 @@
       "sha512": "sha512-dRQ75MCI8oz6zAs2Y1w6pq6ARs4MhdNG+gf3doOxOxdnueDXffQLGQIxON54GDoxc0WjKOoHMKBR4DhaduwwQw==",
       "path": "skiasharp.nativeassets.win32/3.116.1",
       "hashPath": "skiasharp.nativeassets.win32.3.116.1.nupkg.sha512"
-    },
-    "Snackbar/1.0.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-j7aDgxOWY1Xm7ehJowJ1I8FN9rnff9LStrPAxaaNJm8R7LYXjrK6Q++7iQgZ0fpckTcuFz5hY6YlWqu2Hp8EwQ==",
-      "path": "snackbar/1.0.0",
-      "hashPath": "snackbar.1.0.0.nupkg.sha512"
     },
     "System.ClientModel/1.0.0": {
       "type": "package",

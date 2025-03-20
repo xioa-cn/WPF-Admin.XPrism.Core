@@ -17,7 +17,7 @@ namespace WPFAdmin
 
         public static void DisposeNotifyIconResources() {
             App.DisposeNotifyIcon();
-            App.NotifyViewModel = null;
+            App.NotifyViewModel = null; // 释放NotifyViewModel 
         }
     }
 }

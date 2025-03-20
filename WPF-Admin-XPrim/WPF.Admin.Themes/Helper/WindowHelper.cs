@@ -4,10 +4,10 @@ using System.Windows.Interop;
 
 namespace WPF.Admin.Themes.Helper
 {
-    public class WindowHelper
+    public static class WindowHelper
     {
         // 根据窗口标题查找窗口
-        public static Window FindWindowByTitle(string title)
+        public static Window? FindWindowByTitle(string title)
         {
             // 获取桌面元素
             AutomationElement desktop = AutomationElement.RootElement;

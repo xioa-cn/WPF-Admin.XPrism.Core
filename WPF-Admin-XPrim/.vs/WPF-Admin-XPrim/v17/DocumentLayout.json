@@ -32,7 +32,7 @@
               "RelativeDocumentMoniker": "ChargeModules\\Components\\WaterDropControl\\WaterDrop.cs",
               "ToolTip": "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\ChargeModules\\Components\\WaterDropControl\\WaterDrop.cs",
               "RelativeToolTip": "ChargeModules\\Components\\WaterDropControl\\WaterDrop.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAkwLYAAAAlAAAAAAAAAA==",
+              "ViewState": "AgIAACoAAAAAAAAAAAAuwC4AAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-20T03:17:45.501Z",
               "EditorCaption": ""
@@ -46,8 +46,7 @@
               "ToolTip": "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\ChargeModules\\Components\\WaterDropControl\\WaterDrop.xaml",
               "RelativeToolTip": "ChargeModules\\Components\\WaterDropControl\\WaterDrop.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-03-20T03:10:38.317Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-20T03:10:38.317Z"
             },
             {
               "$type": "Document",
@@ -58,8 +57,7 @@
               "ToolTip": "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\ChargeModules\\Views\\WaterDropPage.xaml",
               "RelativeToolTip": "ChargeModules\\Views\\WaterDropPage.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-03-20T03:09:14.635Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-20T03:09:14.635Z"
             }
           ]
         }

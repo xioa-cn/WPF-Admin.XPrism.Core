@@ -20,7 +20,7 @@ public class NavigationModule : IModule {
 
     public void RegisterTypes(IContainerRegistry containerRegistry) {
         containerRegistry
-            .RegisterSingleton<INavigationService, NavigationService>();
+            .RegisterSingleton<INavigationService, NavigationService>(); //注册导航服务
         containerRegistry.AddNavigations(regionManager =>
         {
             regionManager.RegisterForNavigation<MainPage, MainViewModel>(RegionName.MainRegion, "Main");

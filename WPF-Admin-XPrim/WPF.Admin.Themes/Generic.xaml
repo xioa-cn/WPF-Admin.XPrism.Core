@@ -1,6 +1,7 @@
 ﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
                     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
     <ResourceDictionary.MergedDictionaries>
+        <ResourceDictionary Source="Themes/Snackbar.xaml" />
         <ResourceDictionary Source="Themes/Style.xaml"></ResourceDictionary>
         <ResourceDictionary Source="Themes/BaseTheme.xaml"></ResourceDictionary>
         <ResourceDictionary Source="Themes/NotifyTheme.xaml"></ResourceDictionary>

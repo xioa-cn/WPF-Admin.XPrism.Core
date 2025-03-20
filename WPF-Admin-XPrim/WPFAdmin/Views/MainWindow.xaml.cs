@@ -2,7 +2,6 @@
 using System.Windows;
 using HandyControl.Controls;
 using HandyControl.Tools.Extension;
-using Snackbar.Helper;
 using WPF.Admin.Models.Models;
 using WPF.Admin.Themes.Converter;
 using WPF.Admin.Themes.Helper;
@@ -38,7 +37,11 @@ public partial class MainWindow {
             // 注册 Ctrl+Alt+S 热键
             int id1 = _hotKeyManager.RegisterHotKey(
                 GlobalHotKey.ModControl | GlobalHotKey.ModAlt,
-                (uint)'S', () => { App.MainShow(); });
+                (uint)'S', () =>
+                {
+                    //App.MainShow();
+                    SnackbarHelper.Show($"打开", "Admin.XPrism.Core", 5000);
+                });
         }
         catch (Exception ex)
         {
@@ -112,9 +115,17 @@ public partial class MainWindow {
 
     private void GoBackLoginView() {
         App.DisposeNotifyIconResources(); // 清理图标防止从图标打开主界面
-        LoginAuthHelper.LoginUser = null;
-        this.Visibility = Visibility.Hidden;
+        LoginAuthHelper.LoginUser = null; // 注销权限
+
         var login = XPrismIoc.Fetch<LoginWindow>();
-        login.Show();
+        if (login is not null)
+        {
+            this.Visibility = Visibility.Hidden;
+            login.Show();
+        }
+        else
+        {
+            Growl.ErrorGlobal("Not Found LoginWindow");
+        }
     }
 }
