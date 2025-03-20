@@ -47,7 +47,7 @@ public partial class App
         if (ms == AppOpen)
         {
             // 在UI线程上调用App.MainShow()方法
-            DispatcherHelper.CheckBeginInvokeOnUI(() => { App.MainShow(); });
+            DispatcherHelper.CheckBeginInvokeOnUI(App.MainShow);
         }
     }
 
