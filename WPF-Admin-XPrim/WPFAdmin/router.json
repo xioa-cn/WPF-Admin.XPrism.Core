@@ -115,6 +115,11 @@
           "isPersistence": false
         },
         {
+          "content": "水图",
+          "page": "WaterDropPage",
+          "isPersistence": false
+        },
+        {
           "content": "旋转效果",
           "page": "Charge3View",
           "isPersistence": false

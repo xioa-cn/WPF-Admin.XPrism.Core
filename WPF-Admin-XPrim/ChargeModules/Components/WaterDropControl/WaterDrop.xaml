@@ -1,0 +1,58 @@
+﻿<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="clr-namespace:ChargeModules.Components.WaterDropControl">
+    <!--  水波渐变画刷  -->
+    <LinearGradientBrush x:Key="WaterWaveBrush1" StartPoint="0,0" EndPoint="0,1">
+        <GradientStop Offset="0" Color="#9000FFFF" />
+        <GradientStop Offset="1" Color="#600096FF" />
+    </LinearGradientBrush>
+
+    <LinearGradientBrush x:Key="WaterWaveBrush2" StartPoint="0,0" EndPoint="0,1">
+        <GradientStop Offset="0" Color="#7000FFFF" />
+        <GradientStop Offset="1" Color="#400096FF" />
+    </LinearGradientBrush>
+
+    <!--  百分比文本样式  -->
+    <Style x:Key="PercentTextStyle" TargetType="TextBlock">
+        <Setter Property="FontSize" Value="24" />
+        <Setter Property="Foreground" Value="White" />
+        <Setter Property="HorizontalAlignment" Value="Center" />
+        <Setter Property="VerticalAlignment" Value="Center" />
+        <Setter Property="FontWeight" Value="Bold" />
+    </Style>
+
+    <!--  水波效果模糊效果  -->
+    <BlurEffect x:Key="WaterWaveBlurEffect" Radius="2" />
+
+    <!--  默认样式  -->
+    <Style TargetType="{x:Type local:WaterDrop}">
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type local:WaterDrop}">
+                    <Grid Width="{TemplateBinding Width}" Height="{TemplateBinding Height}">
+                        <Canvas
+                            x:Name="PART_MainCanvas"
+                            Width="{TemplateBinding Width}"
+                            Height="{TemplateBinding Height}">
+                            <Path
+                                x:Name="PART_WaterWave1"
+                                Effect="{StaticResource WaterWaveBlurEffect}"
+                                Fill="{StaticResource WaterWaveBrush1}" />
+                            <Path
+                                x:Name="PART_WaterWave2"
+                                Effect="{StaticResource WaterWaveBlurEffect}"
+                                Fill="{StaticResource WaterWaveBrush2}" />
+
+                        </Canvas>
+                        <TextBlock
+                            x:Name="PART_PercentText"
+                            HorizontalAlignment="Center"
+                            VerticalAlignment="Center"
+                            Style="{StaticResource PercentTextStyle}" />
+                    </Grid>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+</ResourceDictionary>

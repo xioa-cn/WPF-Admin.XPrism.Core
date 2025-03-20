@@ -1,0 +1,26 @@
+﻿<Page
+    x:Class="ChargeModules.Views.WaterDropPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="clr-namespace:ChargeModules.Views"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:vm="clr-namespace:ChargeModules.ViewModels"
+    xmlns:waterDrop="clr-namespace:ChargeModules.Components.WaterDropControl"
+    Title="WaterDropPage"
+    mc:Ignorable="d">
+    <Page.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="../Components/WaterDropControl/WaterDrop.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Page.Resources>
+    <Grid>
+        <waterDrop:WaterDrop
+            Width="200"
+            Height="200"
+            Percentage="50"
+            WaveSpeed="5" />
+    </Grid>
+</Page>
