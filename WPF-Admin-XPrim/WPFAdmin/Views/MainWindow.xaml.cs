@@ -4,10 +4,13 @@ using HandyControl.Controls;
 using HandyControl.Tools.Extension;
 using Snackbar.Helper;
 using WPF.Admin.Models.Models;
+using WPF.Admin.Themes.Converter;
 using WPF.Admin.Themes.Helper;
 using WPF.Admin.Themes.Themes;
+using WPFAdmin.LoginModules;
 using WPFAdmin.ViewModels;
 using XPrism.Core.DataContextWindow;
+using XPrism.Core.DI;
 using XPrism.Core.Navigations;
 
 namespace WPFAdmin.Views;
@@ -25,8 +28,8 @@ public partial class MainWindow {
         // 窗口关闭前注销热键
         Closing += MainWindow_Closing;
     }
-    private void MainWindow_Loaded(object sender, RoutedEventArgs e)
-    {
+
+    private void MainWindow_Loaded(object sender, RoutedEventArgs e) {
         // 初始化热键管理器
         _hotKeyManager = new GlobalHotKey(this);
 
@@ -35,10 +38,7 @@ public partial class MainWindow {
             // 注册 Ctrl+Alt+S 热键
             int id1 = _hotKeyManager.RegisterHotKey(
                 GlobalHotKey.ModControl | GlobalHotKey.ModAlt,
-                (uint)'S', () =>
-                {
-                    App.MainShow();
-                });
+                (uint)'S', () => { App.MainShow(); });
         }
         catch (Exception ex)
         {
@@ -48,11 +48,11 @@ public partial class MainWindow {
 
     private GlobalHotKey _hotKeyManager;
 
-    private void MainWindow_Closing(object sender, System.ComponentModel.CancelEventArgs e)
-    {
+    private void MainWindow_Closing(object sender, System.ComponentModel.CancelEventArgs e) {
         // 注销所有热键
         _hotKeyManager?.UnregisterAllHotKeys();
     }
+
     protected override void OnClosing(CancelEventArgs e) {
         base.OnClosing(e);
         this.CloseApplication();
@@ -78,7 +78,9 @@ public partial class MainWindow {
             this.WindowState = WindowState.Normal;
         }
     }
+
     private NotifyIconView? _notifyIconView;
+
     private async void Close_Click(object sender, RoutedEventArgs e) {
         _notifyIconView ??= new NotifyIconView();
 
@@ -91,7 +93,7 @@ public partial class MainWindow {
         {
             case CloseEnum.Close:
                 App.DisposeAppResources();
-                this.CloseWindowWithFade();               
+                this.CloseWindowWithFade();
                 Environment.Exit(0);
                 break;
             case CloseEnum.Notify:
@@ -100,8 +102,19 @@ public partial class MainWindow {
                 break;
             case CloseEnum.None:
                 break;
+            case CloseEnum.Logout:
+                GoBackLoginView();
+                break;
             default:
                 throw new ArgumentOutOfRangeException();
         }
+    }
+
+    private void GoBackLoginView() {
+        App.DisposeNotifyIconResources(); // 清理图标防止从图标打开主界面
+        LoginAuthHelper.LoginUser = null;
+        this.Visibility = Visibility.Hidden;
+        var login = XPrismIoc.Fetch<LoginWindow>();
+        login.Show();
     }
 }

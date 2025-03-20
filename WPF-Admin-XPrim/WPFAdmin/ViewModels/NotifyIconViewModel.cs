@@ -15,6 +15,7 @@ public partial class NotifyIconViewModel : BindableBase, IDialogResultable<Close
 
     [ObservableProperty] private bool _close;
     [ObservableProperty] private bool _mini = true;
+    [ObservableProperty] private bool _logout;
 
     [RelayCommand]
     private void Closed() {
@@ -25,6 +26,9 @@ public partial class NotifyIconViewModel : BindableBase, IDialogResultable<Close
         else if (Mini)
         {
             this.Result = CloseEnum.Notify;
+        }else if (Logout)
+        {
+            this.Result = CloseEnum.Logout;
         }
 
         Dialog.Close(HcDialogMessageToken.DialogMainToken);

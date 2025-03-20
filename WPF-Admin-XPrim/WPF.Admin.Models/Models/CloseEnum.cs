@@ -5,4 +5,5 @@ public enum CloseEnum
     None,
     Close,
     Notify,
+    Logout,
 }

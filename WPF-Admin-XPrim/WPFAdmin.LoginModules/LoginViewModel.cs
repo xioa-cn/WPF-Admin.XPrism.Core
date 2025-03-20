@@ -1,4 +1,5 @@
-﻿using CommunityToolkit.Mvvm.ComponentModel;
+﻿using System.Collections.ObjectModel;
+using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
 using HandyControl.Controls;
 using WPF.Admin.Models;
@@ -9,12 +10,22 @@ using WPF.Admin.Themes.Converter;
 namespace WPFAdmin.LoginModules;
 
 public partial class LoginViewModel : BindableBase {
-    [ObservableProperty] private string? _userName;
     [ObservableProperty] private string? _password;
     [ObservableProperty] private bool _rememberPassword;
+    [ObservableProperty] private string? _InputText;
+
+
+    public ObservableCollection<string> Items { get; set; } = new ObservableCollection<string>() {
+        "xioa","admin","test"
+    };
+
+    [RelayCommand]
+    private void Delete(string value) {
+        Items.Remove(value);
+    }
 
     public LoginViewModel() {
-        UserName = "xioa";
+        InputText = "xioa";
     }
 
     [RelayCommand]
@@ -28,12 +39,12 @@ public partial class LoginViewModel : BindableBase {
             if (result || true)
             {
                 LoginAuthHelper.LoginUser = new LoginUser() {
-                    UserName = UserName,
+                    UserName = InputText,
                     Password = Password,
                     LoginAuth = LoginAuth.Admin,
                 };
                 (window as LoginWindow).SuccessLogin();
-                Growl.Success($"Login Success!! {UserName}");
+                Growl.Success($"Login Success!! {InputText}");
             }
         }
         catch (System.Exception ex)

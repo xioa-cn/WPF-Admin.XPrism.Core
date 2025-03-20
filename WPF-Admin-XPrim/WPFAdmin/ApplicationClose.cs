@@ -14,5 +14,10 @@ namespace WPFAdmin
             //TrackingManager.Instance.Dispose();
             App.DisposeNotifyIcon();
         }
+
+        public static void DisposeNotifyIconResources() {
+            App.DisposeNotifyIcon();
+            App.NotifyViewModel = null;
+        }
     }
 }

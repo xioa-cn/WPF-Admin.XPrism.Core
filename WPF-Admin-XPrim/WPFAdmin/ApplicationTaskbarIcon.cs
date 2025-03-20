@@ -67,9 +67,10 @@ public partial class App
         }
     }
 
-    public static void DisposeNotifyIcon()
+    private static void DisposeNotifyIcon()
     {
         _notifyIcon?.Dispose();
+        _notifyIcon = null;
     }
 
     protected override void OnExit(ExitEventArgs e)
@@ -81,6 +82,6 @@ public partial class App
     private void OpenIcon(object recipient, UseIcon message)
     {
         UseNotifyIcon();
-        WeakReferenceMessenger.Default.Unregister<UseIcon>(this);
+        //WeakReferenceMessenger.Default.Unregister<UseIcon>(this);
     }
 }

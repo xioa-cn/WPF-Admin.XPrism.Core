@@ -45,7 +45,7 @@ public partial class App : Application {
             Thread.Sleep(1000);
             DispatcherHelper.CheckBeginInvokeOnUI(() =>
             {
-                ContainerLocator.Container.RegisterSingleton<LoginWindow>();
+                ContainerLocator.Container.RegisterTransient<LoginWindow>();
                 ContainerLocator.Container.RegisterEventAggregator<EventAggregator>();
                 ContainerLocator.Container.AutoRegisterByAttribute(Assembly.Load("WPFAdmin"));
                 ContainerLocator.Container
