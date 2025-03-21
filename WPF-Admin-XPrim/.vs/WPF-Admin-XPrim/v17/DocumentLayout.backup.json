@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9103D4C2-65BD-4F0F-BB79-E0549CC87D45}|ChargeModules\\ChargeModules.csproj|f:\\git\\github\\wpf-admin-xprism\\wpf-admin.xprism.core\\wpf-admin-xprim\\chargemodules\\components\\waterdropcontrol\\waterdrop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9103D4C2-65BD-4F0F-BB79-E0549CC87D45}|ChargeModules\\ChargeModules.csproj|solutionrelative:chargemodules\\components\\waterdropcontrol\\waterdrop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9103D4C2-65BD-4F0F-BB79-E0549CC87D45}|ChargeModules\\ChargeModules.csproj|f:\\git\\github\\wpf-admin-xprism\\wpf-admin.xprism.core\\wpf-admin-xprim\\chargemodules\\components\\waterdropcontrol\\waterdrop.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{9103D4C2-65BD-4F0F-BB79-E0549CC87D45}|ChargeModules\\ChargeModules.csproj|solutionrelative:chargemodules\\components\\waterdropcontrol\\waterdrop.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9103D4C2-65BD-4F0F-BB79-E0549CC87D45}|ChargeModules\\ChargeModules.csproj|f:\\git\\github\\wpf-admin-xprism\\wpf-admin.xprism.core\\wpf-admin-xprim\\chargemodules\\views\\waterdroppage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{9103D4C2-65BD-4F0F-BB79-E0549CC87D45}|ChargeModules\\ChargeModules.csproj|solutionrelative:chargemodules\\views\\waterdroppage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9103D4C2-65BD-4F0F-BB79-E0549CC87D45}|ChargeModules\\ChargeModules.csproj|f:\\git\\github\\wpf-admin-xprism\\wpf-admin.xprism.core\\wpf-admin-xprim\\chargemodules\\components\\waterdropcontrol\\waterdrop.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{9103D4C2-65BD-4F0F-BB79-E0549CC87D45}|ChargeModules\\ChargeModules.csproj|solutionrelative:chargemodules\\components\\waterdropcontrol\\waterdrop.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{9103D4C2-65BD-4F0F-BB79-E0549CC87D45}|ChargeModules\\ChargeModules.csproj|f:\\git\\github\\wpf-admin-xprism\\wpf-admin.xprism.core\\wpf-admin-xprim\\chargemodules\\components\\waterdropcontrol\\waterdrop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9103D4C2-65BD-4F0F-BB79-E0549CC87D45}|ChargeModules\\ChargeModules.csproj|solutionrelative:chargemodules\\components\\waterdropcontrol\\waterdrop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,24 +22,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "WaterDrop.cs",
               "DocumentMoniker": "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\ChargeModules\\Components\\WaterDropControl\\WaterDrop.cs",
               "RelativeDocumentMoniker": "ChargeModules\\Components\\WaterDropControl\\WaterDrop.cs",
               "ToolTip": "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\ChargeModules\\Components\\WaterDropControl\\WaterDrop.cs",
               "RelativeToolTip": "ChargeModules\\Components\\WaterDropControl\\WaterDrop.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAkwLYAAAAlAAAAAAAAAA==",
+              "ViewState": "AgIAADYAAAAAAAAAAAAAADEAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-20T03:17:45.501Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "WaterDrop.xaml",
               "DocumentMoniker": "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\ChargeModules\\Components\\WaterDropControl\\WaterDrop.xaml",
               "RelativeDocumentMoniker": "ChargeModules\\Components\\WaterDropControl\\WaterDrop.xaml",

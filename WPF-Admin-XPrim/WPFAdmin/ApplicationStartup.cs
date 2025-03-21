@@ -44,6 +44,7 @@ public partial class App
             default:
                 throw new ArgumentOutOfRangeException();
         }
+        ElMessage.Wpf.Utils.ElMessage.Success("Welcome");
     }
 
     private void AuthLoaded() {

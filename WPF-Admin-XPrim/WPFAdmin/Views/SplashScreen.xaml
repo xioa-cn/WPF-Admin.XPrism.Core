@@ -12,7 +12,7 @@
         Background="Transparent"
         WindowStartupLocation="CenterScreen"
         WindowStyle="None">
-     <Window.Resources>
+    <Window.Resources>
         <Storyboard x:Key="LoadingAnimation" RepeatBehavior="Forever">
             <!--  背景动画  -->
             <DoubleAnimation
@@ -75,96 +75,96 @@
 
         </Storyboard>
     </Window.Resources>
+    <Grid>
+        <Border x:Name="MainBorder" CornerRadius="10">
+            <Border.Background>
+                <LinearGradientBrush x:Name="BackgroundGradient" StartPoint="0,0" EndPoint="1,1">
+                    <GradientStop Offset="0" Color="#FF1E1E1E" />
+                    <GradientStop Offset="1" Color="#FF2D2D30" />
+                </LinearGradientBrush>
+            </Border.Background>
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="*" />
+                </Grid.RowDefinitions>
 
-    <Border x:Name="MainBorder" CornerRadius="10">
-        <Border.Background>
-            <LinearGradientBrush x:Name="BackgroundGradient" StartPoint="0,0" EndPoint="1,1">
-                <GradientStop Offset="0" Color="#FF1E1E1E" />
-                <GradientStop Offset="1" Color="#FF2D2D30" />
-            </LinearGradientBrush>
-        </Border.Background>
-        <Grid>
-            <Grid.RowDefinitions>
-                <RowDefinition Height="auto" />
-                <RowDefinition Height="Auto" />
-                <RowDefinition Height="Auto" />
-                <RowDefinition Height="*" />
-            </Grid.RowDefinitions>
+                <!--  Logo  -->
+                <Viewbox
+                    Grid.Row="0"
+                    Width="100"
+                    Height="100"
+                    Margin="0,20">
+                    <Grid>
+                        <Grid.RenderTransform>
+                            <ScaleTransform x:Name="LogoScale" ScaleX="1" ScaleY="1" />
+                        </Grid.RenderTransform>
 
-            <!--  Logo  -->
-            <Viewbox
-                Grid.Row="0"
-                Width="100"
-                Height="100"
-                Margin="0,20">
-                <Grid>
-                    <Grid.RenderTransform>
-                        <ScaleTransform x:Name="LogoScale" ScaleX="1" ScaleY="1" />
-                    </Grid.RenderTransform>
+                        <!--  主外圈  -->
+                        <Ellipse
+                            Width="120"
+                            Height="120"
+                            Stroke="#FF007ACC"
+                            StrokeThickness="3">
+                            <Ellipse.Effect>
+                                <DropShadowEffect
+                                    x:Name="OuterGlowEffect"
+                                    BlurRadius="20"
+                                    Opacity="0.8"
+                                    ShadowDepth="0"
+                                    Color="#FF007ACC" />
+                            </Ellipse.Effect>
+                        </Ellipse>
 
-                    <!--  主外圈  -->
-                    <Ellipse
-                        Width="120"
-                        Height="120"
-                        Stroke="#FF007ACC"
-                        StrokeThickness="3">
-                        <Ellipse.Effect>
-                            <DropShadowEffect
-                                x:Name="OuterGlowEffect"
-                                BlurRadius="20"
-                                Opacity="0.8"
-                                ShadowDepth="0"
-                                Color="#FF007ACC" />
-                        </Ellipse.Effect>
-                    </Ellipse>
+                        <!--  内圈  -->
+                        <Ellipse
+                            Width="110"
+                            Height="110"
+                            Stroke="#CCFFFFFF"
+                            StrokeThickness="1">
+                            <Ellipse.Effect>
+                                <DropShadowEffect
+                                    x:Name="InnerGlowEffect"
+                                    BlurRadius="10"
+                                    Opacity="0.6"
+                                    ShadowDepth="0"
+                                    Color="White" />
+                            </Ellipse.Effect>
+                        </Ellipse>
 
-                    <!--  内圈  -->
-                    <Ellipse
-                        Width="110"
-                        Height="110"
-                        Stroke="#CCFFFFFF"
-                        StrokeThickness="1">
-                        <Ellipse.Effect>
-                            <DropShadowEffect
-                                x:Name="InnerGlowEffect"
-                                BlurRadius="10"
-                                Opacity="0.6"
-                                ShadowDepth="0"
-                                Color="White" />
-                        </Ellipse.Effect>
-                    </Ellipse>
+                        <!--  XIOA文字  -->
+                        <TextBlock
+                            HorizontalAlignment="Center"
+                            VerticalAlignment="Center"
+                            FontFamily="Arial"
+                            FontSize="36"
+                            FontWeight="Bold"
+                            Foreground="White"
+                            Text="XIOA">
+                            <TextBlock.Effect>
+                                <DropShadowEffect
+                                    x:Name="TextGlowEffect"
+                                    BlurRadius="15"
+                                    Opacity="0.7"
+                                    ShadowDepth="0"
+                                    Color="White" />
+                            </TextBlock.Effect>
+                        </TextBlock>
 
-                    <!--  XIOA文字  -->
-                    <TextBlock
-                        HorizontalAlignment="Center"
-                        VerticalAlignment="Center"
-                        FontFamily="Arial"
-                        FontSize="36"
-                        FontWeight="Bold"
-                        Foreground="White"
-                        Text="XIOA">
-                        <TextBlock.Effect>
-                            <DropShadowEffect
-                                x:Name="TextGlowEffect"
-                                BlurRadius="15"
-                                Opacity="0.7"
-                                ShadowDepth="0"
-                                Color="White" />
-                        </TextBlock.Effect>
-                    </TextBlock>
-
-                    <!--  底部小文字  -->
-                    <TextBlock
-                        Margin="0,0,0,15"
-                        HorizontalAlignment="Center"
-                        VerticalAlignment="Bottom"
-                        FontSize="12"
-                        Foreground="#CCFFFFFF"
-                        Text="2024 © Xioa.Admin By Xioa." />
+                        <!--  底部小文字  -->
+                        <TextBlock
+                            Margin="0,0,0,15"
+                            HorizontalAlignment="Center"
+                            VerticalAlignment="Bottom"
+                            FontSize="12"
+                            Foreground="#CCFFFFFF"
+                            Text="2024 © Xioa.Admin By Xioa." />
 
 
-                    <!--  背景圆形  -->
-                    <!--
+                        <!--  背景圆形  -->
+                        <!--
                     <Ellipse
                         Width="120"
                         Height="120"
@@ -179,8 +179,8 @@
                     </Ellipse>
 
                     -->
-                    <!--  MIUI风格图标  -->
-                    <!--
+                        <!--  MIUI风格图标  -->
+                        <!--
                     <Path
                         Margin="25"
                         Fill="White"
@@ -188,25 +188,25 @@
                         <Path.Data>
                             <PathGeometry>
                     -->
-                    <!--  主体图形  -->
-                    <!--
+                        <!--  主体图形  -->
+                        <!--
                                 <PathGeometry.Figures>
                                     <PathFigureCollection>
                                         <PathFigure IsClosed="True" StartPoint="10,50">
                                             <PathFigure.Segments>
                                                 <PathSegmentCollection>
                     -->
-                    <!--  左边  -->
-                    <!--
+                        <!--  左边  -->
+                        <!--
                                                     <LineSegment Point="30,20" />
                                                     <LineSegment Point="30,80" />
                     -->
-                    <!--  中间  -->
-                    <!--
+                        <!--  中间  -->
+                        <!--
                                                     <LineSegment Point="50,60" />
                     -->
-                    <!--  右边  -->
-                    <!--
+                        <!--  右边  -->
+                        <!--
                                                     <LineSegment Point="70,80" />
                                                     <LineSegment Point="70,20" />
                                                     <LineSegment Point="90,50" />
@@ -222,9 +222,7 @@
                     </Path>-->
 
 
-
-
-                    <!--<Path Data="M50,0 L100,25 L100,75 L50,100 L0,75 L0,25 Z" Fill="#FF007ACC" />
+                        <!--<Path Data="M50,0 L100,25 L100,75 L50,100 L0,75 L0,25 Z" Fill="#FF007ACC" />
                     <Path Data="M50,10 L90,30 L90,70 L50,90 L10,70 L10,30 Z" Fill="#FF2D2D30" />
                     <TextBlock
                         HorizontalAlignment="Center"
@@ -233,91 +231,91 @@
                         FontWeight="Bold"
                         Foreground="White"
                         Text="XIOA" />-->
-                </Grid>
-            </Viewbox>
+                    </Grid>
+                </Viewbox>
 
-            <!--  标题  -->
-            <TextBlock
-                x:Name="TitleText"
-                Grid.Row="1"
-                Margin="0,0,0,20"
-                HorizontalAlignment="Center"
-                FontSize="28"
-                Foreground="White"
-                Text="Xioa.Admin系统" />
+                <!--  标题  -->
+                <TextBlock
+                    x:Name="TitleText"
+                    Grid.Row="1"
+                    Margin="0,0,0,20"
+                    HorizontalAlignment="Center"
+                    FontSize="28"
+                    Foreground="White"
+                    Text="Xioa.Admin系统" />
 
-            <!--  进度条  -->
-            <!--  进度条容器  -->
-            <Grid
-                x:Name="ProgressContainer"
-                Grid.Row="2"
-                Margin="0,0">
-                <Border
-                    Height="4"
-                    Margin="0,20"
-                    Background="#FF3E3E42"
-                    CornerRadius="2">
-                    <Border.Effect>
-                        <DropShadowEffect
-                            BlurRadius="4"
-                            Opacity="0.3"
-                            ShadowDepth="1" />
-                    </Border.Effect>
-
-                    <!--  进度条  -->
+                <!--  进度条  -->
+                <!--  进度条容器  -->
+                <Grid
+                    x:Name="ProgressContainer"
+                    Grid.Row="2"
+                    Margin="0,0">
                     <Border
-                        x:Name="ProgressBar"
-                        Width="100"
-                        HorizontalAlignment="Left"
-                        Background="#FF007ACC"
+                        Height="4"
+                        Margin="0,20"
+                        Background="#FF3E3E42"
                         CornerRadius="2">
-                        <Border.Triggers>
-                            <EventTrigger RoutedEvent="Border.Loaded">
-                                <BeginStoryboard>
-                                    <Storyboard>
-                                        <!--  进度条位置动画  -->
-                                        <ThicknessAnimation
-                                            RepeatBehavior="Forever"
-                                            Storyboard.TargetProperty="Margin"
-                                            From="-100,0,0,0"
-                                            To="400,0,-100,0"
-                                            Duration="0:0:5">
-                                            <ThicknessAnimation.EasingFunction>
-                                                <CubicEase EasingMode="EaseInOut" />
-                                            </ThicknessAnimation.EasingFunction>
-                                        </ThicknessAnimation>
-                                        <ThicknessAnimation
-                                            RepeatBehavior="Forever"
-                                            Storyboard.TargetProperty="Margin"
-                                            From="-100,0,0,0"
-                                            To="400,0,-100,0"
-                                            Duration="0:0:5">
-                                            <ThicknessAnimation.EasingFunction>
-                                                <CubicEase EasingMode="EaseInOut" />
-                                            </ThicknessAnimation.EasingFunction>
-                                        </ThicknessAnimation>
-                                    </Storyboard>
-                                </BeginStoryboard>
-                            </EventTrigger>
-                        </Border.Triggers>
+                        <Border.Effect>
+                            <DropShadowEffect
+                                BlurRadius="4"
+                                Opacity="0.3"
+                                ShadowDepth="1" />
+                        </Border.Effect>
+
+                        <!--  进度条  -->
+                        <Border
+                            x:Name="ProgressBar"
+                            Width="100"
+                            HorizontalAlignment="Left"
+                            Background="#FF007ACC"
+                            CornerRadius="2">
+                            <Border.Triggers>
+                                <EventTrigger RoutedEvent="Border.Loaded">
+                                    <BeginStoryboard>
+                                        <Storyboard>
+                                            <!--  进度条位置动画  -->
+                                            <ThicknessAnimation
+                                                RepeatBehavior="Forever"
+                                                Storyboard.TargetProperty="Margin"
+                                                From="-100,0,0,0"
+                                                To="400,0,-100,0"
+                                                Duration="0:0:5">
+                                                <ThicknessAnimation.EasingFunction>
+                                                    <CubicEase EasingMode="EaseInOut" />
+                                                </ThicknessAnimation.EasingFunction>
+                                            </ThicknessAnimation>
+                                            <ThicknessAnimation
+                                                RepeatBehavior="Forever"
+                                                Storyboard.TargetProperty="Margin"
+                                                From="-100,0,0,0"
+                                                To="400,0,-100,0"
+                                                Duration="0:0:5">
+                                                <ThicknessAnimation.EasingFunction>
+                                                    <CubicEase EasingMode="EaseInOut" />
+                                                </ThicknessAnimation.EasingFunction>
+                                            </ThicknessAnimation>
+                                        </Storyboard>
+                                    </BeginStoryboard>
+                                </EventTrigger>
+                            </Border.Triggers>
+                        </Border>
+
+
                     </Border>
+                </Grid>
 
-
-
-                </Border>
+                <!--  加载文本  -->
+                <TextBlock
+                    Grid.Row="3"
+                    Margin="0,20"
+                    HorizontalAlignment="Center"
+                    Foreground="LightGray"
+                    Text="正在加载系统组件...">
+                    <TextBlock.Effect>
+                        <BlurEffect x:Name="TextBlurEffect" Radius="0" />
+                    </TextBlock.Effect>
+                </TextBlock>
             </Grid>
-
-            <!--  加载文本  -->
-            <TextBlock
-                Grid.Row="3"
-                Margin="0,20"
-                HorizontalAlignment="Center"
-                Foreground="LightGray"
-                Text="正在加载系统组件...">
-                <TextBlock.Effect>
-                    <BlurEffect x:Name="TextBlurEffect" Radius="0" />
-                </TextBlock.Effect>
-            </TextBlock>
-        </Grid>
-    </Border>
+        </Border>
+    </Grid>
 </Window>

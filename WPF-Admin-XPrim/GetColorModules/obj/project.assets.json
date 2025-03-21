@@ -63,6 +63,19 @@
           "buildTransitive/CommunityToolkit.Mvvm.targets": {}
         }
       },
+      "ElMessage.Wpf/1.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/ElMessage.Wpf.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/ElMessage.Wpf.dll": {
+            "related": ".pdb"
+          }
+        }
+      },
       "HandyControl/3.5.1": {
         "type": "package",
         "compile": {
@@ -1161,6 +1174,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
+          "ElMessage.Wpf": "1.0.0",
           "Microsoft.EntityFrameworkCore": "9.0.2",
           "Microsoft.EntityFrameworkCore.SqlServer": "9.0.2",
           "Microsoft.Extensions.DependencyModel": "9.0.2",
@@ -1273,6 +1287,19 @@
         "lib/netstandard2.1/CommunityToolkit.Mvvm.dll",
         "lib/netstandard2.1/CommunityToolkit.Mvvm.pdb",
         "lib/netstandard2.1/CommunityToolkit.Mvvm.xml"
+      ]
+    },
+    "ElMessage.Wpf/1.0.0": {
+      "sha512": "tSf7AoxPl/81wqqs75X2wSjKITferRr8forkLpAnBHjy9rqFcyet1/guv7EIsQiZsyCOlpvSDT/H/m/+8WCLaw==",
+      "type": "package",
+      "path": "elmessage.wpf/1.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "elmessage.wpf.1.0.0.nupkg.sha512",
+        "elmessage.wpf.nuspec",
+        "lib/net8.0/ElMessage.Wpf.dll",
+        "lib/net8.0/ElMessage.Wpf.pdb"
       ]
     },
     "HandyControl/3.5.1": {
