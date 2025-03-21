@@ -1,4 +1,5 @@
 ﻿using WPF.Admin.Models.Models;
+using WPF.Admin.Models.Utils;
 
 namespace WPF.Admin.Themes.Converter;
 
@@ -11,6 +12,7 @@ public class LoginAuthHelper {
        if (res)
        {
            ViewAuthSwitch = auth;
+           AuthHelper.ViewAuthSwitch = auth;
        }
     }
 }
