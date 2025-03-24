@@ -4,44 +4,60 @@ using System.Windows.Media;
 using System.Windows.Media.Animation;
 using System.Windows.Shapes;
 
-namespace FlowModules.Models {
-    public class FlowConnection {
-        private readonly DoubleAnimation? _dashOffsetAnimation = new DoubleAnimation() {
+namespace FlowModules.Models
+{
+    public class FlowConnection
+    {
+        private readonly DoubleAnimation? _dashOffsetAnimation = new DoubleAnimation()
+        {
             From = 8,
             To = 0,
             Duration = TimeSpan.FromSeconds(1.5),
             RepeatBehavior = RepeatBehavior.Forever
         };
 
-        public NodePort StartPort { get; }
-        public NodePort EndPort { get; }
+        public NodePort StartPort { get; set; }
+        public NodePort EndPort { get; set; }
         public Path? Path { get; set; }
 
-        public FlowConnection(NodePort startPort, NodePort endPort) {
+        public string StartPortId { get; set; }
+        public string EndPortId { get; set; }
+
+
+        public FlowConnection(NodePort startPort, NodePort endPort)
+        {
             StartPort = startPort;
             EndPort = endPort;
         }
 
-        public Brush ConnectionColor { get; set; } = new SolidColorBrush(Colors.LightGreen);
+        public Brush ConnectionColor { get; set; } = new SolidColorBrush(Colors.GreenYellow);
 
-        public void UpdatePath() {
+        public void UpdatePath()
+        {
             if (Path == null) return;
             Path.StrokeDashArray = new DoubleCollection([4, 4]);
             var startPoint = StartPort.TranslatePoint(
-                new Point(StartPort.Width / 2, StartPort.Height / 2),
+                new Point(
+                    (StartPort.Width == 0 ? 20 : StartPort.Width) / 2,
+                (StartPort.Height == 0 ? 20 : StartPort.Height) / 2),
                 Path.Parent as Canvas);
 
             var endPoint = EndPort.TranslatePoint(
-                new Point(EndPort.Width / 2, EndPort.Height / 2),
+                new Point((StartPort.Width == 0 ? 20 : StartPort.Width) / 2,
+                (StartPort.Height == 0 ? 20 : StartPort.Height) / 2),
                 Path.Parent as Canvas);
 
             // 计算控制点
+            // 计算控制点，使用起点和终点的距离来动态调整控制点的位置
+            var distance = Math.Abs(endPoint.X - startPoint.X);
+            var xOffset = Math.Min(distance * 0.5, 100); // 根据距离动态调整偏移量
+
             var controlPoint1 = new Point(
-                startPoint.X + 100, // 向右偏移100
+                startPoint.X + xOffset,
                 startPoint.Y);
 
             var controlPoint2 = new Point(
-                endPoint.X - 100, // 向左偏移100
+                endPoint.X - xOffset,
                 endPoint.Y);
 
             // 更新路径几何

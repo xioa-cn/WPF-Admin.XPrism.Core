@@ -9,8 +9,10 @@ using FlowModules.Models;
 using WPF.Admin.Themes.Controls;
 using WPF.Admin.Themes.Helper;
 
-namespace FlowModules.Components {
-    public partial class FlowControl : UserControl {
+namespace FlowModules.Components
+{
+    public partial class FlowControl : UserControl
+    {
         private UndoRedoManager undoRedoManager;
         private FlowNode selectedNode;
         private NodePort startPort;
@@ -18,7 +20,8 @@ namespace FlowModules.Components {
         private Line tempConnectionLine;
         private SaveModel _saveModel = new SaveModel();
 
-        private enum ToolMode {
+        private enum ToolMode
+        {
             Select,
             Connect,
             AddNode
@@ -27,9 +30,11 @@ namespace FlowModules.Components {
         private ToolMode currentMode { get; set; } = ToolMode.Select;
 
 
-        private void SetCurrentMode(ToolMode mode) {
+        private void SetCurrentMode(ToolMode mode)
+        {
             currentMode = mode;
-            ModeViewText.Text = mode switch {
+            ModeViewText.Text = mode switch
+            {
                 ToolMode.AddNode => "添加节点",
                 ToolMode.Select => "移动节点",
                 ToolMode.Connect => "节点连线"
@@ -38,7 +43,8 @@ namespace FlowModules.Components {
 
         private bool isRunning = false;
 
-        public FlowControl() {
+        public FlowControl()
+        {
             InitializeComponent();
             undoRedoManager = new UndoRedoManager();
             _saveModel.Connections = connections;
@@ -68,53 +74,63 @@ namespace FlowModules.Components {
             this.Unloaded += KeywordUnregister;
         }
 
-        private void SelectButton_Click(object sender, RoutedEventArgs e) {
+        private void SelectButton_Click(object sender, RoutedEventArgs e)
+        {
             currentMode = ToolMode.Select;
         }
 
-        private void ConnectButton_Click(object sender, RoutedEventArgs e) {
+        private void ConnectButton_Click(object sender, RoutedEventArgs e)
+        {
             currentMode = ToolMode.Connect;
         }
 
-        private void NodeButton_Click(object sender, RoutedEventArgs e) {
+        private void NodeButton_Click(object sender, RoutedEventArgs e)
+        {
             currentMode = ToolMode.AddNode;
         }
 
-        private void RunButton_Click(object sender, RoutedEventArgs e) {
+        private void RunButton_Click(object sender, RoutedEventArgs e)
+        {
             isRunning = true;
             // TODO: 实现流程执行逻辑
         }
 
-        private void StopButton_Click(object sender, RoutedEventArgs e) {
+        private void StopButton_Click(object sender, RoutedEventArgs e)
+        {
             isRunning = false;
             // TODO: 实现停止流程执行逻辑
         }
 
-        public FlowNode AddNode(Point position) {
-            var node = new FlowNode {
+        public FlowNode AddNode(Point position, bool isStartPort = true)
+        {
+            var node = new FlowNode
+            {
                 Title = "新节点",
                 Width = 150,
                 Height = 100,
                 Position = position
             };
+            if (isStartPort)
+            {
+                // 添加默认的输入输出端口
+                NodePort inputPort = new NodePort
+                {
+                    Name = "输入1",
+                    Position = new Point(0, 25),
+                    PortType = PortType.Input,
+                    Node = node // 设置端口的Node引用
+                };
+                NodePort outputPort = new NodePort
+                {
+                    Name = "输出1",
+                    Position = new Point(150, 25),
+                    PortType = PortType.Output,
+                    Node = node // 设置端口的Node引用
+                };
 
-            // 添加默认的输入输出端口
-            NodePort inputPort = new NodePort {
-                Name = "输入1",
-                Position = new Point(0, 25),
-                PortType = PortType.Input,
-                Node = node // 设置端口的Node引用
-            };
-            NodePort outputPort = new NodePort {
-                Name = "输出1",
-                Position = new Point(150, 25),
-                PortType = PortType.Output,
-                Node = node // 设置端口的Node引用
-            };
-
-            node.InputPorts.Add(inputPort);
-            node.OutputPorts.Add(outputPort);
-
+                node.InputPorts.Add(inputPort);
+                node.OutputPorts.Add(outputPort);
+            }
             Canvas.SetLeft(node, position.X);
             Canvas.SetTop(node, position.Y);
             if (node != null)
@@ -131,7 +147,8 @@ namespace FlowModules.Components {
                         return;
                     }
 
-                    var newPort = new NodePort {
+                    var newPort = new NodePort
+                    {
                         Name = $"输入{node.InputPorts.Count + 1}",
                         PortType = PortType.Input,
                         Position = new Point(0, 25 * (node.InputPorts.Count + 1)),
@@ -157,7 +174,8 @@ namespace FlowModules.Components {
                         return;
                     }
 
-                    var newPort = new NodePort {
+                    var newPort = new NodePort
+                    {
                         Name = $"输出{node.OutputPorts.Count + 1}",
                         PortType = PortType.Output,
                         Position = new Point(150, 25 * (node.OutputPorts.Count + 1)),
@@ -209,7 +227,8 @@ namespace FlowModules.Components {
             return node;
         }
 
-        private void MainCanvas_MouseLeftButtonDown(object sender, MouseButtonEventArgs e) {
+        private void MainCanvas_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
+        {
             if (currentMode == ToolMode.AddNode)
             {
                 var position = e.GetPosition(MainCanvas);
@@ -219,7 +238,8 @@ namespace FlowModules.Components {
             }
         }
 
-        private void Node_MouseLeftButtonDown(object sender, MouseButtonEventArgs e) {
+        private void Node_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
+        {
             if (currentMode == ToolMode.Select)
             {
                 selectedNode = sender as FlowNode;
@@ -232,7 +252,8 @@ namespace FlowModules.Components {
         }
 
 
-        private void Node_MouseLeftButtonUp(object sender, MouseButtonEventArgs e) {
+        private void Node_MouseLeftButtonUp(object sender, MouseButtonEventArgs e)
+        {
             if (currentMode == ToolMode.Select && selectedNode != null)
             {
                 selectedNode.ReleaseMouseCapture();
@@ -241,7 +262,8 @@ namespace FlowModules.Components {
             }
         }
 
-        private void Port_MouseLeftButtonDown(object sender, MouseButtonEventArgs e) {
+        private void Port_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
+        {
             if (currentMode == ToolMode.Connect)
             {
                 var port = sender as NodePort;
@@ -251,7 +273,8 @@ namespace FlowModules.Components {
                     startPort = port;
 
                     // 创建临时连接线
-                    tempConnectionLine = new Line {
+                    tempConnectionLine = new Line
+                    {
                         Stroke = Brushes.LightGreen,
                         StrokeThickness = 2,
                         StrokeDashArray = new DoubleCollection { 4, 2 }
@@ -272,7 +295,8 @@ namespace FlowModules.Components {
             }
         }
 
-        private void Port_MouseLeftButtonUp(object sender, MouseButtonEventArgs e) {
+        private void Port_MouseLeftButtonUp(object sender, MouseButtonEventArgs e)
+        {
             var endPort = sender as NodePort;
             bool isValidConnection = false;
             NodePort outputPort = null;
@@ -298,9 +322,7 @@ namespace FlowModules.Components {
             {
                 var connection = AddConnection(outputPort, inputPort);
 
-                // 更新连接状态
-                outputPort.IsConnected = true;
-                inputPort.IsConnected = true;
+              
             }
 
             // 清理临时连接线
@@ -315,15 +337,18 @@ namespace FlowModules.Components {
             startPort = null;
         }
 
-        private void UndoButton_Click(object sender, RoutedEventArgs e) {
+        private void UndoButton_Click(object sender, RoutedEventArgs e)
+        {
             undoRedoManager.Undo();
         }
 
-        private void RedoButton_Click(object sender, RoutedEventArgs e) {
+        private void RedoButton_Click(object sender, RoutedEventArgs e)
+        {
             undoRedoManager.Redo();
         }
 
-        private void MainCanvas_MouseMoveWhileConnecting(object sender, MouseEventArgs e) {
+        private void MainCanvas_MouseMoveWhileConnecting(object sender, MouseEventArgs e)
+        {
             if (isConnecting && tempConnectionLine != null)
             {
                 var startPortPosition =
@@ -340,7 +365,8 @@ namespace FlowModules.Components {
         private List<FlowConnection> connections { get; set; } = new List<FlowConnection>();
         private List<FlowNode> nowFlowNodes { get; set; } = new List<FlowNode>();
 
-        public FlowConnection AddConnection(NodePort startPort, NodePort endPort) {
+        public FlowConnection AddConnection(NodePort startPort, NodePort endPort)
+        {
             var connection = new FlowConnection(startPort, endPort);
 
             // 创建连接线路径
@@ -350,7 +376,8 @@ namespace FlowModules.Components {
             pathFigure.Segments.Add(bezierSegment);
             pathGeometry.Figures.Add(pathFigure);
 
-            connection.Path = new Path {
+            connection.Path = new Path
+            {
                 Data = pathGeometry,
                 Stroke = connection.ConnectionColor,
                 StrokeThickness = 2,
@@ -372,11 +399,14 @@ namespace FlowModules.Components {
 
             // 更新连接线路径
             connection.UpdatePath();
-
+            // 更新连接状态
+            startPort.IsConnected = true;
+            endPort.IsConnected = true;
             return connection;
         }
 
-        private void DeleteConnection(FlowConnection connection) {
+        private void DeleteConnection(FlowConnection connection)
+        {
             // 移除连接线
             MainCanvas.Children.Remove(connection.Path);
             connections.Remove(connection);
@@ -386,7 +416,8 @@ namespace FlowModules.Components {
             connection.EndPort.IsConnected = false;
         }
 
-        private void Node_MouseMove(object sender, MouseEventArgs e) {
+        private void Node_MouseMove(object sender, MouseEventArgs e)
+        {
             if (currentMode == ToolMode.Select && selectedNode != null && e.LeftButton == MouseButtonState.Pressed)
             {
                 var position = e.GetPosition(MainCanvas);
@@ -410,7 +441,8 @@ namespace FlowModules.Components {
             }
         }
 
-        private void ZoomSlider_ValueChanged(object sender, RoutedPropertyChangedEventArgs<double> e) {
+        private void ZoomSlider_ValueChanged(object sender, RoutedPropertyChangedEventArgs<double> e)
+        {
             if (CanvasScale != null)
             {
                 CanvasScale.ScaleX = e.NewValue;
@@ -419,7 +451,8 @@ namespace FlowModules.Components {
             }
         }
 
-        private void FlowControl_PreviewMouseWheel(object sender, MouseWheelEventArgs e) {
+        private void FlowControl_PreviewMouseWheel(object sender, MouseWheelEventArgs e)
+        {
             if (Keyboard.IsKeyDown(Key.LeftCtrl) || Keyboard.IsKeyDown(Key.RightCtrl))
             {
                 var delta = e.Delta * 0.001;

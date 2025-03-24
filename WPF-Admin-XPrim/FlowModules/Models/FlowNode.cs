@@ -46,6 +46,8 @@ namespace FlowModules.Models
         }
 
         public FlowNode() {
+            Width = 150;
+            Height = 100;
             Id =  Guid.NewGuid().ToString();
             InputPorts = new ObservableCollection<NodePort>();
             OutputPorts = new ObservableCollection<NodePort>();

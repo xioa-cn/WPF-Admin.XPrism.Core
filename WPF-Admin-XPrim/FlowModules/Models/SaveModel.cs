@@ -1,12 +1,17 @@
 ﻿namespace FlowModules.Models;
+
+public class PutPort {
+    public string Id { get; set; }
+    public string Name { get; set; }
+}
 public class NodeSerializationModel
 {
     public string Id { get; set; }
     public string Title { get; set; }
     public double X { get; set; }
     public double Y { get; set; }
-    public List<string> InputPortIds { get; set; } = new();
-    public List<string> OutputPortIds { get; set; } = new();
+    public List<PutPort> InputPortIds { get; set; } = new();
+    public List<PutPort> OutputPortIds { get; set; } = new();
 }
 
 public class ConnectionSerializationModel

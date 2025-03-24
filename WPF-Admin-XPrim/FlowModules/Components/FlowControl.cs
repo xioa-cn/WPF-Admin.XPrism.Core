@@ -11,12 +11,10 @@ using WPF.Admin.Themes.Helper;
 namespace FlowModules.Components;
 
 // 定义一个名为FlowControl的公共类
-public partial class FlowControl : UserControl
-{
+public partial class FlowControl : UserControl {
     private GlobalHotKey _hotKeyManager;
 
-    private void RegisterKeyword()
-    {
+    private void RegisterKeyword() {
         try
         {
             int id1 = _hotKeyManager.RegisterHotKey(
@@ -48,6 +46,20 @@ public partial class FlowControl : UserControl
                     SaveNode();
                     SnackbarHelper.Show($"节点数据保存");
                 });
+            int id5 = _hotKeyManager.RegisterHotKey(
+                GlobalHotKey.ModAlt,
+                'R', () =>
+                {
+                    LoadFileNodes();
+                    SnackbarHelper.Show($"节点读取");
+                });
+            int id6 = _hotKeyManager.RegisterHotKey(
+                GlobalHotKey.ModAlt,
+                'P', () =>
+                {
+                    ClearAllNodes();
+                    SnackbarHelper.Show($"节点数据保存");
+                });
         }
         catch (Exception ex)
         {
@@ -55,13 +67,11 @@ public partial class FlowControl : UserControl
         }
     }
 
-    private void UnregisterKeyword()
-    {
+    private void UnregisterKeyword() {
         _hotKeyManager.UnregisterAllHotKeys();
     }
 
-    private void KeywordLoaded(object sender, RoutedEventArgs e)
-    {
+    private void KeywordLoaded(object sender, RoutedEventArgs e) {
         var window = Window.GetWindow(this);
         if (window is not null)
         {
@@ -70,33 +80,35 @@ public partial class FlowControl : UserControl
         }
     }
 
-    private void KeywordUnregister(object sender, RoutedEventArgs e)
-    {
+    private void KeywordUnregister(object sender, RoutedEventArgs e) {
         UnregisterKeyword();
     }
 
-    private void SaveNode()
-    {
+    private void SaveNode() {
         var serializationModel = new FlowSerializationModel();
 
         // 转换为可序列化的模型
         foreach (var node in this._saveModel.Nodes)
         {
-            serializationModel.Nodes.Add(new NodeSerializationModel
-            {
+            serializationModel.Nodes.Add(new NodeSerializationModel {
                 Id = node.Id,
                 Title = node.Title,
                 X = node.Position.X,
                 Y = node.Position.Y,
-                InputPortIds = node.InputPorts.Select(p => p.Id).ToList(),
-                OutputPortIds = node.OutputPorts.Select(p => p.Id).ToList()
+                InputPortIds = node.InputPorts.Select(p => new PutPort() {
+                    Id = p.Id,
+                    Name = p.Name
+                }).ToList(),
+                OutputPortIds = node.OutputPorts.Select(p => new PutPort() {
+                    Id = p.Id,
+                    Name = p.Name
+                }).ToList()
             });
         }
 
         foreach (var conn in this._saveModel.Connections)
         {
-            serializationModel.Connections.Add(new ConnectionSerializationModel
-            {
+            serializationModel.Connections.Add(new ConnectionSerializationModel {
                 StartPortId = conn.StartPort.Id,
                 EndPortId = conn.EndPort.Id
             });
@@ -115,8 +127,7 @@ public partial class FlowControl : UserControl
             result, _encoding);
     }
 
-    private static readonly JsonSerializerOptions _options = new()
-    {
+    private static readonly JsonSerializerOptions _options = new() {
         WriteIndented = true,
         PropertyNameCaseInsensitive = true,
         Encoder = JavaScriptEncoder.Create(UnicodeRanges.All) // 添加这行以支持所有Unicode字符(包括中文)
@@ -125,39 +136,37 @@ public partial class FlowControl : UserControl
     private static readonly Encoding _encoding = new UTF8Encoding(false); // 不使用 BOM 的 UTF8 编码
 
 
-    private SaveModel ReadFileNodes(string path)
-    {
+    private SaveModel ReadFileNodes(string path) {
         var saveModel = new SaveModel();
         var fileText = System.IO.File.ReadAllText(path);
         var readModel = JsonSerializer.Deserialize<FlowSerializationModel>(fileText, _options);
-        
+
         if (readModel == null) return saveModel;
 
         // 首先创建所有节点
         foreach (var nodeModel in readModel.Nodes)
         {
-            var node = new FlowNode
-            {
+            var node = new FlowNode {
                 Id = nodeModel.Id,
                 Title = nodeModel.Title,
                 Position = new Point(nodeModel.X, nodeModel.Y)
             };
-        
+
             // 创建输入端口
             foreach (var portId in nodeModel.InputPortIds)
             {
-                node.InputPorts.Add(new NodePort { Id = portId });
+                node.InputPorts.Add(new NodePort { Id = portId.Id, Name = portId.Name });
             }
-        
+
             // 创建输出端口
             foreach (var portId in nodeModel.OutputPortIds)
             {
-                node.OutputPorts.Add(new NodePort { Id = portId });
+                node.OutputPorts.Add(new NodePort { Id = portId.Id, Name = portId.Name });
             }
-        
+
             saveModel.Nodes.Add(node);
         }
-    
+
         // 创建连接
         foreach (var connModel in readModel.Connections)
         {
@@ -165,18 +174,20 @@ public partial class FlowControl : UserControl
             var startPort = saveModel.Nodes
                 .SelectMany(n => n.OutputPorts)
                 .FirstOrDefault(p => p.Id == connModel.StartPortId);
-                
+
             var endPort = saveModel.Nodes
                 .SelectMany(n => n.InputPorts)
                 .FirstOrDefault(p => p.Id == connModel.EndPortId);
-    
+
             if (startPort != null && endPort != null)
             {
                 var connection = new FlowConnection(startPort, endPort);
+                connection.StartPortId = connModel.StartPortId;
+                connection.EndPortId = connModel.EndPortId;
                 saveModel.Connections.Add(connection);
             }
         }
-    
+
         return saveModel;
     }
 }
