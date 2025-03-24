@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A96D7F49-0765-48AA-82BF-FD414A2F7248}|FlowModules\\FlowModules.csproj|f:\\git\\github\\wpf-admin-xprism\\wpf-admin.xprism.core\\wpf-admin-xprim\\flowmodules\\components\\flowreadcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A96D7F49-0765-48AA-82BF-FD414A2F7248}|FlowModules\\FlowModules.csproj|solutionrelative:flowmodules\\components\\flowreadcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A96D7F49-0765-48AA-82BF-FD414A2F7248}|FlowModules\\FlowModules.csproj|f:\\git\\github\\wpf-admin-xprism\\wpf-admin.xprism.core\\wpf-admin-xprim\\flowmodules\\components\\flowcontrol.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A96D7F49-0765-48AA-82BF-FD414A2F7248}|FlowModules\\FlowModules.csproj|solutionrelative:flowmodules\\components\\flowcontrol.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A96D7F49-0765-48AA-82BF-FD414A2F7248}|FlowModules\\FlowModules.csproj|f:\\git\\github\\wpf-admin-xprism\\wpf-admin.xprism.core\\wpf-admin-xprim\\flowmodules\\models\\flowconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A96D7F49-0765-48AA-82BF-FD414A2F7248}|FlowModules\\FlowModules.csproj|solutionrelative:flowmodules\\models\\flowconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A96D7F49-0765-48AA-82BF-FD414A2F7248}|FlowModules\\FlowModules.csproj|f:\\git\\github\\wpf-admin-xprism\\wpf-admin.xprism.core\\wpf-admin-xprim\\flowmodules\\components\\flowreadcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A96D7F49-0765-48AA-82BF-FD414A2F7248}|FlowModules\\FlowModules.csproj|solutionrelative:flowmodules\\components\\flowreadcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,43 +22,43 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "FlowControl.xaml.cs",
               "DocumentMoniker": "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\FlowModules\\Components\\FlowControl.xaml.cs",
               "RelativeDocumentMoniker": "FlowModules\\Components\\FlowControl.xaml.cs",
               "ToolTip": "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\FlowModules\\Components\\FlowControl.xaml.cs",
               "RelativeToolTip": "FlowModules\\Components\\FlowControl.xaml.cs",
-              "ViewState": "AgIAAFUAAAAAAAAAAAA0wPAAAAAtAAAAAAAAAA==",
+              "ViewState": "AgIAABkAAAAAAAAAAAASwCYAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-24T08:58:37.222Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "FlowConnection.cs",
               "DocumentMoniker": "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\FlowModules\\Models\\FlowConnection.cs",
               "RelativeDocumentMoniker": "FlowModules\\Models\\FlowConnection.cs",
               "ToolTip": "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\FlowModules\\Models\\FlowConnection.cs",
               "RelativeToolTip": "FlowModules\\Models\\FlowConnection.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAASwCAAAABdAAAAAAAAAA==",
+              "ViewState": "AgIAADEAAAAAAAAAAIA4wCAAAABdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-24T08:51:39.219Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "FlowReadControl.cs",
               "DocumentMoniker": "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\FlowModules\\Components\\FlowReadControl.cs",
               "RelativeDocumentMoniker": "FlowModules\\Components\\FlowReadControl.cs",
               "ToolTip": "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\FlowModules\\Components\\FlowReadControl.cs",
               "RelativeToolTip": "FlowModules\\Components\\FlowReadControl.cs",
-              "ViewState": "AgIAACYAAAAAAAAAAAA4wGoAAAAvAAAAAAAAAA==",
+              "ViewState": "AgIAACYAAAAAAAAAAAA4wF4AAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-24T06:46:31.783Z",
               "EditorCaption": ""

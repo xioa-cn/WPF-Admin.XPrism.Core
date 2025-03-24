@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WPFAdmin")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3550c08c620b3f4a55be2b2d55c031d83c00b8b8")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4ffe6772da86c0ae9f61ddbfeabc5d031988e347")]
 [assembly: System.Reflection.AssemblyProductAttribute("WPFAdmin")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WPFAdmin")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

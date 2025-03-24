@@ -92,7 +92,7 @@ public partial class FlowControl : UserControl {
                     //}
                 }
             }
-
+            MainCanvas.UpdateLayout();//强制更新布局
             isConnecting = true;
             // 创建连接
             foreach (var connection in saveModel.Connections)
