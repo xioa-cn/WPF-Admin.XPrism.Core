@@ -35,13 +35,13 @@ public partial class MainWindow {
         try
         {
             // 注册 Ctrl+Alt+S 热键
-            int id1 = _hotKeyManager.RegisterHotKey(
-                GlobalHotKey.ModControl | GlobalHotKey.ModAlt,
-                (uint)'S', () =>
-                {
-                    //App.MainShow();
-                    SnackbarHelper.Show($"打开", "Admin.XPrism.Core", 5000);
-                });
+            // int id1 = _hotKeyManager.RegisterHotKey(
+            //     GlobalHotKey.ModControl | GlobalHotKey.ModAlt,
+            //     (uint)'S', () =>
+            //     {
+            //         //App.MainShow();
+            //         SnackbarHelper.Show($"打开", "Admin.XPrism.Core", 5000);
+            //     });
         }
         catch (Exception ex)
         {

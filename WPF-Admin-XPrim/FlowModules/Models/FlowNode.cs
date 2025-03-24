@@ -1,4 +1,5 @@
 using System.Collections.ObjectModel;
+using System.Runtime.InteropServices.JavaScript;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Media;
@@ -8,6 +9,7 @@ namespace FlowModules.Models
 {
     public class FlowNode : Control
     {
+        public string Id { get; set; }
         public static readonly DependencyProperty TitleProperty =
             DependencyProperty.Register("Title", typeof(string), typeof(FlowNode));
             
@@ -43,8 +45,8 @@ namespace FlowModules.Models
                 new FrameworkPropertyMetadata(typeof(FlowNode)));
         }
 
-        public FlowNode()
-        {
+        public FlowNode() {
+            Id =  Guid.NewGuid().ToString();
             InputPorts = new ObservableCollection<NodePort>();
             OutputPorts = new ObservableCollection<NodePort>();
         }

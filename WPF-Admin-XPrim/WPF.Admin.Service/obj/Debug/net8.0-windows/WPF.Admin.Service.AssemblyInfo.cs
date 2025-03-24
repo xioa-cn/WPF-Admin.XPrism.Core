@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WPF.Admin.Service")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b9aa3013b6b1ead0e9bdfb1e36bfaf0178b25926")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+475118fe7e2f4347f65b295e3054916238f74f44")]
 [assembly: System.Reflection.AssemblyProductAttribute("WPF.Admin.Service")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WPF.Admin.Service")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

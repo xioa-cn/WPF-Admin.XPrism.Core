@@ -13,8 +13,13 @@
             <RowDefinition Height="Auto" />
             <RowDefinition Height="*" />
         </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="auto" />
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
 
         <!--  工具栏  -->
+        <!--
         <ToolBar Grid.Row="0">
             <Button
                 x:Name="SelectButton"
@@ -65,11 +70,53 @@
                 Margin="5,0"
                 VerticalAlignment="Center"
                 Text="100%" />
-        </ToolBar>
+        </ToolBar>-->
+
+
+        <StackPanel
+            Grid.RowSpan="2"
+            Grid.Column="0"
+            Width="230">
+
+            <TextBlock
+                FontSize="20"
+                FontWeight="Bold"
+                Text="操作提示："
+                TextWrapping="Wrap" />
+
+            <TextBlock
+                FontSize="20"
+                FontWeight="Bold"
+                Text="Ctrl+Alt+A :添加节点"
+                TextWrapping="Wrap" />
+            <TextBlock
+                FontSize="20"
+                FontWeight="Bold"
+                Text="Ctrl+Alt+S :移动节点"
+                TextWrapping="Wrap" />
+            <TextBlock
+                FontSize="20"
+                FontWeight="Bold"
+                Text="Alt+F :连接节点"
+                TextWrapping="Wrap" />
+            <TextBlock
+                FontSize="20"
+                FontWeight="Bold"
+                Text="Ctrl+Alt+W :保存"
+                TextWrapping="Wrap" />
+        </StackPanel>
+
+        <Border Grid.Row="0" Grid.Column="1">
+            <TextBlock
+                x:Name="ModeViewText"
+                FontSize="20"
+                FontWeight="Bold" />
+        </Border>
 
         <!--  主画布区域  -->
         <ScrollViewer
             Grid.Row="1"
+            Grid.Column="1"
             HorizontalScrollBarVisibility="Auto"
             VerticalScrollBarVisibility="Auto">
             <Grid x:Name="CanvasContainer">

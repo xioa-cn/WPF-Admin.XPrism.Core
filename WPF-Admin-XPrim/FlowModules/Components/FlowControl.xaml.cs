@@ -16,6 +16,7 @@ namespace FlowModules.Components {
         private NodePort startPort;
         private bool isConnecting;
         private Line tempConnectionLine;
+        private SaveModel _saveModel = new SaveModel();
 
         private enum ToolMode {
             Select,
@@ -23,34 +24,48 @@ namespace FlowModules.Components {
             AddNode
         }
 
-        private ToolMode currentMode = ToolMode.Select;
+        private ToolMode currentMode { get; set; } = ToolMode.Select;
+
+
+        private void SetCurrentMode(ToolMode mode) {
+            currentMode = mode;
+            ModeViewText.Text = mode switch {
+                ToolMode.AddNode => "添加节点",
+                ToolMode.Select => "移动节点",
+                ToolMode.Connect => "节点连线"
+            };
+        }
+
         private bool isRunning = false;
 
         public FlowControl() {
             InitializeComponent();
             undoRedoManager = new UndoRedoManager();
-
+            _saveModel.Connections = connections;
+            _saveModel.Nodes = nowFlowNodes;
             // 绑定工具栏按钮事件
-            var selectButton = this.FindName("SelectButton") as Button;
-            var connectButton = this.FindName("ConnectButton") as Button;
-            var nodeButton = this.FindName("NodeButton") as Button;
-            var runButton = this.FindName("RunButton") as Button;
-            var stopButton = this.FindName("StopButton") as Button;
+            //var selectButton = this.FindName("SelectButton") as Button;
+            //var connectButton = this.FindName("ConnectButton") as Button;
+            //var nodeButton = this.FindName("NodeButton") as Button;
+            //var runButton = this.FindName("RunButton") as Button;
+            //var stopButton = this.FindName("StopButton") as Button;
 
             // 绑定画布事件
             MainCanvas.MouseLeftButtonDown += MainCanvas_MouseLeftButtonDown;
 
-            if (selectButton != null) selectButton.Click += SelectButton_Click;
-            if (connectButton != null) connectButton.Click += ConnectButton_Click;
-            if (nodeButton != null) nodeButton.Click += NodeButton_Click;
-            if (runButton != null) runButton.Click += RunButton_Click;
-            if (stopButton != null) stopButton.Click += StopButton_Click;
+            //if (selectButton != null) selectButton.Click += SelectButton_Click;
+            //if (connectButton != null) connectButton.Click += ConnectButton_Click;
+            //if (nodeButton != null) nodeButton.Click += NodeButton_Click;
+            //if (runButton != null) runButton.Click += RunButton_Click;
+            //if (stopButton != null) stopButton.Click += StopButton_Click;
 
             // 绑定缩放滑块事件
-            ZoomSlider.ValueChanged += ZoomSlider_ValueChanged;
+            //ZoomSlider.ValueChanged += ZoomSlider_ValueChanged;
 
             // 添加鼠标滚轮缩放
             this.PreviewMouseWheel += FlowControl_PreviewMouseWheel;
+            this.Loaded += KeywordLoaded;
+            this.Unloaded += KeywordUnregister;
         }
 
         private void SelectButton_Click(object sender, RoutedEventArgs e) {
@@ -115,6 +130,7 @@ namespace FlowModules.Components {
                         SnackbarHelper.Show("最多添加三个输入节点");
                         return;
                     }
+
                     var newPort = new NodePort {
                         Name = $"输入{node.InputPorts.Count + 1}",
                         PortType = PortType.Input,
@@ -140,6 +156,7 @@ namespace FlowModules.Components {
                         SnackbarHelper.Show("最多添加三个输出节点");
                         return;
                     }
+
                     var newPort = new NodePort {
                         Name = $"输出{node.OutputPorts.Count + 1}",
                         PortType = PortType.Output,
@@ -155,12 +172,17 @@ namespace FlowModules.Components {
                     }
                 };
                 contextMenu.Items.Add(addOutputMenuItem);
-                
-                // 添加节点编辑功能
-                var nodeContentMenuItem = new MenuItem();
 
+                // 添加节点编辑功能
+                var nodeContentMenuItem = new MenuItem() { Header = "节点编辑" };
+                nodeContentMenuItem.Click += (s, args) => { };
                 contextMenu.Items.Add(nodeContentMenuItem);
-                
+
+                // 删除节点功能
+                var deleteNodeMenuItem = new MenuItem { Header = "删除节点" };
+                deleteNodeMenuItem.Click += (s, args) => { };
+                contextMenu.Items.Add(deleteNodeMenuItem);
+
                 node.ContextMenu = contextMenu;
             }
 
@@ -182,6 +204,8 @@ namespace FlowModules.Components {
                 }
             }
 
+            // 记录节点
+            nowFlowNodes.Add(node);
             return node;
         }
 
@@ -190,6 +214,7 @@ namespace FlowModules.Components {
             {
                 var position = e.GetPosition(MainCanvas);
                 var command = new AddNodeCommand(this, position);
+
                 undoRedoManager.ExecuteCommand(command);
             }
         }
@@ -214,7 +239,6 @@ namespace FlowModules.Components {
                 selectedNode = null;
                 e.Handled = true;
             }
-           
         }
 
         private void Port_MouseLeftButtonDown(object sender, MouseButtonEventArgs e) {
@@ -313,7 +337,8 @@ namespace FlowModules.Components {
             }
         }
 
-        private List<FlowConnection> connections = new List<FlowConnection>();
+        private List<FlowConnection> connections { get; set; } = new List<FlowConnection>();
+        private List<FlowNode> nowFlowNodes { get; set; } = new List<FlowNode>();
 
         public FlowConnection AddConnection(NodePort startPort, NodePort endPort) {
             var connection = new FlowConnection(startPort, endPort);
@@ -390,7 +415,7 @@ namespace FlowModules.Components {
             {
                 CanvasScale.ScaleX = e.NewValue;
                 CanvasScale.ScaleY = e.NewValue;
-                ZoomText.Text = $"{e.NewValue:P0}";
+                //ZoomText.Text = $"{e.NewValue:P0}";
             }
         }
 
@@ -398,11 +423,16 @@ namespace FlowModules.Components {
             if (Keyboard.IsKeyDown(Key.LeftCtrl) || Keyboard.IsKeyDown(Key.RightCtrl))
             {
                 var delta = e.Delta * 0.001;
-                var newValue = ZoomSlider.Value + delta;
-
-                // 限制缩放范围
-                newValue = Math.Max(ZoomSlider.Minimum, Math.Min(ZoomSlider.Maximum, newValue));
-                ZoomSlider.Value = newValue;
+                // var newValue = ZoomSlider.Value + delta;
+                //
+                // // 限制缩放范围
+                // newValue = Math.Max(ZoomSlider.Minimum, Math.Min(ZoomSlider.Maximum, newValue));
+                // ZoomSlider.Value = newValue;
+                if (CanvasScale != null)
+                {
+                    CanvasScale.ScaleX = CanvasScale.ScaleX + delta;
+                    CanvasScale.ScaleY = CanvasScale.ScaleY + delta;
+                }
 
                 e.Handled = true;
             }

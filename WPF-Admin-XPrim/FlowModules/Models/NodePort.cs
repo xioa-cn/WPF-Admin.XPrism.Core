@@ -4,6 +4,7 @@ using System.Windows.Controls;
 namespace FlowModules.Models;
 public class NodePort : Control
 {
+    public string Id { get; set; }
     public static readonly DependencyProperty NameProperty =
         DependencyProperty.Register("Name", typeof(string), typeof(NodePort));
 
@@ -40,8 +41,8 @@ public class NodePort : Control
             new FrameworkPropertyMetadata(typeof(NodePort)));
     }
 
-    public NodePort()
-    {
+    public NodePort() {
+        Id = Guid.NewGuid().ToString();
         Width = 20;
         Height = 20;
         Name = "新端口";
