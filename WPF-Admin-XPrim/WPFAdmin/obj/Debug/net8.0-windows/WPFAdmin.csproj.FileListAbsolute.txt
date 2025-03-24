@@ -245,3 +245,5 @@ F:\git\github\WPF-Admin-XPrism\WPF-Admin.XPrism.Core\WPF-Admin-XPrim\WPFAdmin\bi
 F:\git\github\WPF-Admin-XPrism\WPF-Admin.XPrism.Core\WPF-Admin-XPrim\WPFAdmin\bin\Debug\net8.0-windows\System.Speech.dll
 F:\git\github\WPF-Admin-XPrism\WPF-Admin.XPrism.Core\WPF-Admin-XPrim\WPFAdmin\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.Speech.dll
 F:\git\github\WPF-Admin-XPrism\WPF-Admin.XPrism.Core\WPF-Admin-XPrim\WPFAdmin\bin\Debug\net8.0-windows\ElMessage.Wpf.dll
+F:\git\github\WPF-Admin-XPrism\WPF-Admin.XPrism.Core\WPF-Admin-XPrim\WPFAdmin\bin\Debug\net8.0-windows\FlowModules.dll
+F:\git\github\WPF-Admin-XPrism\WPF-Admin.XPrism.Core\WPF-Admin-XPrim\WPFAdmin\bin\Debug\net8.0-windows\FlowModules.pdb

@@ -15,6 +15,7 @@
           "CustomModules": "1.0.0",
           "DataManagerModules": "1.0.0",
           "DataValidatorModules": "1.0.0",
+          "FlowModules": "1.0.0",
           "GanttChartModules": "1.0.0",
           "GetColorModules": "1.0.0",
           "Hardcodet.NotifyIcon.Wpf": "2.0.1",
@@ -920,6 +921,19 @@
           }
         }
       },
+      "FlowModules/1.0.0": {
+        "dependencies": {
+          "WPF.Admin.Models": "1.0.0",
+          "WPF.Admin.Service": "1.0.0",
+          "WPF.Admin.Themes": "1.0.0"
+        },
+        "runtime": {
+          "FlowModules.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
       "GanttChartModules/1.0.0": {
         "dependencies": {
           "WPF.Admin.Models": "1.0.0",
@@ -1710,6 +1724,11 @@
       "sha512": ""
     },
     "DataValidatorModules/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "FlowModules/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

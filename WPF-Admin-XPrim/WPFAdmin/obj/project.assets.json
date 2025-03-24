@@ -1537,6 +1537,24 @@
           "Microsoft.WindowsDesktop.App.WPF"
         ]
       },
+      "FlowModules/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "WPF.Admin.Models": "1.0.0",
+          "WPF.Admin.Service": "1.0.0",
+          "WPF.Admin.Themes": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/FlowModules.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/FlowModules.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      },
       "GanttChartModules/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
@@ -4384,6 +4402,11 @@
       "path": "../DataValidatorModules/DataValidatorModules.csproj",
       "msbuildProject": "../DataValidatorModules/DataValidatorModules.csproj"
     },
+    "FlowModules/1.0.0": {
+      "type": "project",
+      "path": "../FlowModules/FlowModules.csproj",
+      "msbuildProject": "../FlowModules/FlowModules.csproj"
+    },
     "GanttChartModules/1.0.0": {
       "type": "project",
       "path": "../GanttChartModules/GanttChartModules.csproj",
@@ -4469,6 +4492,7 @@
       "CustomModules >= 1.0.0",
       "DataManagerModules >= 1.0.0",
       "DataValidatorModules >= 1.0.0",
+      "FlowModules >= 1.0.0",
       "GanttChartModules >= 1.0.0",
       "GetColorModules >= 1.0.0",
       "Hardcodet.NotifyIcon.Wpf >= 2.0.1",
@@ -4540,6 +4564,9 @@
             },
             "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\DataValidatorModules\\DataValidatorModules.csproj": {
               "projectPath": "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\DataValidatorModules\\DataValidatorModules.csproj"
+            },
+            "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\FlowModules\\FlowModules.csproj": {
+              "projectPath": "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\FlowModules\\FlowModules.csproj"
             },
             "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\GanttChartModules\\GanttChartModules.csproj": {
               "projectPath": "F:\\git\\github\\WPF-Admin-XPrism\\WPF-Admin.XPrism.Core\\WPF-Admin-XPrim\\GanttChartModules\\GanttChartModules.csproj"

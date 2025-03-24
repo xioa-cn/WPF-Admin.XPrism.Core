@@ -214,7 +214,7 @@
       "children": [
         {
           "content": "流程图编辑",
-          "page": "FlowView"
+          "page": "FlowPage"
         },
         {
           "content": "错误诊断",

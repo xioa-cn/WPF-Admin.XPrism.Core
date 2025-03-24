@@ -21,6 +21,7 @@
       <ProjectReference Include="..\CustomModules\CustomModules.csproj" />
       <ProjectReference Include="..\DataManagerModules\DataManagerModules.csproj" />
       <ProjectReference Include="..\DataValidatorModules\DataValidatorModules.csproj" />
+      <ProjectReference Include="..\FlowModules\FlowModules.csproj" />
       <ProjectReference Include="..\GanttChartModules\GanttChartModules.csproj" />
       <ProjectReference Include="..\GetColorModules\GetColorModules.csproj" />
       <ProjectReference Include="..\InfiniteScrollingModules\InfiniteScrollingModules.csproj" />

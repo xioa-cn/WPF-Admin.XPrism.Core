@@ -1,0 +1,97 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:models="clr-namespace:FlowModules.Models">
+    
+    <DataTemplate x:Key="PortTemplate">
+        <Grid Background="Transparent">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            
+            <Grid Width="12" Height="12">
+                <Ellipse x:Name="PortBackground"
+                         Fill="#FF404040"
+                         Stroke="LightGreen"
+                         StrokeThickness="1"
+                         IsHitTestVisible="True">
+                <Ellipse.Style>
+                    <Style TargetType="Ellipse">
+                        <Style.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Fill" Value="#FF606060"/>
+                                <Setter Property="Stroke" Value="#FF90EE90"/>
+                            </Trigger>
+                        </Style.Triggers>
+                    </Style>
+                </Ellipse.Style>
+            </Ellipse>
+            <Ellipse x:Name="ConnectionIndicator"
+                     Width="6" Height="6"
+                     Fill="LightGreen"
+                     Opacity="0">
+                <Ellipse.Style>
+                    <Style TargetType="Ellipse">
+                        <Style.Triggers>
+                            <DataTrigger Binding="{Binding IsConnected}" Value="True">
+                                <Setter Property="Opacity" Value="1"/>
+                            </DataTrigger>
+                        </Style.Triggers>
+                    </Style>
+                </Ellipse.Style>
+            </Ellipse>
+            </Grid>
+            
+            <!-- 端口名称和类型 -->
+            <StackPanel Grid.Column="1" Margin="5,0,0,0" VerticalAlignment="Center">
+                <TextBlock Text="{Binding Name}" Foreground="White" FontSize="12"/>
+                <TextBlock Text="{Binding PortType}" Foreground="Gray" FontSize="10"/>
+            </StackPanel>
+        </Grid>
+    </DataTemplate>
+
+    <Style TargetType="{x:Type models:FlowNode}">
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type models:FlowNode}">
+                    <Grid>
+                        <Border Background="#FF2D2D2D" 
+                                BorderBrush="LightGreen" 
+                                BorderThickness="2"
+                                CornerRadius="5">
+                            <Grid Margin="5">
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="Auto"/>
+                                    <RowDefinition Height="*"/>
+                                </Grid.RowDefinitions>
+                                
+                                <!-- 标题栏 -->
+                                <Border Background="#FF404040" 
+                                        CornerRadius="3"
+                                        Padding="5">
+                                    <TextBlock Text="{TemplateBinding Title}" 
+                                             Foreground="White"/>
+                                </Border>
+                                
+                                <!-- 内容区 -->
+                                <ContentPresenter Grid.Row="1" Margin="0,5,0,0"/>
+                                
+                                <!-- 输入端口 -->
+                                <ItemsControl Grid.Row="1" 
+                                            ItemsSource="{TemplateBinding InputPorts}"
+                                            ItemTemplate="{StaticResource PortTemplate}"
+                                            HorizontalAlignment="Left"/>
+                                
+                                <!-- 输出端口 -->
+                                <ItemsControl Grid.Row="1" 
+                                            ItemsSource="{TemplateBinding OutputPorts}"
+                                            ItemTemplate="{StaticResource PortTemplate}"
+                                            HorizontalAlignment="Right"/>
+                            </Grid>
+                        </Border>
+                    </Grid>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+</ResourceDictionary>
