@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WPF.Admin.Themes")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4ffe6772da86c0ae9f61ddbfeabc5d031988e347")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1ac80f29716cdadc161605a3d5c941d773d67000")]
 [assembly: System.Reflection.AssemblyProductAttribute("WPF.Admin.Themes")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WPF.Admin.Themes")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
