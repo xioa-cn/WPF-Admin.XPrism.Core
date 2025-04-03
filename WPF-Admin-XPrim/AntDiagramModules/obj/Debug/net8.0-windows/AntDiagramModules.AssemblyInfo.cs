@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AntDiagramModules")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1ac80f29716cdadc161605a3d5c941d773d67000")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6670a427f0049b66f89a7a357cb524efb7b712bf")]
 [assembly: System.Reflection.AssemblyProductAttribute("AntDiagramModules")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AntDiagramModules")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

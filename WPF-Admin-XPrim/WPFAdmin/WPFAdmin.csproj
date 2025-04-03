@@ -26,6 +26,7 @@
       <ProjectReference Include="..\GetColorModules\GetColorModules.csproj" />
       <ProjectReference Include="..\InfiniteScrollingModules\InfiniteScrollingModules.csproj" />
       <ProjectReference Include="..\PersonalityComponentModules\PersonalityComponentModules.csproj" />
+      <ProjectReference Include="..\PictureModules\PictureModules.csproj" />
       <ProjectReference Include="..\QrCodeModules\QrCodeModules.csproj" />
       <ProjectReference Include="..\RouterEventModules\RouterEventModules.csproj" />
       <ProjectReference Include="..\SharedMemoryDemoModules\SharedMemoryDemoModules.csproj" />

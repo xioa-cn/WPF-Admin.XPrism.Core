@@ -4,7 +4,7 @@
 library
 C#
 .cs
-F:\git\github\WPF-Admin-XPrism\WPF-Admin.XPrism.Core\WPF-Admin-XPrim\GetColorModules\obj\Debug\net8.0-windows\
+E:\git仓库\github\WPF-Admin.XPrism.Core\WPF-Admin-XPrim\GetColorModules\obj\Debug\net8.0-windows\
 GetColorModules
 none
 false
@@ -13,8 +13,8 @@ TRACE;DEBUG;NET;NET8_0;NETCOREAPP
 11403600354
 
 4320026984
-240-438182589
+240-1116992769
 Views\GetColorPage.xaml;
 
-True
+False
 

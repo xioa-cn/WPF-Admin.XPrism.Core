@@ -143,6 +143,11 @@
           "content": "朗读文字",
           "page": "ReadTextView",
           "isPersistence": false
+        },
+        {
+          "content": "图片滚动",
+          "page": "PictureView",
+          "isPersistence": false
         }
       ]
     },

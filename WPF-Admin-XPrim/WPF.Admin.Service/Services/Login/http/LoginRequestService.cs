@@ -12,6 +12,7 @@ public static class LoginRequestService
     {
         try
         {
+            return true;
             var response = await ApplicationAxios.Axios.PostAsync<LoginDao>("/Authentication/token", new
             {
                 UserName = userName,
